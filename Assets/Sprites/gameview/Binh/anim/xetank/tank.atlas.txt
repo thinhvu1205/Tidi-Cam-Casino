@@ -1,0 +1,20 @@
+
+tank.png
+size: 343,343
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body1
+  rotate: false
+  xy: 2, 157
+  size: 175, 184
+  orig: 175, 184
+  offset: 0, 0
+  index: -1
+fire
+  rotate: false
+  xy: 179, 156
+  size: 162, 185
+  orig: 171, 190
+  offset: 5, 0
+  index: -1

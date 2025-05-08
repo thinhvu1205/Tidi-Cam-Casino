@@ -1,0 +1,62 @@
+
+skeleton.png
+size: 200,1004
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fruit
+  rotate: true
+  xy: 137, 84
+  size: 168, 50
+  orig: 168, 50
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 623
+  size: 196, 377
+  orig: 196, 377
+  offset: 0, 0
+  index: -1
+diamond
+  rotate: false
+  xy: 2, 254
+  size: 194, 132
+  orig: 198, 136
+  offset: 2, 2
+  index: -1
+dua
+  rotate: true
+  xy: 2, 2
+  size: 119, 121
+  orig: 123, 123
+  offset: 1, 2
+  index: -1
+dua hau
+  rotate: true
+  xy: 2, 123
+  size: 129, 133
+  orig: 132, 136
+  offset: 1, 2
+  index: -1
+ef
+  rotate: false
+  xy: 125, 23
+  size: 66, 59
+  orig: 129, 65
+  offset: 55, 1
+  index: -1
+ef2
+  rotate: true
+  xy: 2, 388
+  size: 233, 159
+  orig: 238, 164
+  offset: 3, 3
+  index: -1
+light
+  rotate: false
+  xy: 163, 388
+  size: 23, 36
+  orig: 29, 46
+  offset: 3, 5
+  index: -1

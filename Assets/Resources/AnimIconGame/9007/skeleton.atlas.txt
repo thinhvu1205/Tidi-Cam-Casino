@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 286,286
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fruit Slot
+  rotate: false
+  xy: 64, 5
+  size: 168, 50
+  orig: 168, 50
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 103
+  size: 195, 181
+  orig: 195, 181
+  offset: 0, 0
+  index: -1
+diamond
+  rotate: true
+  xy: 2, 6
+  size: 95, 60
+  orig: 95, 60
+  offset: 0, 0
+  index: -1
+dua
+  rotate: false
+  xy: 199, 118
+  size: 77, 76
+  orig: 77, 76
+  offset: 0, 0
+  index: -1
+dua hau
+  rotate: false
+  xy: 199, 196
+  size: 85, 88
+  orig: 85, 88
+  offset: 0, 0
+  index: -1
+ef
+  rotate: false
+  xy: 199, 57
+  size: 66, 59
+  orig: 129, 65
+  offset: 55, 1
+  index: -1
+light
+  rotate: false
+  xy: 64, 65
+  size: 23, 36
+  orig: 29, 46
+  offset: 3, 5
+  index: -1

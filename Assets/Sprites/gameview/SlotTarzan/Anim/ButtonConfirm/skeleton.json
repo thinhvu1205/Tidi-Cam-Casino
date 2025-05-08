@@ -1,0 +1,299 @@
+{
+"skeleton": {
+	"hash": "ZCJ6bS7Fbn6IwIGiwEF13a5c4gg",
+	"spine": "3.8.99",
+	"x": -158.5,
+	"y": -49.18,
+	"width": 317,
+	"height": 123,
+	"images": "./New folder/",
+	"audio": "E:/SLOT/Tazran Ngang/minigame/result/btn"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "light_txt", "parent": "root", "y": 21.93, "scaleX": 2, "scaleY": 2 },
+	{ "name": "txtt", "parent": "root", "y": 14.36 }
+],
+"slots": [
+	{ "name": "go", "bone": "root", "attachment": "go" },
+	{ "name": "rec duoi", "bone": "light_txt", "attachment": "rec duoi", "blend": "additive" },
+	{ "name": "Start", "bone": "txtt", "attachment": "Start" },
+	{ "name": "00/txt1_00000", "bone": "light_txt", "attachment": "00/txt1_00016", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"00/txt1_00000": {
+				"00/txt1_00000": { "width": 146, "height": 49 },
+				"00/txt1_00001": { "width": 146, "height": 49 },
+				"00/txt1_00002": { "width": 146, "height": 49 },
+				"00/txt1_00003": { "width": 146, "height": 49 },
+				"00/txt1_00004": { "width": 146, "height": 49 },
+				"00/txt1_00005": { "width": 146, "height": 49 },
+				"00/txt1_00006": { "width": 146, "height": 49 },
+				"00/txt1_00007": { "width": 146, "height": 49 },
+				"00/txt1_00008": { "width": 146, "height": 49 },
+				"00/txt1_00009": { "width": 146, "height": 49 },
+				"00/txt1_00010": { "width": 146, "height": 49 },
+				"00/txt1_00011": { "width": 146, "height": 49 },
+				"00/txt1_00012": { "width": 146, "height": 49 },
+				"00/txt1_00013": { "width": 146, "height": 49 },
+				"00/txt1_00014": { "width": 146, "height": 49 },
+				"00/txt1_00015": { "width": 146, "height": 49 },
+				"00/txt1_00016": { "width": 146, "height": 49 },
+				"00/txt1_00017": { "width": 146, "height": 49 },
+				"00/txt1_00018": { "width": 146, "height": 49 },
+				"00/txt1_00019": { "width": 146, "height": 49 },
+				"00/txt1_00020": { "width": 146, "height": 49 },
+				"00/txt1_00021": { "width": 146, "height": 49 },
+				"00/txt1_00022": { "width": 146, "height": 49 },
+				"00/txt1_00023": { "width": 146, "height": 49 },
+				"00/txt1_00024": { "width": 146, "height": 49 },
+				"00/txt1_00025": { "width": 146, "height": 49 },
+				"00/txt1_00026": { "width": 146, "height": 49 },
+				"00/txt1_00027": { "width": 146, "height": 49 },
+				"00/txt1_00028": { "width": 146, "height": 49 },
+				"00/txt1_00029": { "width": 146, "height": 49 }
+			},
+			"Start": {
+				"Start": { "width": 111, "height": 36 },
+				"Start2": { "width": 110, "height": 36 },
+				"txt": { "width": 209, "height": 31 },
+				"txt2": { "width": 151, "height": 35 }
+			},
+			"go": {
+				"go": { "y": 12.32, "width": 317, "height": 123 }
+			},
+			"rec duoi": {
+				"rec duoi": { "x": -0.82, "y": -1.39, "width": 131, "height": 34 }
+			}
+		}
+	}
+],
+"animations": {
+	"backtogame": {
+		"slots": {
+			"00/txt1_00000": {
+				"color": [
+					{ "color": "e9ff00ff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0333, "name": "00/txt1_00000" },
+					{ "time": 0.0667, "name": "00/txt1_00001" },
+					{ "time": 0.1, "name": "00/txt1_00002" },
+					{ "time": 0.1333, "name": "00/txt1_00003" },
+					{ "time": 0.1667, "name": "00/txt1_00004" },
+					{ "time": 0.2, "name": "00/txt1_00005" },
+					{ "time": 0.2333, "name": "00/txt1_00006" },
+					{ "time": 0.2667, "name": "00/txt1_00007" },
+					{ "time": 0.3, "name": "00/txt1_00008" },
+					{ "time": 0.3333, "name": "00/txt1_00009" },
+					{ "time": 0.3667, "name": "00/txt1_00010" },
+					{ "time": 0.4, "name": "00/txt1_00011" },
+					{ "time": 0.4333, "name": "00/txt1_00012" },
+					{ "time": 0.4667, "name": "00/txt1_00013" },
+					{ "time": 0.5, "name": "00/txt1_00014" },
+					{ "time": 0.5333, "name": "00/txt1_00015" },
+					{ "time": 0.5667, "name": "00/txt1_00016" },
+					{ "time": 0.6, "name": "00/txt1_00017" },
+					{ "time": 0.6333, "name": "00/txt1_00018" },
+					{ "time": 0.6667, "name": "00/txt1_00019" },
+					{ "time": 0.7, "name": "00/txt1_00020" },
+					{ "time": 0.7333, "name": "00/txt1_00021" },
+					{ "time": 0.7667, "name": "00/txt1_00022" },
+					{ "time": 0.8, "name": "00/txt1_00023" },
+					{ "time": 0.8333, "name": "00/txt1_00024" },
+					{ "time": 0.8667, "name": "00/txt1_00025" },
+					{ "time": 0.9, "name": "00/txt1_00026" },
+					{ "time": 0.9333, "name": "00/txt1_00027" },
+					{ "time": 0.9667, "name": "00/txt1_00028" },
+					{ "time": 1, "name": "00/txt1_00029" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Start": {
+				"attachment": [
+					{ "name": "txt" }
+				]
+			},
+			"rec duoi": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.4333, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"backtogame2": {
+		"slots": {
+			"00/txt1_00000": {
+				"color": [
+					{ "color": "e9ff00ff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0333, "name": "00/txt1_00000" },
+					{ "time": 0.0667, "name": "00/txt1_00001" },
+					{ "time": 0.1, "name": "00/txt1_00002" },
+					{ "time": 0.1333, "name": "00/txt1_00003" },
+					{ "time": 0.1667, "name": "00/txt1_00004" },
+					{ "time": 0.2, "name": "00/txt1_00005" },
+					{ "time": 0.2333, "name": "00/txt1_00006" },
+					{ "time": 0.2667, "name": "00/txt1_00007" },
+					{ "time": 0.3, "name": "00/txt1_00008" },
+					{ "time": 0.3333, "name": "00/txt1_00009" },
+					{ "time": 0.3667, "name": "00/txt1_00010" },
+					{ "time": 0.4, "name": "00/txt1_00011" },
+					{ "time": 0.4333, "name": "00/txt1_00012" },
+					{ "time": 0.4667, "name": "00/txt1_00013" },
+					{ "time": 0.5, "name": "00/txt1_00014" },
+					{ "time": 0.5333, "name": "00/txt1_00015" },
+					{ "time": 0.5667, "name": "00/txt1_00016" },
+					{ "time": 0.6, "name": "00/txt1_00017" },
+					{ "time": 0.6333, "name": "00/txt1_00018" },
+					{ "time": 0.6667, "name": "00/txt1_00019" },
+					{ "time": 0.7, "name": "00/txt1_00020" },
+					{ "time": 0.7333, "name": "00/txt1_00021" },
+					{ "time": 0.7667, "name": "00/txt1_00022" },
+					{ "time": 0.8, "name": "00/txt1_00023" },
+					{ "time": 0.8333, "name": "00/txt1_00024" },
+					{ "time": 0.8667, "name": "00/txt1_00025" },
+					{ "time": 0.9, "name": "00/txt1_00026" },
+					{ "time": 0.9333, "name": "00/txt1_00027" },
+					{ "time": 0.9667, "name": "00/txt1_00028" },
+					{ "time": 1, "name": "00/txt1_00029" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Start": {
+				"attachment": [
+					{ "name": "txt2" }
+				]
+			},
+			"rec duoi": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.4333, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"start": {
+		"slots": {
+			"00/txt1_00000": {
+				"color": [
+					{ "color": "e9ff00ff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0333, "name": "00/txt1_00000" },
+					{ "time": 0.0667, "name": "00/txt1_00001" },
+					{ "time": 0.1, "name": "00/txt1_00002" },
+					{ "time": 0.1333, "name": "00/txt1_00003" },
+					{ "time": 0.1667, "name": "00/txt1_00004" },
+					{ "time": 0.2, "name": "00/txt1_00005" },
+					{ "time": 0.2333, "name": "00/txt1_00006" },
+					{ "time": 0.2667, "name": "00/txt1_00007" },
+					{ "time": 0.3, "name": "00/txt1_00008" },
+					{ "time": 0.3333, "name": "00/txt1_00009" },
+					{ "time": 0.3667, "name": "00/txt1_00010" },
+					{ "time": 0.4, "name": "00/txt1_00011" },
+					{ "time": 0.4333, "name": "00/txt1_00012" },
+					{ "time": 0.4667, "name": "00/txt1_00013" },
+					{ "time": 0.5, "name": "00/txt1_00014" },
+					{ "time": 0.5333, "name": "00/txt1_00015" },
+					{ "time": 0.5667, "name": "00/txt1_00016" },
+					{ "time": 0.6, "name": "00/txt1_00017" },
+					{ "time": 0.6333, "name": "00/txt1_00018" },
+					{ "time": 0.6667, "name": "00/txt1_00019" },
+					{ "time": 0.7, "name": "00/txt1_00020" },
+					{ "time": 0.7333, "name": "00/txt1_00021" },
+					{ "time": 0.7667, "name": "00/txt1_00022" },
+					{ "time": 0.8, "name": "00/txt1_00023" },
+					{ "time": 0.8333, "name": "00/txt1_00024" },
+					{ "time": 0.8667, "name": "00/txt1_00025" },
+					{ "time": 0.9, "name": "00/txt1_00026" },
+					{ "time": 0.9333, "name": "00/txt1_00027" },
+					{ "time": 0.9667, "name": "00/txt1_00028" },
+					{ "time": 1, "name": "00/txt1_00029" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rec duoi": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.4333, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"start2": {
+		"slots": {
+			"00/txt1_00000": {
+				"color": [
+					{ "color": "e9ff00ff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0333, "name": "00/txt1_00000" },
+					{ "time": 0.0667, "name": "00/txt1_00001" },
+					{ "time": 0.1, "name": "00/txt1_00002" },
+					{ "time": 0.1333, "name": "00/txt1_00003" },
+					{ "time": 0.1667, "name": "00/txt1_00004" },
+					{ "time": 0.2, "name": "00/txt1_00005" },
+					{ "time": 0.2333, "name": "00/txt1_00006" },
+					{ "time": 0.2667, "name": "00/txt1_00007" },
+					{ "time": 0.3, "name": "00/txt1_00008" },
+					{ "time": 0.3333, "name": "00/txt1_00009" },
+					{ "time": 0.3667, "name": "00/txt1_00010" },
+					{ "time": 0.4, "name": "00/txt1_00011" },
+					{ "time": 0.4333, "name": "00/txt1_00012" },
+					{ "time": 0.4667, "name": "00/txt1_00013" },
+					{ "time": 0.5, "name": "00/txt1_00014" },
+					{ "time": 0.5333, "name": "00/txt1_00015" },
+					{ "time": 0.5667, "name": "00/txt1_00016" },
+					{ "time": 0.6, "name": "00/txt1_00017" },
+					{ "time": 0.6333, "name": "00/txt1_00018" },
+					{ "time": 0.6667, "name": "00/txt1_00019" },
+					{ "time": 0.7, "name": "00/txt1_00020" },
+					{ "time": 0.7333, "name": "00/txt1_00021" },
+					{ "time": 0.7667, "name": "00/txt1_00022" },
+					{ "time": 0.8, "name": "00/txt1_00023" },
+					{ "time": 0.8333, "name": "00/txt1_00024" },
+					{ "time": 0.8667, "name": "00/txt1_00025" },
+					{ "time": 0.9, "name": "00/txt1_00026" },
+					{ "time": 0.9333, "name": "00/txt1_00027" },
+					{ "time": 0.9667, "name": "00/txt1_00028" },
+					{ "time": 1, "name": "00/txt1_00029" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Start": {
+				"attachment": [
+					{ "name": "Start2" }
+				]
+			},
+			"rec duoi": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.4333, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

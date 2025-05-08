@@ -1,0 +1,67 @@
+{
+"skeleton": {
+	"hash": "KCkZ1YiLXs9Wz3rqYrW9kG8xn+0",
+	"spine": "3.8.99",
+	"x": -92.5,
+	"y": -84,
+	"width": 195,
+	"height": 180,
+	"images": "./image/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "mangcut", "parent": "bone", "length": 33.63, "rotation": 90, "x": 0.24, "y": 0.68 },
+	{ "name": "mangcut2", "parent": "mangcut", "length": 33.63, "rotation": -90 }
+],
+"slots": [
+	{ "name": "bg", "bone": "root", "attachment": "bg" },
+	{ "name": "mangcut", "bone": "mangcut", "attachment": "mangcut" },
+	{ "name": "mangcut2", "bone": "mangcut2", "attachment": "mangcut" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bg": {
+				"bg": { "x": 5, "y": 6, "width": 195, "height": 180 }
+			},
+			"mangcut": {
+				"mangcut": { "x": -0.68, "y": 0.24, "rotation": -90, "width": 138, "height": 98 }
+			},
+			"mangcut2": {
+				"mangcut": { "x": -0.24, "y": -0.68, "width": 138, "height": 98 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"mangcut2": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"mangcut2": {
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.3333 },
+					{ "time": 0.6667, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"mangcut": {
+				"scale": [
+					{},
+					{ "time": 0.3667, "x": 1.3, "y": 1.3 },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	}
+}
+}

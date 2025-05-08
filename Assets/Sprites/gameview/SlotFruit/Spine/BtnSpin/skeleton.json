@@ -1,0 +1,267 @@
+{
+"skeleton": {
+	"hash": "GlUniveLLdZTqdkXygYMKMAxBzk",
+	"spine": "3.8.99",
+	"x": -208.11,
+	"y": -255.8,
+	"width": 405.42,
+	"height": 513.78,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "ef", "parent": "bone", "length": 28.9, "rotation": 91.19, "x": -0.28, "y": 58.58 },
+	{ "name": "ef2", "parent": "bone", "length": 24.11, "rotation": 92.86, "x": -5.1, "y": -56.4 },
+	{ "name": "spin", "parent": "bone", "length": 25.38, "rotation": 88.06, "x": 3.48, "y": 0.32 }
+],
+"slots": [
+	{ "name": "bg", "bone": "root", "attachment": "bg" },
+	{ "name": "Comp 1/Comp 1_00000", "bone": "root", "attachment": "Comp 1/Comp 1_00029" },
+	{ "name": "ef", "bone": "ef", "attachment": "ef", "blend": "additive" },
+	{ "name": "ef2", "bone": "ef2", "attachment": "ef", "blend": "additive" },
+	{ "name": "spin2", "bone": "root", "attachment": "spin4" },
+	{ "name": "spin", "bone": "spin", "attachment": "spin4", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Comp 1/Comp 1_00000": {
+				"Comp 1/Comp 1_00000": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00001": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00002": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00003": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00004": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00005": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00006": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00007": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00008": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00009": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00010": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00011": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00012": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00013": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00014": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00015": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00016": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00017": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00018": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00019": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00020": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00021": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00022": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00023": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00024": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00025": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00026": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00027": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00028": { "width": 241, "height": 103 },
+				"Comp 1/Comp 1_00029": { "width": 241, "height": 103 }
+			},
+			"bg": {
+				"bg": { "width": 285, "height": 137 }
+			},
+			"ef": {
+				"ef": { "x": -0.55, "y": 2.42, "rotation": -91.19, "width": 400, "height": 400 }
+			},
+			"ef2": {
+				"ef": { "x": 0.75, "y": 2.98, "rotation": -92.86, "width": 400, "height": 400 }
+			},
+			"spin": {
+				"spin": { "x": -0.59, "y": 3.23, "rotation": -88.06, "width": 159, "height": 66 },
+				"spin4": {
+					"x": -6.09,
+					"y": 3.04,
+					"scaleX": 1.1,
+					"scaleY": 1.1,
+					"rotation": -88.06,
+					"width": 181,
+					"height": 58
+				}
+			},
+			"spin2": {
+				"spin": { "width": 159, "height": 66 },
+				"spin4": { "y": -5.5, "scaleX": 1.1, "scaleY": 1.1, "width": 181, "height": 58 }
+			}
+		}
+	}
+],
+"animations": {
+	"eng": {
+		"slots": {
+			"Comp 1/Comp 1_00000": {
+				"attachment": [
+					{ "name": "Comp 1/Comp 1_00000" },
+					{ "time": 0.0333, "name": "Comp 1/Comp 1_00001" },
+					{ "time": 0.0667, "name": "Comp 1/Comp 1_00002" },
+					{ "time": 0.1, "name": "Comp 1/Comp 1_00003" },
+					{ "time": 0.1333, "name": "Comp 1/Comp 1_00004" },
+					{ "time": 0.1667, "name": "Comp 1/Comp 1_00005" },
+					{ "time": 0.2, "name": "Comp 1/Comp 1_00006" },
+					{ "time": 0.2333, "name": "Comp 1/Comp 1_00007" },
+					{ "time": 0.2667, "name": "Comp 1/Comp 1_00008" },
+					{ "time": 0.3, "name": "Comp 1/Comp 1_00009" },
+					{ "time": 0.3333, "name": "Comp 1/Comp 1_00010" },
+					{ "time": 0.3667, "name": "Comp 1/Comp 1_00011" },
+					{ "time": 0.4, "name": "Comp 1/Comp 1_00012" },
+					{ "time": 0.4333, "name": "Comp 1/Comp 1_00013" },
+					{ "time": 0.4667, "name": "Comp 1/Comp 1_00014" },
+					{ "time": 0.5, "name": "Comp 1/Comp 1_00015" },
+					{ "time": 0.5333, "name": "Comp 1/Comp 1_00016" },
+					{ "time": 0.5667, "name": "Comp 1/Comp 1_00017" },
+					{ "time": 0.6, "name": "Comp 1/Comp 1_00018" },
+					{ "time": 0.6333, "name": "Comp 1/Comp 1_00019" },
+					{ "time": 0.6667, "name": "Comp 1/Comp 1_00020" },
+					{ "time": 0.7, "name": "Comp 1/Comp 1_00021" },
+					{ "time": 0.7333, "name": "Comp 1/Comp 1_00022" },
+					{ "time": 0.7667, "name": "Comp 1/Comp 1_00023" },
+					{ "time": 0.8, "name": "Comp 1/Comp 1_00024" },
+					{ "time": 0.8333, "name": "Comp 1/Comp 1_00025" },
+					{ "time": 0.8667, "name": "Comp 1/Comp 1_00026" },
+					{ "time": 0.9, "name": "Comp 1/Comp 1_00027" },
+					{ "time": 0.9333, "name": "Comp 1/Comp 1_00028" },
+					{ "time": 0.9667, "name": "Comp 1/Comp 1_00029" }
+				]
+			},
+			"spin": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "spin" }
+				]
+			},
+			"spin2": {
+				"attachment": [
+					{ "name": "spin" }
+				]
+			}
+		},
+		"bones": {
+			"ef": {
+				"translate": [
+					{ "x": -84.88, "y": -7.22 },
+					{ "time": 0.5, "x": -1.81, "y": -6.62 },
+					{ "time": 1, "x": 74.05, "y": -6.62 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 0.447, "y": 0.447 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"ef2": {
+				"translate": [
+					{ "x": 86.7, "y": 5.7 },
+					{ "time": 0.5, "y": 6.09 },
+					{ "time": 1, "x": -72.63, "y": 5.85 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 0.334, "y": 0.334 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"spin": {
+				"translate": [
+					{},
+					{ "time": 0.5, "y": 3.01 },
+					{ "time": 1 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 1.04, "y": 1.04 },
+					{ "time": 1 }
+				]
+			}
+		}
+	},
+	"thai": {
+		"slots": {
+			"Comp 1/Comp 1_00000": {
+				"attachment": [
+					{ "name": "Comp 1/Comp 1_00000" },
+					{ "time": 0.0333, "name": "Comp 1/Comp 1_00001" },
+					{ "time": 0.0667, "name": "Comp 1/Comp 1_00002" },
+					{ "time": 0.1, "name": "Comp 1/Comp 1_00003" },
+					{ "time": 0.1333, "name": "Comp 1/Comp 1_00004" },
+					{ "time": 0.1667, "name": "Comp 1/Comp 1_00005" },
+					{ "time": 0.2, "name": "Comp 1/Comp 1_00006" },
+					{ "time": 0.2333, "name": "Comp 1/Comp 1_00007" },
+					{ "time": 0.2667, "name": "Comp 1/Comp 1_00008" },
+					{ "time": 0.3, "name": "Comp 1/Comp 1_00009" },
+					{ "time": 0.3333, "name": "Comp 1/Comp 1_00010" },
+					{ "time": 0.3667, "name": "Comp 1/Comp 1_00011" },
+					{ "time": 0.4, "name": "Comp 1/Comp 1_00012" },
+					{ "time": 0.4333, "name": "Comp 1/Comp 1_00013" },
+					{ "time": 0.4667, "name": "Comp 1/Comp 1_00014" },
+					{ "time": 0.5, "name": "Comp 1/Comp 1_00015" },
+					{ "time": 0.5333, "name": "Comp 1/Comp 1_00016" },
+					{ "time": 0.5667, "name": "Comp 1/Comp 1_00017" },
+					{ "time": 0.6, "name": "Comp 1/Comp 1_00018" },
+					{ "time": 0.6333, "name": "Comp 1/Comp 1_00019" },
+					{ "time": 0.6667, "name": "Comp 1/Comp 1_00020" },
+					{ "time": 0.7, "name": "Comp 1/Comp 1_00021" },
+					{ "time": 0.7333, "name": "Comp 1/Comp 1_00022" },
+					{ "time": 0.7667, "name": "Comp 1/Comp 1_00023" },
+					{ "time": 0.8, "name": "Comp 1/Comp 1_00024" },
+					{ "time": 0.8333, "name": "Comp 1/Comp 1_00025" },
+					{ "time": 0.8667, "name": "Comp 1/Comp 1_00026" },
+					{ "time": 0.9, "name": "Comp 1/Comp 1_00027" },
+					{ "time": 0.9333, "name": "Comp 1/Comp 1_00028" },
+					{ "time": 0.9667, "name": "Comp 1/Comp 1_00029" }
+				]
+			},
+			"spin": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"ef": {
+				"translate": [
+					{ "x": -84.88, "y": -7.22 },
+					{ "time": 0.5, "x": -1.81, "y": -6.62 },
+					{ "time": 1, "x": 74.05, "y": -6.62 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 0.447, "y": 0.447 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"ef2": {
+				"translate": [
+					{ "x": 86.7, "y": 5.7 },
+					{ "time": 0.5, "y": 6.09 },
+					{ "time": 1, "x": -72.63, "y": 5.85 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 0.334, "y": 0.334 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"spin": {
+				"translate": [
+					{},
+					{ "time": 0.5, "y": 3.01 },
+					{ "time": 1 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 1.04, "y": 1.04 },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

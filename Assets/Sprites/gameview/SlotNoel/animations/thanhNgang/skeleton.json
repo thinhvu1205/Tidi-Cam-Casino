@@ -1,0 +1,49 @@
+{
+"skeleton": {
+	"hash": "SKPDLxdZnqsfp3qyEtORslkoIb4",
+	"spine": "3.8.99",
+	"x": -1046.15,
+	"y": -50,
+	"width": 2008.15,
+	"height": 100,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "lightthanh", "parent": "root", "x": -984.59, "y": -33.84 }
+],
+"slots": [
+	{ "name": "thanhtren", "bone": "root", "attachment": "thanhtren" },
+	{ "name": "thanhtren2", "bone": "root", "attachment": "thanhtren" },
+	{ "name": "lightthanh", "bone": "lightthanh", "attachment": "lightthanh", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"lightthanh": {
+				"lightthanh": { "x": -0.56, "y": 0.09, "width": 122, "height": 18 }
+			},
+			"thanhtren": {
+				"thanhtren": { "x": 481, "width": 962, "height": 100 }
+			},
+			"thanhtren2": {
+				"thanhtren": { "x": -481, "width": 962, "height": 100 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"lightthanh": {
+				"translate": [
+					{},
+					{ "time": 7.9, "x": 1992.95 }
+				]
+			}
+		}
+	}
+}
+}

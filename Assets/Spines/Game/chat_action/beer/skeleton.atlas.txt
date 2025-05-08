@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 126,126
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bong nuoc
+  rotate: false
+  xy: 50, 37
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+bong nuoc2
+  rotate: false
+  xy: 50, 57
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+bong nuoc2 copy
+  rotate: false
+  xy: 44, 20
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+bong nuoc3
+  rotate: false
+  xy: 44, 28
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+bong nuoc3 copy
+  rotate: false
+  xy: 53, 27
+  size: 6, 8
+  orig: 8, 12
+  offset: 1, 2
+  index: -1
+bong nuoc4
+  rotate: false
+  xy: 52, 19
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+bong nuoc4 copy
+  rotate: false
+  xy: 50, 46
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+bot phong
+  rotate: false
+  xy: 2, 40
+  size: 46, 26
+  orig: 46, 27
+  offset: 0, 1
+  index: -1
+bot phong copy
+  rotate: true
+  xy: 61, 12
+  size: 46, 26
+  orig: 46, 26
+  offset: 0, 0
+  index: -1
+coc
+  rotate: false
+  xy: 2, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+coc copy
+  rotate: true
+  xy: 68, 60
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+toe bot
+  rotate: true
+  xy: 2, 9
+  size: 29, 40
+  orig: 30, 42
+  offset: 1, 2
+  index: -1
+toe bot copy
+  rotate: false
+  xy: 89, 20
+  size: 26, 38
+  orig: 26, 38
+  offset: 0, 0
+  index: -1

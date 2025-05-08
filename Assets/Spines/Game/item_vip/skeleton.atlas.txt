@@ -1,0 +1,62 @@
+
+skeleton.png
+size: 540,190
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1l
+  rotate: false
+  xy: 132, 10
+  size: 127, 87
+  orig: 127, 130
+  offset: 0, 19
+  index: -1
+bike1
+  rotate: true
+  xy: 261, 2
+  size: 95, 81
+  orig: 98, 82
+  offset: 0, 0
+  index: -1
+bike2
+  rotate: false
+  xy: 426, 103
+  size: 112, 85
+  orig: 112, 86
+  offset: 0, 1
+  index: -1
+car1
+  rotate: false
+  xy: 132, 99
+  size: 148, 89
+  orig: 148, 91
+  offset: 0, 0
+  index: -1
+car2
+  rotate: false
+  xy: 282, 105
+  size: 142, 83
+  orig: 143, 83
+  offset: 1, 0
+  index: -1
+home1
+  rotate: false
+  xy: 440, 16
+  size: 91, 85
+  orig: 91, 85
+  offset: 0, 0
+  index: -1
+home2
+  rotate: false
+  xy: 2, 52
+  size: 128, 136
+  orig: 129, 136
+  offset: 0, 0
+  index: -1
+light thoi
+  rotate: false
+  xy: 344, 5
+  size: 94, 96
+  orig: 103, 105
+  offset: 5, 5
+  index: -1

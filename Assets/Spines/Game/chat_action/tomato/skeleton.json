@@ -1,0 +1,43 @@
+{
+"skeleton": {
+	"hash": "kpx/KEWSgbvaq6MWmVU+KgrmpvQ",
+	"spine": "3.8.99",
+	"x": -65.5,
+	"y": -63,
+	"width": 131,
+	"height": 126,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "qua-nat", "parent": "bone", "x": 5.14, "y": 7.55 }
+],
+"slots": [
+	{ "name": "qua-nat", "bone": "qua-nat", "attachment": "qua-nat" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"qua-nat": {
+				"qua-nat": { "x": -5.14, "y": -7.55, "width": 131, "height": 126 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"qua-nat": {
+				"scale": [
+					{ "x": 0.397, "y": 0.397 },
+					{ "time": 0.1667, "x": 1.226, "y": 1.226 },
+					{ "time": 2.6333, "x": 1.306, "y": 1.306 }
+				]
+			}
+		}
+	}
+}
+}

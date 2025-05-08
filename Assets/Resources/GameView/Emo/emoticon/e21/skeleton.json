@@ -1,0 +1,43 @@
+{
+"skeleton": {
+	"hash": "7Fe+35bmt1G8h7Be4klre0yDenU",
+	"spine": "3.8.99",
+	"x": -150,
+	"y": -150,
+	"width": 300,
+	"height": 300,
+	"images": "../../anim/ngacnhien/",
+	"audio": "F:/linhvuong/New folder/anim/ngacnhien"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "1", "bone": "root", "attachment": "1" },
+	{ "name": "2", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"1": { "width": 300, "height": 300 },
+				"2": { "width": 300, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "name": "2" },
+					{ "time": 0.3333, "name": "1" },
+					{ "time": 0.6667, "name": "2" }
+				]
+			}
+		}
+	}
+}
+}

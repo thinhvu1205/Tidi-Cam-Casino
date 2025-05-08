@@ -1,0 +1,118 @@
+
+skeleton.png
+size: 350,350
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 167
+  size: 195, 181
+  orig: 195, 181
+  offset: 0, 0
+  index: -1
+bomb
+  rotate: false
+  xy: 199, 218
+  size: 126, 130
+  orig: 126, 130
+  offset: 0, 0
+  index: -1
+ca/candie_00000
+  rotate: true
+  xy: 159, 58
+  size: 36, 52
+  orig: 50, 80
+  offset: 8, 0
+  index: -1
+ca/candie_00001
+  rotate: false
+  xy: 286, 52
+  size: 37, 56
+  orig: 50, 80
+  offset: 7, 0
+  index: -1
+ca/candie_00002
+  rotate: true
+  xy: 272, 177
+  size: 39, 60
+  orig: 50, 80
+  offset: 6, 0
+  index: -1
+ca/candie_00003
+  rotate: true
+  xy: 153, 17
+  size: 39, 64
+  orig: 50, 80
+  offset: 6, 0
+  index: -1
+ca/candie_00004
+  rotate: false
+  xy: 200, 107
+  size: 39, 68
+  orig: 50, 80
+  offset: 6, 0
+  index: -1
+ca/candie_00005
+  rotate: true
+  xy: 199, 177
+  size: 39, 71
+  orig: 50, 80
+  offset: 5, 0
+  index: -1
+ca/candie_00006
+  rotate: false
+  xy: 159, 96
+  size: 39, 69
+  orig: 50, 80
+  offset: 5, 0
+  index: -1
+ca/candie_00007
+  rotate: false
+  xy: 241, 109
+  size: 39, 66
+  orig: 50, 80
+  offset: 5, 0
+  index: -1
+ca/candie_00008
+  rotate: false
+  xy: 282, 110
+  size: 39, 65
+  orig: 50, 80
+  offset: 5, 0
+  index: -1
+ca/candie_00009
+  rotate: true
+  xy: 213, 66
+  size: 39, 63
+  orig: 50, 80
+  offset: 5, 0
+  index: -1
+ca/candie_00010
+  rotate: true
+  xy: 219, 25
+  size: 39, 65
+  orig: 50, 80
+  offset: 6, 0
+  index: -1
+coin
+  rotate: false
+  xy: 2, 62
+  size: 155, 103
+  orig: 155, 103
+  offset: 0, 0
+  index: -1
+fire
+  rotate: true
+  xy: 108, 2
+  size: 58, 43
+  orig: 58, 43
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 2, 3
+  size: 104, 57
+  orig: 104, 58
+  offset: 0, 0
+  index: -1

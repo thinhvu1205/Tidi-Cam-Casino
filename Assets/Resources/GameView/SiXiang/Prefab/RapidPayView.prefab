@@ -451,6 +451,7 @@ GameObject:
   - component: {fileID: 3817493239569377054}
   - component: {fileID: 2047786577481713616}
   - component: {fileID: 8139589355109134393}
+  - component: {fileID: 5341987050830513430}
   m_Layer: 0
   m_Name: spineBgPick
   m_TagString: Untagged
@@ -531,6 +532,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5341987050830513430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792484318439306142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 8139589355109134393}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/BgRapidPick/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &797831920283394014
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,6 +565,7 @@ GameObject:
   - component: {fileID: 124326581480321876}
   - component: {fileID: 1453489116687920856}
   - component: {fileID: 2929828568156046039}
+  - component: {fileID: 5660638704013040039}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -622,6 +646,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5660638704013040039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797831920283394014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 2929828568156046039}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &947985123166274359
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +679,7 @@ GameObject:
   - component: {fileID: 618665894020008842}
   - component: {fileID: 874718155675410053}
   - component: {fileID: 7349307790201249051}
+  - component: {fileID: 6002082293148061348}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -713,6 +760,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &6002082293148061348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947985123166274359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 7349307790201249051}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1274823930771205382
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,6 +893,7 @@ GameObject:
   - component: {fileID: 1892383376365613955}
   - component: {fileID: 8583784648710790101}
   - component: {fileID: 5585853850707489385}
+  - component: {fileID: 1553300498317723098}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -904,6 +974,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &1553300498317723098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302525258353652639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 5585853850707489385}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1367399372386826378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,6 +1591,7 @@ GameObject:
   - component: {fileID: 7143028419922752454}
   - component: {fileID: 3544172362757980458}
   - component: {fileID: 1886261220794242518}
+  - component: {fileID: 2836887124530546941}
   m_Layer: 0
   m_Name: spineBgPick_1
   m_TagString: Untagged
@@ -1579,6 +1672,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &2836887124530546941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761445440117182165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 1886261220794242518}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/BgRapidPick/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2068789470598513443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,6 +1867,7 @@ GameObject:
   - component: {fileID: 9193362966895537709}
   - component: {fileID: 8334828026921852666}
   - component: {fileID: 7325365201852764482}
+  - component: {fileID: 1202330795627290897}
   m_Layer: 0
   m_Name: bg
   m_TagString: Untagged
@@ -1832,6 +1948,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &1202330795627290897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258448532308354366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 7325365201852764482}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/BgRapidPay/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3316173832709000970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2085,6 +2223,7 @@ GameObject:
   - component: {fileID: 2950962301965148428}
   - component: {fileID: 5534696232870999793}
   - component: {fileID: 1552894858947905939}
+  - component: {fileID: 8721754671786854264}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -2165,6 +2304,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &8721754671786854264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4054927004575246661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 1552894858947905939}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4067791420897865325
 GameObject:
   m_ObjectHideFlags: 0
@@ -2176,6 +2337,7 @@ GameObject:
   - component: {fileID: 6708138368019495800}
   - component: {fileID: 2729211377574578452}
   - component: {fileID: 6473343313408340161}
+  - component: {fileID: 5544370386130325031}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -2256,6 +2418,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5544370386130325031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4067791420897865325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 6473343313408340161}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4302487931828297011
 GameObject:
   m_ObjectHideFlags: 0
@@ -2267,6 +2451,7 @@ GameObject:
   - component: {fileID: 1691946459468694054}
   - component: {fileID: 5290241427528206493}
   - component: {fileID: 1851761732090476435}
+  - component: {fileID: 760984713332364747}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -2347,6 +2532,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &760984713332364747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4302487931828297011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 1851761732090476435}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4517942376991735737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2358,6 +2565,7 @@ GameObject:
   - component: {fileID: 2508838999752873790}
   - component: {fileID: 816356632169190828}
   - component: {fileID: 3854569680687270981}
+  - component: {fileID: 7906223953101524342}
   m_Layer: 0
   m_Name: spineLightSang
   m_TagString: Untagged
@@ -2438,6 +2646,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &7906223953101524342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4517942376991735737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 3854569680687270981}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/RapidLight/skeleton_SkeletonData.asset
+  AnimName: 4
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4614166633884604981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2449,6 +2679,7 @@ GameObject:
   - component: {fileID: 5429742951572862157}
   - component: {fileID: 4430177992184916427}
   - component: {fileID: 244520341807561987}
+  - component: {fileID: 1276940786721863614}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -2529,6 +2760,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &1276940786721863614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4614166633884604981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 244520341807561987}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4645302274007981410
 GameObject:
   m_ObjectHideFlags: 0
@@ -2540,6 +2793,7 @@ GameObject:
   - component: {fileID: 7476186957814559793}
   - component: {fileID: 8991477126475865650}
   - component: {fileID: 5862973344456547613}
+  - component: {fileID: 163830056170377535}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -2620,6 +2874,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &163830056170377535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4645302274007981410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 5862973344456547613}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4648984083770780827
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,6 +2999,7 @@ GameObject:
   - component: {fileID: 1265250399396574432}
   - component: {fileID: 6058396763180723728}
   - component: {fileID: 8749052619128395187}
+  - component: {fileID: 2501140025555174138}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -2803,6 +3080,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &2501140025555174138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4784797670695675854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 8749052619128395187}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4817730417278418534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2814,6 +3113,7 @@ GameObject:
   - component: {fileID: 7451847108792732649}
   - component: {fileID: 1412902158348953879}
   - component: {fileID: 3961702281782608323}
+  - component: {fileID: 5812990270928666270}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -2894,6 +3194,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5812990270928666270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4817730417278418534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 3961702281782608323}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4950775943375804658
 GameObject:
   m_ObjectHideFlags: 0
@@ -3147,6 +3469,7 @@ GameObject:
   - component: {fileID: 3161233738195132923}
   - component: {fileID: 5800343099853626423}
   - component: {fileID: 8636281839945568736}
+  - component: {fileID: 1419109639536302997}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -3227,6 +3550,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &1419109639536302997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5209849109687936932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 8636281839945568736}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5299739493863477988
 GameObject:
   m_ObjectHideFlags: 0
@@ -3373,6 +3718,7 @@ GameObject:
   - component: {fileID: 1426294462531953910}
   - component: {fileID: 1422236617454498214}
   - component: {fileID: 3066149904648888238}
+  - component: {fileID: 3550599958748236791}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -3453,6 +3799,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &3550599958748236791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5475600173449997685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 3066149904648888238}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5564279410175685062
 GameObject:
   m_ObjectHideFlags: 0
@@ -4223,6 +4591,7 @@ GameObject:
   - component: {fileID: 2580460758203805421}
   - component: {fileID: 3412935973862480868}
   - component: {fileID: 2623416779556766789}
+  - component: {fileID: 3987119250055278761}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -4303,6 +4672,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &3987119250055278761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6001477899032631522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 2623416779556766789}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6112583663475889241
 GameObject:
   m_ObjectHideFlags: 0
@@ -4447,6 +4838,7 @@ GameObject:
   - component: {fileID: 8867955845004048940}
   - component: {fileID: 911973761843848151}
   - component: {fileID: 8638139986655535053}
+  - component: {fileID: 1522257985671007630}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -4527,6 +4919,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &1522257985671007630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6344888748094662981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 8638139986655535053}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6455999107715530881
 GameObject:
   m_ObjectHideFlags: 0
@@ -4538,6 +4952,7 @@ GameObject:
   - component: {fileID: 5797437547799318876}
   - component: {fileID: 2758531047642406613}
   - component: {fileID: 6400552359178858376}
+  - component: {fileID: 5648181631886510023}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -4618,6 +5033,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5648181631886510023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6455999107715530881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 6400552359178858376}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6822503012946804508
 GameObject:
   m_ObjectHideFlags: 0
@@ -4629,6 +5066,7 @@ GameObject:
   - component: {fileID: 4695332138403423775}
   - component: {fileID: 2947712488913631152}
   - component: {fileID: 6920600477550052669}
+  - component: {fileID: 7365685170975784539}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -4709,6 +5147,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &7365685170975784539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822503012946804508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 6920600477550052669}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7095852618912758079
 GameObject:
   m_ObjectHideFlags: 0
@@ -4720,6 +5180,7 @@ GameObject:
   - component: {fileID: 8669417714165873577}
   - component: {fileID: 2385638577613225202}
   - component: {fileID: 8908884208519565016}
+  - component: {fileID: 4894943627370416668}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -4800,6 +5261,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &4894943627370416668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7095852618912758079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 8908884208519565016}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7209138184942689380
 GameObject:
   m_ObjectHideFlags: 0
@@ -5572,6 +6055,7 @@ GameObject:
   - component: {fileID: 6548708757825833406}
   - component: {fileID: 7485513060426834720}
   - component: {fileID: 6258682727063834321}
+  - component: {fileID: 2468662501464646529}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -5652,6 +6136,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &2468662501464646529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8437921648423177146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 6258682727063834321}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8877742252804553061
 GameObject:
   m_ObjectHideFlags: 0

@@ -58,7 +58,7 @@ public class SoundManager : MonoBehaviour
     }
     public void playMusicInGame(string pathAudio)
     {
-        var audioClip = Resources.Load(pathAudio) as AudioClip;
+        var audioClip = BundleHandler.LoadAudioClip(pathAudio);
         if (Globals.Config.isMusic)
         {
 
@@ -80,8 +80,7 @@ public class SoundManager : MonoBehaviour
     {
         if (Globals.Config.isSound)
         {
-            //Resources.Load(path) as GameObject;
-            var audioClip = Resources.Load(pathAudio) as AudioClip;
+            var audioClip = BundleHandler.LoadAudioClip(pathAudio) as AudioClip;
             AudioSource audioSrc;
             if (listAudioSrc.Count > 0 && listAudioSrc[0].isPlaying == false)
             {

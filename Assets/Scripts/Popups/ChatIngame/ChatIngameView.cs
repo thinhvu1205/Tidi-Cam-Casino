@@ -59,7 +59,7 @@ public class ChatIngameView : BaseView
             {
                 onClickChatEmo(iidd);
             });
-            var skeEmo = Resources.Load<SkeletonDataAsset>("GameView/Emo/emoticon/e" + i + "/skeleton_SkeletonData");
+            var skeEmo = BundleHandler.LoadSkeletonDataAsset("GameView/Emo/emoticon/e" + i + "/skeleton_SkeletonData");
             var skeletonGraphic = item.GetComponentInChildren<SkeletonGraphic>();
             skeletonGraphic.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
             skeletonGraphic.skeletonDataAsset = skeEmo;
@@ -79,7 +79,7 @@ public class ChatIngameView : BaseView
                 onClickChatEmo(iidd);
             });
 
-            var skeEmo = Resources.Load<SkeletonDataAsset>("GameView/Emo/emoticon/e" + i + "/skeleton_SkeletonData");
+            var skeEmo = BundleHandler.LoadSkeletonDataAsset("GameView/Emo/emoticon/e" + i + "/skeleton_SkeletonData");
             var skeletonGraphic = item.GetComponentInChildren<SkeletonGraphic>();
             skeletonGraphic.transform.localScale = new Vector3(0.35f, 0.35f, 0.35f);
             skeletonGraphic.skeletonDataAsset = skeEmo;

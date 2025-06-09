@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 1192048135626890126}
   - component: {fileID: 6821088455737960734}
   - component: {fileID: 1759756244945718564}
+  - component: {fileID: 7376746253003325037}
   m_Layer: 0
   m_Name: animBtnSpin
   m_TagString: Untagged
@@ -443,6 +444,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &7376746253003325037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194592475581261565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 1759756244945718564}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/BgLuckySpin/skeleton_SkeletonData.asset
+  AnimName: spin_anim
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1261292888836973735
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,6 +612,7 @@ GameObject:
   - component: {fileID: 1946884022210588443}
   - component: {fileID: 6495939279255440322}
   - component: {fileID: 8726956438597483164}
+  - component: {fileID: 7889757605278269683}
   m_Layer: 0
   m_Name: spineDragon
   m_TagString: Untagged
@@ -669,6 +693,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &7889757605278269683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283814598960517475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 8726956438597483164}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/BgLuckySpin/skeleton_SkeletonData.asset
+  AnimName: dragon normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1345659548342572694
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,6 +942,7 @@ GameObject:
   - component: {fileID: 2325892894813080752}
   - component: {fileID: 5530623136702732068}
   - component: {fileID: 4822868448127043876}
+  - component: {fileID: 5000179423871201078}
   m_Layer: 0
   m_Name: spinBgWin
   m_TagString: Untagged
@@ -976,6 +1023,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5000179423871201078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873056535478221518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 4822868448127043876}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/BgLuckySpin/skeleton_SkeletonData.asset
+  AnimName: khung eat
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1912377272963318389
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +1783,7 @@ GameObject:
   - component: {fileID: 5972152642895019140}
   - component: {fileID: 4976641711024945127}
   - component: {fileID: 7650313766497291651}
+  - component: {fileID: 3886271859001573604}
   m_Layer: 0
   m_Name: bgLight
   m_TagString: Untagged
@@ -1794,6 +1864,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &3886271859001573604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3920735203333289870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 7650313766497291651}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/BgLuckySpin/skeleton_SkeletonData.asset
+  AnimName: light run
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4172795066508470355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,6 +3602,7 @@ GameObject:
   - component: {fileID: 5120467551075902237}
   - component: {fileID: 7678832347858324294}
   - component: {fileID: 8466558300535321508}
+  - component: {fileID: 3610033083309506864}
   m_Layer: 0
   m_Name: SkeletonGraphic (skeleton)
   m_TagString: Untagged
@@ -3602,6 +3695,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &3610033083309506864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7133167869808336762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 8466558300535321508}
+  BundleLabel: assets,resources,gameview,sixiang,spine
+  AssetName: Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton_SkeletonData.asset
+  AnimName: normal
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7184338068821001615
 GameObject:
   m_ObjectHideFlags: 0

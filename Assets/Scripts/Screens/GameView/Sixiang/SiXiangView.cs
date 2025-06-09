@@ -770,7 +770,6 @@ public class SiXiangView : BaseSlotView
     }
     public void setStateNodeGameForLuckyGold(bool isShow)
     {
-        //Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton_SkeletonData.asset
         bgGameGoldPick.SetActive(!isShow);
         bgGame.gameObject.SetActive(isShow);
         bgQuay.SetActive(isShow);
@@ -934,7 +933,7 @@ public class SiXiangView : BaseSlotView
             {
                 animName = "3";
             }
-            Debug.Log("showSpineAnimalBuy:" + animName);
+            Debug.Log("showSpineAnimalBuy:" + animName + " / " + pathAnim);
             animAnimal.skeletonDataAsset = skeData;
             await Task.Delay(TimeSpan.FromSeconds(0.1f));
             effectContainer.SetActive(true);
@@ -957,7 +956,7 @@ public class SiXiangView : BaseSlotView
         };
         UnityMainThread.instance.AddJob(() =>
         {
-            StartCoroutine(UIManager.instance.loadSkeletonDataAsync(pathAnim, cb));
+            UIManager.instance.loadSkeletonDataAsync(pathAnim, cb);
         });
         await spineSpecialWinTask;
     }

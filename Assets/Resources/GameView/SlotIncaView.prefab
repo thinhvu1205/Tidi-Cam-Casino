@@ -1283,6 +1283,7 @@ GameObject:
   - component: {fileID: 6114978997390780213}
   - component: {fileID: 8069267733309940384}
   - component: {fileID: 182354391200811723}
+  - component: {fileID: 5094877247198196276}
   m_Layer: 0
   m_Name: animNearFreeSpin
   m_TagString: Untagged
@@ -1363,6 +1364,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5094877247198196276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3154539268629886594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 182354391200811723}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/NearFreeSpin/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3708434057572883400
 GameObject:
   m_ObjectHideFlags: 0

@@ -127,7 +127,18 @@ public class BannerView : BaseView
                         case "openlink":
                             {
                                 //Debug.Log("Chi chau open link=====" + (string)dtBtn["urlLink"]);
-                                Application.OpenURL((string)dtBtn["urlLink"]);
+                                string urlOpen = (string)dtBtn["urlLink"];
+                                if (Config.typeLogin == LOGIN_TYPE.NORMAL)
+                                {
+                                    urlOpen = urlOpen.Replace("%username%", Config.user_name);
+                                    urlOpen = urlOpen.Replace("%password%", Config.user_pass);
+                                }
+                                else if (Config.typeLogin == LOGIN_TYPE.PLAYNOW)
+                                {
+                                    urlOpen = urlOpen.Replace("%username%", UIManager.instance.loginView.accPlayNow);
+                                    urlOpen = urlOpen.Replace("%password%", UIManager.instance.loginView.passPlayNow);
+                                }
+                                Application.OpenURL(urlOpen);
                                 break;
                             }
                         case "showwebview":
@@ -167,29 +178,27 @@ public class BannerView : BaseView
                                 break;
                             }
                         case "update":
-                            //              cc.sys.openURL(dataBtn.urlLink);
-                            //isTypeUpdate = true;
-
-                            Application.OpenURL((string)dtBtn["urlLink"]);
+                            string urlUpdate = (string)dtBtn["urlLink"];
+                            if (Config.typeLogin == LOGIN_TYPE.NORMAL)
+                            {
+                                urlUpdate = urlUpdate.Replace("%username%", Config.user_name);
+                                urlUpdate = urlUpdate.Replace("%password%", Config.user_pass);
+                            }
+                            else if (Config.typeLogin == LOGIN_TYPE.PLAYNOW)
+                            {
+                                urlUpdate = urlUpdate.Replace("%username%", UIManager.instance.loginView.accPlayNow);
+                                urlUpdate = urlUpdate.Replace("%password%", UIManager.instance.loginView.passPlayNow);
+                            }
+                            Application.OpenURL(urlUpdate);
                             break;
                         case "cashout": // open CO
-                                        //              cc.NGWlog('chay vao  btn  cash out', require("ConfigManager").getInstance().is_dt);
-                            if (Config.IsBuildStore)
+                            if (Globals.Config.is_dt)
                             {
-
-                            }
-                            else
-                            {
-                                if (Globals.Config.is_dt)
-                                {
-                                    //cc.NGWlog('chay vao  btn  cash out 22222');
-                                    UIManager.instance.openEx();
-                                }
+                                //cc.NGWlog('chay vao  btn  cash out 22222');
+                                UIManager.instance.openEx();
                             }
                             break;
                         case "topgame": // top game
-                                        //require("UIManager").instance.onShowTopGame(dataBtn.gameID);
-                                        //UIManager.instance.lobbyView.hideMore();
                             UIManager.instance.openLeaderBoard((int)dtBtn["gameID"]);
                             break;
                         case "gofarms":

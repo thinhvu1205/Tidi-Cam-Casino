@@ -168,7 +168,7 @@ public class SymbolController : MonoBehaviour
             }
 
         };
-        StartCoroutine(UIManager.instance.loadSkeletonDataAsync(getSpinePath(idSpine), cb));
+        UIManager.instance.loadSkeletonDataAsync(getSpinePath(idSpine), cb);
     }
     public async void showScatterSpine()
     {

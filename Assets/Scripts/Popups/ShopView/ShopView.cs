@@ -32,101 +32,97 @@ public class ShopView : BaseView
             SocketIOManager.getInstance().emitSIOCCCNew(Config.formatStr("ClickShop_%s", CURRENT_VIEW.getCurrentSceneName()));
         }
         instance = this;
-        if (Config.IsBuildStore) updateInfo(dataDefault);
-        else
-        { // full version
-            if (!Config.infoChip.Equals("")) LoadConfig.instance.getInfoShop(updateInfo, () => updateInfo(dataDefault));
-            else updateInfo(dataDefault);
-        }
+        if (!Config.infoChip.Equals("")) LoadConfig.instance.getInfoShop(updateInfo, () => updateInfo(dataDefault));
+        else updateInfo(dataDefault);
         scrContent.onValueChanged.AddListener(onDragScroll);
     }
     async void updateInfo(string strData)
     {
-        // Logging.Log("updateInfo shop   " + strData);
-        // JArray arrayData = JArray.Parse(strData);
-        // if (strData == "" || arrayData.Count <= 0)
-        // {
-        //     updateInfo(dataDefault);
-        //     return;
-        // }
-        // RectTransform rt = scrContent.GetComponent<RectTransform>();
-        // if (strData == dataDefault) rt.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 460f);
-        // else rt.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 395f);
-        // UIManager.instance.destroyAllChildren(scrTabs.content.transform);
-        // UIManager.instance.destroyAllChildren(scrContent.content.transform);
-        // if (arrayData.Count == 1)
-        // {
-        //     iapManager = new IAPManager((JObject)arrayData[0]);
-        //     scrTabs.gameObject.SetActive(false);
-        //     reloadListContent((JArray)arrayData[0]["items"], (string)arrayData[0]["type"], (string)arrayData[0]["title"]);
-        //     RectTransform rectTransform = scrContent.viewport.GetComponent<RectTransform>();
-        //     rectTransform.offsetMax = new Vector2(rectTransform.offsetMax.x, 0);
-        //     return;
-        // }
-        // scrTabs.gameObject.SetActive(true);
-        // JObject item0 = null;
-        // int indSelect = 0;
-        // for (int i = 0; i < arrayData.Count; i++)
-        // {
-        //     JObject obItem = (JObject)arrayData[i];
-        //     string title = (string)obItem["title"], title_img = (string)obItem["title_img"];
-        //     if (_TabNameFocusOnBannerShowType9.Equals(""))
-        //     {
-        //         if (obItem.ContainsKey("focus") && (bool)obItem["focus"])
-        //         {
-        //             indSelect = i;
-        //             item0 = obItem;
-        //         }
-        //     }
-        //     else
-        //     {
-        //         if (_TabNameFocusOnBannerShowType9.Equals(title))
-        //         {
-        //             indSelect = i;
-        //             item0 = obItem;
-        //         }
-        //     }
-        //     if (title.Equals("iap") && iapManager == null) iapManager = new IAPManager(obItem);
-        //     GameObject btn = Instantiate(btnTab, scrTabs.content);
-        //     Image bkg = btn.transform.Find("Bkg").GetComponent<Image>();
-        //     bkg.transform.localScale = Vector3.one;
-        //     if (i >= arrayData.Count - 1)
-        //     {
-        //         bkg.transform.localScale = new Vector3(-1, 1, 1);
-        //         btn.transform.Find("Line").gameObject.SetActive(false);
-        //     }
-        //     TextMeshProUGUI txt = btn.transform.Find("Text").GetComponent<TextMeshProUGUI>();
-        //     txt.text = "";
-        //     Image spLogo = btn.transform.Find("Icon").GetComponent<Image>();
-        //     spLogo.gameObject.SetActive(false);
-        //     if (title_img.Equals("")) txt.text = title.ToUpper();
-        //     else
-        //     {
-        //         Sprite spr = await Config.GetRemoteSprite(title_img);
-        //         if (spr != null)
-        //         {
-        //             spLogo.sprite = spr;
-        //             if (spLogo != null && spLogo.sprite != null)
-        //             {
-        //                 spLogo.gameObject.SetActive(true);
-        //                 spLogo.SetNativeSize();
-        //             }
-        //             else txt.text = title.ToUpper();
-        //         }
-        //     }
-        //     btn.transform.localScale = Vector3.one;
-        //     btn.transform.position = new Vector3(btn.transform.position.x, 0);
-        //     btn.GetComponent<Button>().onClick.AddListener(() => { onClickTab(btn.gameObject, obItem); });
-        // }
-        // float contentWidth = 0, tabWidth = btnTab.GetComponent<RectTransform>().rect.width;
-        // foreach (Transform childTf in scrTabs.content) contentWidth += tabWidth;
-        // scrTabs.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, contentWidth);
-        // if (item0 == null && arrayData.Count > 0)
-        // {
-        //     indSelect = 0;
-        //     item0 = (JObject)arrayData[0];
-        // }
-        // if (scrTabs.content.childCount > indSelect) onClickTab(scrTabs.content.transform.GetChild(indSelect).gameObject, item0);
+        Logging.Log("updateInfo shop   " + strData);
+        JArray arrayData = JArray.Parse(strData);
+        if (strData == "" || arrayData.Count <= 0)
+        {
+            updateInfo(dataDefault);
+            return;
+        }
+        RectTransform rt = scrContent.GetComponent<RectTransform>();
+        if (strData == dataDefault) rt.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 460f);
+        else rt.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 395f);
+        UIManager.instance.destroyAllChildren(scrTabs.content.transform);
+        UIManager.instance.destroyAllChildren(scrContent.content.transform);
+        if (arrayData.Count == 1)
+        {
+            iapManager = new IAPManager((JObject)arrayData[0]);
+            scrTabs.gameObject.SetActive(false);
+            reloadListContent((JArray)arrayData[0]["items"], (string)arrayData[0]["type"], (string)arrayData[0]["title"]);
+            RectTransform rectTransform = scrContent.viewport.GetComponent<RectTransform>();
+            rectTransform.offsetMax = new Vector2(rectTransform.offsetMax.x, 0);
+            return;
+        }
+        scrTabs.gameObject.SetActive(true);
+        JObject item0 = null;
+        int indSelect = 0;
+        for (int i = 0; i < arrayData.Count; i++)
+        {
+            JObject obItem = (JObject)arrayData[i];
+            string title = (string)obItem["title"], title_img = (string)obItem["title_img"];
+            if (_TabNameFocusOnBannerShowType9.Equals(""))
+            {
+                if (obItem.ContainsKey("focus") && (bool)obItem["focus"])
+                {
+                    indSelect = i;
+                    item0 = obItem;
+                }
+            }
+            else
+            {
+                if (_TabNameFocusOnBannerShowType9.Equals(title))
+                {
+                    indSelect = i;
+                    item0 = obItem;
+                }
+            }
+            if (title.Equals("iap") && iapManager == null) iapManager = new IAPManager(obItem);
+            GameObject btn = Instantiate(btnTab, scrTabs.content);
+            Image bkg = btn.transform.Find("Bkg").GetComponent<Image>();
+            bkg.transform.localScale = Vector3.one;
+            if (i >= arrayData.Count - 1)
+            {
+                bkg.transform.localScale = new Vector3(-1, 1, 1);
+                btn.transform.Find("Line").gameObject.SetActive(false);
+            }
+            TextMeshProUGUI txt = btn.transform.Find("Text").GetComponent<TextMeshProUGUI>();
+            txt.text = "";
+            Image spLogo = btn.transform.Find("Icon").GetComponent<Image>();
+            spLogo.gameObject.SetActive(false);
+            if (title_img.Equals("")) txt.text = title.ToUpper();
+            else
+            {
+                Sprite spr = await Config.GetRemoteSprite(title_img);
+                if (spr != null)
+                {
+                    spLogo.sprite = spr;
+                    if (spLogo != null && spLogo.sprite != null)
+                    {
+                        spLogo.gameObject.SetActive(true);
+                        spLogo.SetNativeSize();
+                    }
+                    else txt.text = title.ToUpper();
+                }
+            }
+            btn.transform.localScale = Vector3.one;
+            btn.transform.position = new Vector3(btn.transform.position.x, 0);
+            btn.GetComponent<Button>().onClick.AddListener(() => { onClickTab(btn.gameObject, obItem); });
+        }
+        float contentWidth = 0, tabWidth = btnTab.GetComponent<RectTransform>().rect.width;
+        foreach (Transform childTf in scrTabs.content) contentWidth += tabWidth;
+        scrTabs.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, contentWidth);
+        if (item0 == null && arrayData.Count > 0)
+        {
+            indSelect = 0;
+            item0 = (JObject)arrayData[0];
+        }
+        if (scrTabs.content.childCount > indSelect) onClickTab(scrTabs.content.transform.GetChild(indSelect).gameObject, item0);
     }
     private Color32[] EncodeTextToQRCode(string inputText, int width, int height)
     {

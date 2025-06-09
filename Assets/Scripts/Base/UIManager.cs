@@ -89,12 +89,10 @@ public class UIManager : MonoBehaviour
     {
         Debug.Log("OnEnable Uimanager");
     }
-    public IEnumerator loadVideoAsync(Action<VideoClip> cb)
+    public async Awaitable loadVideoAsync(Action<VideoClip> cb)
     {
-        ResourceRequest resourceRequest = Resources.LoadAsync<VideoClip>("GameView/SiXiang/intromp4");
-        yield return resourceRequest;
-        cb(resourceRequest.asset as VideoClip);
-        //loadAsyncTask.Start();
+        VideoClip vc = await BundleHandler.LoadVideoClipAsync("GameView/SiXiang/intromp4");
+        cb(vc);
     }
     public void SetDataVipFarmList()
     {
@@ -812,23 +810,21 @@ public class UIManager : MonoBehaviour
     }
     public Sprite LoadChipImage(int chipId)
     {
-        return Resources.Load<Sprite>("Sprite Assets/Chips/chip_" + chipId);
+        return BundleHandler.LoadSprite("Sprite Assets/Chips/chip_" + chipId);
     }
     public GameObject loadPrefab(string path)
     {
-        return Resources.Load(path) as GameObject;
+        return BundleHandler.LoadGameObject(path);
     }
     public SkeletonDataAsset loadSkeletonData(string path)
     {
-        return Resources.Load<SkeletonDataAsset>(path);
+        return BundleHandler.LoadSkeletonDataAsset(path);
 
     }
-    public IEnumerator loadSkeletonDataAsync(string path, Action<SkeletonDataAsset> cb)
+    public async Awaitable loadSkeletonDataAsync(string path, Action<SkeletonDataAsset> cb)
     {
-        ResourceRequest resourceRequest = Resources.LoadAsync<SkeletonDataAsset>(path);
-        yield return resourceRequest;
-        cb(resourceRequest.asset as SkeletonDataAsset);
-        //loadAsyncTask.Start();
+        SkeletonDataAsset sda = await BundleHandler.LoadSkeletonDataAssetAsync(path);
+        cb(sda);
     }
 
     void createMessageBox(GameObject prefab, string msg, Action callback1 = null, bool isHaveClose = false)
@@ -969,26 +965,9 @@ public class UIManager : MonoBehaviour
 
     public void openShop(string tabNameFocus = "")
     {
-        if (IsBuildStore)
-        {
-            if (ApkFullUrl.Equals(""))
-            {
-                ShopView shopView = Instantiate(loadPrefabPopup("PopupShop"), parentPopups).GetComponent<ShopView>();
-                shopView.init(tabNameFocus);
-                shopView.transform.localScale = Vector3.one;
-            }
-            else
-            {
-                if (gameView != null) SocketSend.sendExitGame();
-                Application.OpenURL(ApkFullUrl);
-            }
-        }
-        else
-        {
-            ShopView shopView = Instantiate(loadPrefabPopup("PopupShop"), parentPopups).GetComponent<ShopView>();
-            shopView.init(tabNameFocus);
-            shopView.transform.localScale = Vector3.one;
-        }
+        ShopView shopView = Instantiate(loadPrefabPopup("PopupShop"), parentPopups).GetComponent<ShopView>();
+        shopView.init(tabNameFocus);
+        shopView.transform.localScale = Vector3.one;
     }
     public LuckyNumberView OpenLuckyNumber()
     {

@@ -66,7 +66,9 @@ public class SiXiangScatterView : MonoBehaviour
     List<int> rateGold = new List<int> { 3, 6, 10, 15 };
     private void Awake()
     {
-        //SiXiangView.instance = this;
+        BundleLoader[] loaderBLs = FindObjectsByType<BundleLoader>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        foreach (BundleLoader aBL in loaderBLs)
+            if (aBL.Type == BundleLoader.TYPE_ASSET.SKELETON_GRAPHIC) aBL.RefreshUI();
     }
     void Start()
     {

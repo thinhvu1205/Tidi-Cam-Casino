@@ -16,7 +16,7 @@ public class WebSocketManager : MonoBehaviour
     WebSocket ws = null;
     Action _OnConnectCb;
     static WebSocketManager instance = null;
-    public bool UserLogout;
+    [HideInInspector] public bool UserLogout;
 
     public WebSocketManager()
     {

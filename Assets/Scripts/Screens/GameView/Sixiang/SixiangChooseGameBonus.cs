@@ -22,9 +22,6 @@ public class SixiangChooseGameBonus : MonoBehaviour
     protected void OnEnable()
     {
         container.localScale = Vector2.one;
-        spinebg.Initialize(true);
-        spinebg.AnimationState.SetAnimation(0, "eng", false);
-
     }
     public void onClickSelectGame(int index)
     {

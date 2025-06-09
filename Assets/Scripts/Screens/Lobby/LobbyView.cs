@@ -439,7 +439,7 @@ public class LobbyView : BaseView
         {
             JObject data = (JObject)Config.listGame[i];
             int gameId = (int)data["id"];
-            SkeletonDataAsset skeAsset = Resources.Load<SkeletonDataAsset>("AnimIconGame/" + gameId + "/skeleton_SkeletonData");
+            SkeletonDataAsset skeAsset = BundleHandler.LoadSkeletonDataAsset("AnimIconGame/" + gameId + "/skeleton_SkeletonData");
             if (skeAsset == null) continue;
             ItemGame item = null;
             switch (gameId)
@@ -466,7 +466,7 @@ public class LobbyView : BaseView
         foreach (ItemGame ig in _AllGameIGs)
         {
             if (!slotGames.Contains(ig.GameId)) continue;
-            SkeletonDataAsset bigSlotGameSDA = Resources.Load<SkeletonDataAsset>("AnimIconGame/" + ig.GameId + "-big" + "/skeleton_SkeletonData");
+            SkeletonDataAsset bigSlotGameSDA = BundleHandler.LoadSkeletonDataAsset("AnimIconGame/" + ig.GameId + "-big" + "/skeleton_SkeletonData");
             if (bigSlotGameSDA == null) continue;
             ItemGame bigSlotIconIG = Instantiate(gameItemObject, m_OnlySloticonTf).GetComponent<ItemGame>();
 
@@ -646,7 +646,7 @@ public class LobbyView : BaseView
 
     public void refreshUIFromConfig(bool isStart = false)
     {
-        btnEx.SetActive(!Config.IsBuildStore && Config.is_dt);
+        btnEx.SetActive(Config.is_dt);
         var issket = Config.ket;
         if (User.userMain != null && User.userMain.VIP == 0)
         {

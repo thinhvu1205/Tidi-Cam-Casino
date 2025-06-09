@@ -1000,7 +1000,7 @@ public class BaseSlotView : GameView
 
         UnityMainThread.instance.AddJob(() =>
         {
-            StartCoroutine(UIManager.instance.loadSkeletonDataAsync(path, cb));
+            UIManager.instance.loadSkeletonDataAsync(path, cb);
         });
         await spineJPWinTask;
     }
@@ -1078,7 +1078,7 @@ public class BaseSlotView : GameView
             };
             UnityMainThread.instance.AddJob(() =>
              {
-                 StartCoroutine(UIManager.instance.loadSkeletonDataAsync(PATH_ANIM_SPECICAL_WIN, cb));
+                 UIManager.instance.loadSkeletonDataAsync(PATH_ANIM_SPECICAL_WIN, cb);
              });
         }
         else
@@ -1157,7 +1157,7 @@ public class BaseSlotView : GameView
         };
         UnityMainThread.instance.AddJob(() =>
            {
-               StartCoroutine(UIManager.instance.loadSkeletonDataAsync("GameView/SiXiang/Spine/LuckyDraw/BigWin/skeleton_SkeletonData", cb));
+               UIManager.instance.loadSkeletonDataAsync("GameView/SiXiang/Spine/LuckyDraw/BigWin/skeleton_SkeletonData", cb);
            });
         spineJPWinTask = new Task(() =>
         {

@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 3892478956995588793}
   - component: {fileID: 7499255418933379044}
   - component: {fileID: 973238810940353273}
+  - component: {fileID: 5903157425946262268}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -291,6 +292,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5903157425946262268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140688237730525878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 973238810940353273}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &161854054083774659
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +460,7 @@ GameObject:
   - component: {fileID: 2989021974815496607}
   - component: {fileID: 6206688115702323509}
   - component: {fileID: 37491710057736492}
+  - component: {fileID: 6358025234427611087}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -517,6 +541,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &6358025234427611087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172207095601029572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 37491710057736492}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &185357756122164524
 GameObject:
   m_ObjectHideFlags: 0
@@ -2795,6 +2841,7 @@ GameObject:
   - component: {fileID: 5422055814269808541}
   - component: {fileID: 7749977286651124010}
   - component: {fileID: 5168984401738939584}
+  - component: {fileID: 2099680448114624268}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -2875,6 +2922,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &2099680448114624268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782108326636284614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 5168984401738939584}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1797390300851426502
 GameObject:
   m_ObjectHideFlags: 0
@@ -3253,6 +3322,7 @@ GameObject:
   - component: {fileID: 7927129451136315553}
   - component: {fileID: 8393672234376311215}
   - component: {fileID: 820937988567070325}
+  - component: {fileID: 1773647993674059261}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -3333,6 +3403,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &1773647993674059261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2148452813660631879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 820937988567070325}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2255559012561468570
 GameObject:
   m_ObjectHideFlags: 0
@@ -5328,6 +5420,7 @@ GameObject:
   - component: {fileID: 5365445009198039031}
   - component: {fileID: 2421131863130021649}
   - component: {fileID: 8480389471935735693}
+  - component: {fileID: 8159365634922724277}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -5408,6 +5501,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &8159365634922724277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3921950661638067123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 8480389471935735693}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3959144520911480215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5419,6 +5534,7 @@ GameObject:
   - component: {fileID: 7199635987705878672}
   - component: {fileID: 3188126881332766924}
   - component: {fileID: 7392897268258835454}
+  - component: {fileID: 5627080118620873080}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -5499,6 +5615,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5627080118620873080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3959144520911480215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 7392897268258835454}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4054059971282468269
 GameObject:
   m_ObjectHideFlags: 0
@@ -6566,6 +6704,7 @@ GameObject:
   - component: {fileID: 5105504631787963635}
   - component: {fileID: 112167039590560117}
   - component: {fileID: 1416854839008788898}
+  - component: {fileID: 1437545114915957032}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -6646,6 +6785,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &1437545114915957032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4599532941236111946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 1416854839008788898}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4662380802261794254
 GameObject:
   m_ObjectHideFlags: 0
@@ -6823,6 +6984,7 @@ GameObject:
   - component: {fileID: 1711447775050003379}
   - component: {fileID: 7769221754563136063}
   - component: {fileID: 6406834600020289498}
+  - component: {fileID: 3431178758114767216}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -6903,6 +7065,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &3431178758114767216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4802047988729283355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 6406834600020289498}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4828009314304449414
 GameObject:
   m_ObjectHideFlags: 0
@@ -7200,6 +7384,7 @@ GameObject:
   - component: {fileID: 8577584951500136220}
   - component: {fileID: 2061803334289447291}
   - component: {fileID: 6024199431555017255}
+  - component: {fileID: 6255316400080750127}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -7280,6 +7465,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &6255316400080750127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5049474970884511112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 6024199431555017255}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5088237717206340620
 GameObject:
   m_ObjectHideFlags: 0
@@ -8381,6 +8588,7 @@ GameObject:
   - component: {fileID: 560215504646655812}
   - component: {fileID: 7534631209378474462}
   - component: {fileID: 1812957568577952835}
+  - component: {fileID: 447275126803735148}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -8461,6 +8669,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &447275126803735148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5635652980964745270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 1812957568577952835}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5638691647642896210
 GameObject:
   m_ObjectHideFlags: 0
@@ -9159,6 +9389,7 @@ GameObject:
   - component: {fileID: 1600008624138979540}
   - component: {fileID: 1463017891243628271}
   - component: {fileID: 9215603398204476022}
+  - component: {fileID: 1103327581422565241}
   m_Layer: 0
   m_Name: animNearFreeSpin
   m_TagString: Untagged
@@ -9239,6 +9470,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &1103327581422565241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5990083613594650564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 9215603398204476022}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/NearFreeSpin/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6027603784866731214
 GameObject:
   m_ObjectHideFlags: 0
@@ -9792,6 +10045,7 @@ GameObject:
   - component: {fileID: 2126755181014469572}
   - component: {fileID: 8209534231445255346}
   - component: {fileID: 4012986534033541156}
+  - component: {fileID: 51524701626986319}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -9872,6 +10126,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &51524701626986319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6477033119417207382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 4012986534033541156}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6544519908691667537
 GameObject:
   m_ObjectHideFlags: 0
@@ -11078,6 +11354,7 @@ GameObject:
   - component: {fileID: 4794775641617624024}
   - component: {fileID: 3664625181727558043}
   - component: {fileID: 6841395872793377761}
+  - component: {fileID: 158857914801475563}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -11158,6 +11435,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &158857914801475563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7115693150639128153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 6841395872793377761}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7244151725849365603
 GameObject:
   m_ObjectHideFlags: 0
@@ -11590,6 +11889,7 @@ GameObject:
   - component: {fileID: 11346540410833987}
   - component: {fileID: 3466844437537618980}
   - component: {fileID: 1504498985482843920}
+  - component: {fileID: 2965949392113270330}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -11670,6 +11970,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &2965949392113270330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7355237978925914961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 1504498985482843920}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7364823192740378596
 GameObject:
   m_ObjectHideFlags: 0
@@ -12298,6 +12620,7 @@ GameObject:
   - component: {fileID: 7273565740862902393}
   - component: {fileID: 6954488848872194683}
   - component: {fileID: 1499256642752885057}
+  - component: {fileID: 621819933890909235}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -12378,6 +12701,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &621819933890909235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7882128209734473052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 1499256642752885057}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7947603645905693368
 GameObject:
   m_ObjectHideFlags: 0
@@ -13414,6 +13759,7 @@ GameObject:
   - component: {fileID: 380548756094195433}
   - component: {fileID: 1300298473477861639}
   - component: {fileID: 4576956583734920580}
+  - component: {fileID: 5001126397877187903}
   m_Layer: 0
   m_Name: animPick
   m_TagString: Untagged
@@ -13494,6 +13840,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5001126397877187903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8739014396576639132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 4576956583734920580}
+  BundleLabel: assets--resources--gameview--slotspine
+  AssetName: Assets/Resources/GameView/SlotSpine/Tarzan/MiniGame/cuaso/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8753862966779158462
 GameObject:
   m_ObjectHideFlags: 0

@@ -65,7 +65,7 @@ public class ItemChatInGame : MonoBehaviour
             {
                 var idAnimation = string.Join("", type.ToCharArray().Where(Char.IsDigit));
                 //Globals.Logging.Log("-=idAnimation   " + idAnimation);
-                skeEmo = Resources.Load<SkeletonDataAsset>("GameView/Emo/emoticon/e" + idAnimation + "/skeleton_SkeletonData");
+                skeEmo = BundleHandler.LoadSkeletonDataAsset("GameView/Emo/emoticon/e" + idAnimation + "/skeleton_SkeletonData");
             }
 
             if (skeEmo != null)

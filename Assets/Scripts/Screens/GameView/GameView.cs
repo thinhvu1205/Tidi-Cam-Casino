@@ -197,7 +197,7 @@ public class GameView : BaseView
                 {
                     if (player.playerView == null && m_HiddenPlayersTf == null) return;
                     var idAnimation = int.Parse(string.Join("", datType.ToCharArray().Where(Char.IsDigit)));
-                    var iteChat = Instantiate(Resources.Load("GameView/Objects/ItemChatAction") as GameObject, transform).GetComponent<ItemChatAction>();
+                    var iteChat = Instantiate(BundleHandler.LoadGameObject("GameView/Objects/ItemChatAction") as GameObject, transform).GetComponent<ItemChatAction>();
                     if (player.playerView != null) iteChat.transform.position = player.playerView.transform.position;
                     else iteChat.transform.position = m_HiddenPlayersTf.position;
                     if (npl.playerView != null)
@@ -209,7 +209,7 @@ public class GameView : BaseView
                     if (UIManager.instance.SendChatEmoToHiddenPlayers && m_HiddenPlayersTf != null)
                     {
                         UIManager.instance.SendChatEmoToHiddenPlayers = false;
-                        iteChat = Instantiate(Resources.Load("GameView/Objects/ItemChatAction") as GameObject, transform).GetComponent<ItemChatAction>();
+                        iteChat = Instantiate(BundleHandler.LoadGameObject("GameView/Objects/ItemChatAction") as GameObject, transform).GetComponent<ItemChatAction>();
                         iteChat.transform.position = player.playerView.transform.position;
                         StartCoroutine(iteChat.setData(idAnimation, m_HiddenPlayersTf.position));
                     }
@@ -217,7 +217,7 @@ public class GameView : BaseView
             }
             else
             {
-                var iteChat = Instantiate(Resources.Load("GameView/Objects/ItemChat") as GameObject, transform).GetComponent<ItemChatInGame>();
+                var iteChat = Instantiate(BundleHandler.LoadGameObject("GameView/Objects/ItemChat") as GameObject, transform).GetComponent<ItemChatInGame>();
                 iteChat.setMsg(datMSG, datType, player.playerView);
             }
         }

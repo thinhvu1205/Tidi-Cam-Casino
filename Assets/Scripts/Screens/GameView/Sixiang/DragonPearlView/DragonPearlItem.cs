@@ -106,7 +106,7 @@ public class DragonPearlItem : MonoBehaviour
                 };
                 UnityMainThread.instance.AddJob(() =>
                 {
-                    StartCoroutine(UIManager.instance.loadSkeletonDataAsync(PATH_ANIM_GOLD, cb));
+                    UIManager.instance.loadSkeletonDataAsync(PATH_ANIM_GOLD, cb);
                 });
 
             }

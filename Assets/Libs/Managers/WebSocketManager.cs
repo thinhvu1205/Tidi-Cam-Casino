@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -16,7 +16,7 @@ public class WebSocketManager : MonoBehaviour
     WebSocket ws = null;
     Action _OnConnectCb;
     static WebSocketManager instance = null;
-    [HideInInspector] public bool UserLogout;
+    public bool UserLogout;
 
     public WebSocketManager()
     {
@@ -37,30 +37,58 @@ public class WebSocketManager : MonoBehaviour
             UIManager.instance.hideWatting();
             return;
         }
+ UserLogout = true;
         _OnConnectCb = callback;
         Config.isErrorNet = false;
         stop();
         jobsResend.Clear();
-        //Config.isSvTest = true;
-        //Config.curServerIp = "app.test.topbangkokclub.com";
-        //Config.curServerIp = "app1.jakartagames.net";
-        // Config.curServerIp = "app1.davaogames.com";
-        // Config.curServerIp = "test.app.1707casino.com";
-        //Config.curServerIp = "app-002.ngwcasino.com";
+        Config.curServerIp = "app-001.ngwcasino.com";
         Debug.Log(" Config.curServerI=" + Config.curServerIp);
         Debug.Log(" Config.PORT=" + Config.PORT);
+        
+        // Tạo WebSocket với cấu hình SSL
         ws = new WebSocket("wss://" + Config.curServerIp);
-        //ws = new WebSocket("ws://" + Config.curServerIp + ":80" );
+        ws.SslConfiguration.EnabledSslProtocols = System.Security.Authentication.SslProtocols.Tls12;
+        ws.SslConfiguration.CheckCertificateRevocation = false;
+        ws.Log.Level = WebSocketSharp.LogLevel.Trace; // Enable detailed logging
+        
         Logging.Log("IP CONNECT:" + Config.curServerIp);
         connectionStatus = ConnectionStatus.CONNECTING;
+
+        // Add certificate validation callback
+        ws.SslConfiguration.ServerCertificateValidationCallback = (sender, certificate, chain, errors) => {
+            if (errors != System.Net.Security.SslPolicyErrors.None)
+            {
+                Logging.Log($"SSL Certificate Error: {errors}");
+                // Return true to accept certificate despite errors
+                return true;
+            }
+            return true;
+        };
+
         ws.ConnectAsync();
-        //ws.Connect();
 
         ws.EmitOnPing = true;
-        ws.WaitTime = TimeSpan.FromSeconds(10); ;
+        ws.WaitTime = TimeSpan.FromSeconds(30); // Tăng timeout lên 30 giây
 
-        ws.OnError += (sender, e) => _HandleOnErrorWebSocket();
-        ws.OnClose += (sender, e) => _HandleOnCloseWebSocket();
+        ws.OnError += (sender, e) => 
+        {
+            var wsError = e as WebSocketSharp.ErrorEventArgs;
+            if (wsError != null && wsError.Exception != null)
+            {
+                Logging.Log($"WebSocket Error: {wsError.Message}\nException: {wsError.Exception}\nStackTrace: {wsError.Exception.StackTrace}");
+            }
+            _HandleOnErrorWebSocket();
+        };
+        ws.OnClose += (sender, e) => 
+        {
+            var wsClose = e as WebSocketSharp.CloseEventArgs;
+            if (wsClose != null)
+            {
+                Logging.Log($"WebSocket Closed: Code={wsClose.Code}, Reason={wsClose.Reason}, WasClean={wsClose.WasClean}");
+            }
+            _HandleOnCloseWebSocket();
+        };
         ws.OnOpen += (sender, e) => _HandleOnOpenWebSocket();
         ws.OnMessage += (sender, e) => _HandleOnMessageWebSocket(e.Data);
     }
@@ -68,7 +96,7 @@ public class WebSocketManager : MonoBehaviour
     {
         if (connectionStatus == ConnectionStatus.DISCONNECTED) return;
         connectionStatus = ConnectionStatus.DISCONNECTED;
-        Logging.Log("OnError ");
+        Logging.Log($"OnError: Status={connectionStatus}, IsAlive={ws?.IsAlive}, ReadyState={ws?.ReadyState}");
         UnityMainThread.instance.AddJob(() =>
         {
             UIManager.instance.showLoginScreen(false);
@@ -78,7 +106,7 @@ public class WebSocketManager : MonoBehaviour
     {
         if (connectionStatus == ConnectionStatus.DISCONNECTED) return;
         connectionStatus = ConnectionStatus.DISCONNECTED;
-        Logging.Log("OnClose ");
+        Logging.Log($"OnClose: Status={connectionStatus}, IsAlive={ws?.IsAlive}, ReadyState={ws?.ReadyState}, UserLogout={UserLogout}");
         UnityMainThread.instance.AddJob(() =>
         {
             UIManager.instance.showLoginScreen(false);
@@ -91,7 +119,7 @@ public class WebSocketManager : MonoBehaviour
     private void _HandleOnOpenWebSocket()
     {
         connectionStatus = ConnectionStatus.CONNECTED;
-        UserLogout = true;
+       
         _OnConnectCb?.Invoke();
         Logging.Log("OnOpen ");
         while (jobsResend.Count > 0)
@@ -183,7 +211,7 @@ public class WebSocketManager : MonoBehaviour
         ServiceTransportPacket serviceTransport = new ServiceTransportPacket();
         serviceTransport.service = "com.athena.services.api.ServiceContract";
         serviceTransport.servicedata = Config.getByte(strData);// utf8.toByteArray(data);
-
+        Debug.Log(User.userMain.Userid + "xem ở chỗ này cái id của người là gì");
         serviceTransport.pid = User.userMain.Userid;
         serviceTransport.seq = 1;
         serviceTransport.idtype = 1;

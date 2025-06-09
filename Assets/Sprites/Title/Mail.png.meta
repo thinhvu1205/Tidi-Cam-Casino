@@ -1,18 +1,12 @@
 fileFormatVersion: 2
-guid: 61119c63ee7397e43bb62fa978d7475b
+guid: f8f2d39d376bd6e4096425f62d35295a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 326182069040782643
-    second: Mail_0
-  - first:
-      213: 1733773634841944637
-    second: Mail_1
-  - first:
-      213: -3172629147622731660
-    second: Mail_2
+      213: -2804436714254041908
+    second: txt_mailBox_0
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -82,10 +76,11 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 100
-    crunchedCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +93,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,85 +106,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mail_0
+      name: txt_mailBox_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 8
-        width: 151
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 33d17451dd4d68400800000000000000
-      internalID: 326182069040782643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mail_1
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 22
-        width: 24
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3221b95fe99f0810800000000000000
-      internalID: 1733773634841944637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mail_2
-      rect:
-        serializedVersion: 2
-        x: 174
         y: 0
-        width: 137
-        height: 83
+        width: 78
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,8 +127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47095eb799e88f3d0800000000000000
-      internalID: -3172629147622731660
+      spriteID: cccf2dbbaa3a419d0800000000000000
+      internalID: -2804436714254041908
       vertices: []
       indices: 
       edges: []
@@ -213,9 +144,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mail_0: 326182069040782643
-      Mail_1: 1733773634841944637
-      Mail_2: -3172629147622731660
+      txt_mailBox_0: -2804436714254041908
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SplashScene : MonoBehaviour
 {
-    //https://console.cloud.google.com/storage/browser/tongitswar;tab=objects?inv=1&invt=Abzosg&project=philippines-253209&prefix=&forceOnObjectsSortingFiltering=false
+    //https://console.cloud.google.com/storage/browser/kh9;tab=objects?forceOnBucketsSortingFiltering=true&inv=1&invt=AbzYXw&project=myanmar-199404&prefix=&forceOnObjectsSortingFiltering=false
     [SerializeField] private BundleDownloader m_BundleBD;
 
     private void Awake()
     {
         // Config.Bundle_URL = "D:/Unity projects/Tidi-Phil-Win777/Assets/AssetBundles";
-        Config.Bundle_URL = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, ""); // https://storage.googleapis.com/tongitswar/AssetBundles;
+        Config.Bundle_URL = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, ""); // https://storage.googleapis.com/kh9/AssetBundles/
         StartCoroutine(loadAssets());
         IEnumerator loadAssets()
         {

@@ -27,6 +27,7 @@ public class HandleService
                     //Global.MainView.lbTimeOnline.node.stopAllActions();
                     //Global.MainView.setTimeGetMoney();
                     //
+                    return;
                     Globals.Promotion.setPromotionInfo(jsonData);
                     UIManager.instance.updateMailAndMessageNoti();
                     UIManager.instance.setTimeOnline();

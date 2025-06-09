@@ -22,9 +22,10 @@ public class SocketSend
         //}
         Globals.Config.user_name = username;
         Globals.Config.user_pass = pass;
-
+        Debug.Log("có chạy đến đây");
         WebSocketManager.getInstance().Connect(() =>
         {
+            Debug.Log("4287");
             JObject user = new JObject();
             user["Userid"] = 1;
             user["From"] = "mbacay";
@@ -57,7 +58,7 @@ public class SocketSend
             byte[] credentials = { };
             LoginRequestPacket loginRequest = new LoginRequestPacket(strUser, pass, Globals.Config.OPERATOR, credentials);
             WebSocketManager.getInstance().SendData(JsonUtility.ToJson(loginRequest));
-
+            Debug.Log("send login" + JsonUtility.ToJson(loginRequest));
             SocketIOManager.getInstance().emitSIOWithValue(user, "LoginPacket", true);
         });
     }
@@ -102,6 +103,21 @@ public class SocketSend
         data["evt"] = "pingjs";
         WebSocketManager.getInstance().sendService(data.ToString(Newtonsoft.Json.Formatting.None));
     }
+    public static void danhBai(JArray arr)
+    {
+        JObject data = new JObject();
+        data["evt"] = "dc";
+        data["arr"] = arr;
+        WebSocketManager.getInstance().sendDataGame(data.ToString(Newtonsoft.Json.Formatting.None));
+        Debug.Log("send đánh bài"+data.ToString(Newtonsoft.Json.Formatting.None));
+    }
+    public static void boLuot()
+    {
+        JObject data = new JObject();
+        data["evt"] = "cc";
+        WebSocketManager.getInstance().sendDataGame(data.ToString(Newtonsoft.Json.Formatting.None));
+    }
+
     public static void sendIdReferFriend(int idFriend)
     {
 

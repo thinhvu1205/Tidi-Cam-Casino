@@ -257,6 +257,11 @@ public class HandleGame
                     ((MineFindingView)gameView).ProcessResponseData(jData);
                     break;
                 }
+            case (int) Globals.GAMEID.TIENLEN:
+                {
+                    HandleTienlenView.processData(jData);
+                    break;
+                }
         }
     }
     public static void nextEvt()

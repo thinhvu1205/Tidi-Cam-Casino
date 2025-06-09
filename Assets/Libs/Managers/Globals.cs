@@ -563,13 +563,11 @@ namespace Globals
     }
     public class Config
     {
-        public static string Bundle_URL;
         public const int CODE_JOKER_BLACK = 60;
         public const int CODE_JOKER_RED = 61;
-
         public static bool isSvTest = false;
         public const int OPERATOR = 7000;
-
+        public static string Bundle_URL;
         public static string user_name = "";
         public static string user_pass = "";
         public static string user_name_temp = "";
@@ -610,7 +608,7 @@ namespace Globals
 
         public static string deviceId = "";
         public static string versionGame = Application.version;
-        public static string publisher = "diamond_domino_slots_" + versionGame.Replace('.', '_');
+        public static string publisher = "";
         public static string package_name = Application.identifier;
         public static string versionDevice = getVersionDevice();
         public static string versionNameOS = SystemInfo.operatingSystem;
@@ -647,7 +645,6 @@ namespace Globals
         public static string u_chat_fb = "";
         public static string infoChip = "";
         public static string infoDT = "";
-        public static string infoUser = "";
         public static string infoBNF = "";
         public static string url_rule = "";
         public static string url_help = "";
@@ -657,7 +654,7 @@ namespace Globals
 
         public static bool data0 = false;
         public static bool isSendingSelectGame = false;
-
+        public static string infoUser = "";
 
         public static string newest_versionUrl = "";
         public static string ApkFullUrl = "";
@@ -673,7 +670,6 @@ namespace Globals
         public static bool is_First_CheckVIPFarms = true;
         public static bool isPlayNowFromLobby = false;
         public static bool enableLottery = false;
-        public static bool IsBuildStore = true;
 
         public static JArray arrOnlistTrue = new JArray();
         public static JArray arrBannerLobby = new JArray();
@@ -1654,8 +1650,7 @@ namespace Globals
                 }
             }
 
-            TextAsset jsonData = (TextAsset)Resources.Load("JsonText/text_" + language.ToLower());
-
+            TextAsset jsonData = BundleHandler.LoadTextAsset("JsonText/text_" + language.ToLower());
             jsonConfigOff = (JObject)JObject.Parse(jsonData.text)["ConfigClient"];
         }
 
@@ -1673,11 +1668,11 @@ namespace Globals
         }
         public static Sprite LoadGameNameByGameId(int id)
         {
-            return Resources.Load<Sprite>("Sprite Assets/Game Names/game_" + id);
+            return BundleHandler.LoadSprite("Sprite Assets/Game Names/game_" + id);
         }
         public static Sprite LoadLuckyBallById(int id)
         {
-            return Resources.Load<Sprite>("Sprite Assets/Lucky Number/ball_" + id);
+            return BundleHandler.LoadSprite("Sprite Assets/Lucky Number/ball_" + id);
         }
 
         public static string convertTimeToString(int seconds)

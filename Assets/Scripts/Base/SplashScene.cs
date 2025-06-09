@@ -10,8 +10,8 @@ public class SplashScene : MonoBehaviour
 
     private void Awake()
     {
-        //Config.Bundle_URL = "D:/Unity projects/Tidi-Phil-Win777/Assets/AssetBundles";
-         Config.Bundle_URL = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, ""); // https://storage.googleapis.com/kh9/AssetBundles/
+        Config.Bundle_URL = "D:/Unity projects/Tidi-Phil-Win777/Assets/AssetBundles";
+        //  Config.Bundle_URL = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, ""); // https://storage.googleapis.com/kh9/AssetBundles/
         StartCoroutine(loadAssets());
         IEnumerator loadAssets()
         {

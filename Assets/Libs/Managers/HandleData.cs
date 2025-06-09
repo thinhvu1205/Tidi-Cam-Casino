@@ -150,9 +150,6 @@ public class HandleData
 
             new Thread(new ThreadStart(() =>
             {
-                Thread.Sleep(100);
-                SocketSend.sendRef();
-                Thread.Sleep(100);
                 SocketSend.sendSelectG2(Config.curGameId);
                 Thread.Sleep(100);
                 SocketSend.getInfoSafe();
@@ -168,6 +165,8 @@ public class HandleData
                 // SocketSend.getChatWorld();
                 // Thread.Sleep(100);
                 // SocketSend.getFarmInfo();
+                Thread.Sleep(100);
+                SocketSend.sendRef();
             })).Start();
         }
         else

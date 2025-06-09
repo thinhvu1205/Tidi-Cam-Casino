@@ -37,7 +37,7 @@ public class WebSocketManager : MonoBehaviour
             UIManager.instance.hideWatting();
             return;
         }
- UserLogout = true;
+        UserLogout = true;
         _OnConnectCb = callback;
         Config.isErrorNet = false;
         stop();
@@ -45,18 +45,19 @@ public class WebSocketManager : MonoBehaviour
         Config.curServerIp = "app-001.ngwcasino.com";
         Debug.Log(" Config.curServerI=" + Config.curServerIp);
         Debug.Log(" Config.PORT=" + Config.PORT);
-        
+
         // Tạo WebSocket với cấu hình SSL
         ws = new WebSocket("wss://" + Config.curServerIp);
         ws.SslConfiguration.EnabledSslProtocols = System.Security.Authentication.SslProtocols.Tls12;
         ws.SslConfiguration.CheckCertificateRevocation = false;
         ws.Log.Level = WebSocketSharp.LogLevel.Trace; // Enable detailed logging
-        
+
         Logging.Log("IP CONNECT:" + Config.curServerIp);
         connectionStatus = ConnectionStatus.CONNECTING;
 
         // Add certificate validation callback
-        ws.SslConfiguration.ServerCertificateValidationCallback = (sender, certificate, chain, errors) => {
+        ws.SslConfiguration.ServerCertificateValidationCallback = (sender, certificate, chain, errors) =>
+        {
             if (errors != System.Net.Security.SslPolicyErrors.None)
             {
                 Logging.Log($"SSL Certificate Error: {errors}");
@@ -71,7 +72,7 @@ public class WebSocketManager : MonoBehaviour
         ws.EmitOnPing = true;
         ws.WaitTime = TimeSpan.FromSeconds(30); // Tăng timeout lên 30 giây
 
-        ws.OnError += (sender, e) => 
+        ws.OnError += (sender, e) =>
         {
             var wsError = e as WebSocketSharp.ErrorEventArgs;
             if (wsError != null && wsError.Exception != null)
@@ -80,7 +81,7 @@ public class WebSocketManager : MonoBehaviour
             }
             _HandleOnErrorWebSocket();
         };
-        ws.OnClose += (sender, e) => 
+        ws.OnClose += (sender, e) =>
         {
             var wsClose = e as WebSocketSharp.CloseEventArgs;
             if (wsClose != null)
@@ -119,7 +120,6 @@ public class WebSocketManager : MonoBehaviour
     private void _HandleOnOpenWebSocket()
     {
         connectionStatus = ConnectionStatus.CONNECTED;
-       
         _OnConnectCb?.Invoke();
         Logging.Log("OnOpen ");
         while (jobsResend.Count > 0)

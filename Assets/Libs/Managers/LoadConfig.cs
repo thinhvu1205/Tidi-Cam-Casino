@@ -24,10 +24,18 @@ public class LoadConfig : MonoBehaviour
     string config_info = "";
 
 
-    public bool isLoadedConfig = false;
+    private bool _IsConfigLoaded = false;
     void Awake()
     {
         instance = this;
+        Config.publisher = "ruby_tongits_war777_com_pro";
+        if (instance == null) instance = this;
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
+        DontDestroyOnLoad(gameObject);
         //if (Application.platform == RuntimePlatform.Android)
         //{
         //    config_info = @"{""gamenotification"":false,""allowPushOffline"":true,""is_reg"":false,""isShowLog"":false,""is_login_guest"":true,""is_login_fb"":true,""time_request"":5,""avatar_change"":2,""avatar_count"":10,""avatar_build"":""https://cdn.topbangkokclub.com/api/public/dl/VbfRjo1c/avatar/%avaNO%.png"",""avatar_fb"":""https://graph.facebook.com/v9.0/%fbID%/picture?width=200&height=200&redirect=true&access_token=%token%"",""name_fb"":""https://graph.facebook.com/%userID%/?fields=name&access_token=%token%"",""text"":[{""lang"":""EN"",""url"":""https://conf.topbangkokclub.com/textEnglish""},{""lang"":""THAI"",""url"":""https://conf.topbangkokclub.com/textThai""}],""url_help"":"""",""bundleID"":""71D97F59-4763-5A1E-8862-B29980CF2D4C"",""version"":""1.00"",""operatorID"":7000,""os"":""android_unity"",""publisher"":""dummy_co_1_10"",""disID"":1007,""fbprivateappid"":"""",""fanpageID"":"""",""groupID"":"""",""hotline"":"""",""listGame"":[{""id"":8015,""ip"":""35.240.208.204"",""ip_dm"":""app1.topbangkokclub.com"",""agSvipMin"":25000,""v_tb"":2},{""id"":8100,""ip"":""35.240.208.204"",""ip_dm"":""app1.topbangkokclub.com"",""agSvipMin"":10000,""v_tb"":2},{""id"":8013,""ip"":""35.240.208.204"",""ip_dm"":""app1.topbangkokclub.com"",""agSvipMin"":25000,""v_tb"":2},{""id"":8010,""ip"":""35.240.208.204"",""ip_dm"":""app1.topbangkokclub.com"",""agSvipMin"":10000,""v_tb"":2},{""id"":8802,""ip"":""35.240.208.204"",""ip_dm"":""app1.topbangkokclub.com"",""agSvipMin"":25000,""v_tb"":2},{""id"":9008,""ip"":""35.240.208.204"",""ip_dm"":""app1.topbangkokclub.com"",""agSvipMin"":10000,""v_tb"":2},{""id"":9007,""ip"":""35.240.208.204"",""ip_dm"":""app1.topbangkokclub.com"",""agSvipMin"":25000,""v_tb"":2},{""id"":8818,""ip"":""35.240.208.204"",""ip_dm"":""app1.topbangkokclub.com"",""agSvipMin"":25000,""v_tb"":2},{""id"":9950,""ip"":""35.240.208.204"",""ip_dm"":""app1.topbangkokclub.com"",""agSvipMin"":25000,""v_tb"":2},{""id"":9900,""ip"":""35.240.208.204"",""ip_dm"":""app1.topbangkokclub.com"",""agSvipMin"":25000,""v_tb"":2}],""u_chat_fb"":"""",""infoChip"":"""",""infoDT"":"""",""infoBNF"":""https://conf.topbangkokclub.com/infoBNF"",""url_rule_js_new"":"""",""delayNoti"":[{""time"":5,""title"":""Pusoy"",""text"":""⚡️ Chip Free ⚡️"",""ag"":100000},{""time"":600,""title"":""Pusoy"",""text"":""💰Chip Free 💰"",""ag"":0},{""time"":86400,""title"":""Pusoy"",""text"":""⏰ Chip Free ⏰"",""ag"":0}],""data0"":false,""infoUser"":"""",""umode"":4,""uop1"":""Quit"",""umsg"":""This version don't allow to play game"",""utar"":"""",""newest_versionUrl"":""""}";
@@ -58,7 +66,7 @@ public class LoadConfig : MonoBehaviour
         string storedConfig = PlayerPrefs.GetString("config_save", "");
         init();
         if (!storedConfig.Equals("")) handleConfigInfo(storedConfig);
-        else UIManager.instance.showWaiting();
+        // else UIManager.instance.showWaiting();
         StartCoroutine(loadConfig());
         IEnumerator loadConfig()
         {
@@ -67,7 +75,7 @@ public class LoadConfig : MonoBehaviour
                 getConfigInfo();
                 yield return new WaitForSeconds(10f);
             }
-            while (!isLoadedConfig);
+            while (!_IsConfigLoaded);
         }
     }
 
@@ -127,7 +135,7 @@ public class LoadConfig : MonoBehaviour
             await Task.Yield();
             //await Task.Delay(200);//30 hertz
         }
-        UIManager.instance.hideWatting();
+        if (UIManager.instance != null) UIManager.instance.hideWatting();
         // read results:
         if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError || www.result == UnityWebRequest.Result.DataProcessingError)
         {
@@ -200,8 +208,8 @@ public class LoadConfig : MonoBehaviour
         JObject wWForm = new JObject();
         wWForm["version"] = Config.versionGame + "";
         wWForm["operatorID"] = Config.OPERATOR + "";
-        wWForm["bundleID"] = Config.IsBuildStore ? "ruby.tongits.war777.store" : "ruby.tongits.war777.com.pro";
-        wWForm["publisher"] = Config.IsBuildStore ? "ruby_tongits_war777_store" : "ruby_tongits_war777_com_pro";
+        wWForm["bundleID"] = "ruby.tongits.war777.com.pro";
+        wWForm["publisher"] = Config.publisher;
         wWForm["os"] = osName;
         wWForm["mcc"] = "[0,0]";
         if (User.userMain != null)
@@ -231,7 +239,7 @@ public class LoadConfig : MonoBehaviour
         //loadInfo();
         var wWForm = createBodyJsonNormal();
         Debug.Log("-=-=getConfigInfo   " + wWForm.ToString());
-        isLoadedConfig = false;
+        _IsConfigLoaded = false;
         ProgressHandle(url_start, wWForm.ToString(), handleConfigInfo);
     }
 
@@ -410,22 +418,22 @@ public class LoadConfig : MonoBehaviour
                 GAMEID.BACCARAT, GAMEID.LUCKY_89, GAMEID.SABONG, GAMEID.SICBO, GAMEID.SLOTTARZAN, GAMEID.SLOT_INCA,
                 GAMEID.SLOT20FRUIT,  GAMEID.SLOT_JUICY_GARDEN, GAMEID.SLOT_SIXIANG
             };
-                // while (sortedListGI.Count > 0)
-                // {
-                //     foreach (JToken item in tempListGameJA)
-                //     {
-                //         if ((int)item["id"] == (int)sortedListGI[0])
-                //         {
-                //             Config.listGame.Add(item);
-                //             tempListGameJA.Remove(item);
-                //             sortedListGI.RemoveAt(0);
-                //             break;
-                //         }
-                //     }
-                // }
-                Config.listGame.AddRange(tempListGameJA);
-                Config.curServerIp = (string)Config.listGame[0]["ip_dm"];
-                PlayerPrefs.SetString("curServerIp", Config.curServerIp);
+            // while (sortedListGI.Count > 0)
+            // {
+            //     foreach (JToken item in tempListGameJA)
+            //     {
+            //         if ((int)item["id"] == (int)sortedListGI[0])
+            //         {
+            //             Config.listGame.Add(item);
+            //             tempListGameJA.Remove(item);
+            //             sortedListGI.RemoveAt(0);
+            //             break;
+            //         }
+            //     }
+            // }
+            Config.listGame.AddRange(tempListGameJA);
+            Config.curServerIp = (string)Config.listGame[0]["ip_dm"];
+            PlayerPrefs.SetString("curServerIp", Config.curServerIp);
         }
         Debug.Log("=-=-=-=-=-=-=-=-=- list agam");
         Debug.Log(Config.listGame);
@@ -509,15 +517,19 @@ public class LoadConfig : MonoBehaviour
 
         if (jConfig.ContainsKey("newest_versionUrl"))
             Config.newest_versionUrl = (string)jConfig["newest_versionUrl"];
-        var umode = jConfig.ContainsKey("umode") ? (int)jConfig["umode"] : 0;
-        var uop1 = jConfig.ContainsKey("uop1") ? (string)jConfig["uop1"] : "";
-        var uop2 = jConfig.ContainsKey("uop2") ? (string)jConfig["uop2"] : "";
-        var umsg = jConfig.ContainsKey("umsg") ? (string)jConfig["umsg"] : "";
-        var utar = jConfig.ContainsKey("utar") ? (string)jConfig["utar"] : "";
-        updateConfigUmode(umode, uop1, uop2, utar, umsg);
+        if (UIManager.instance != null)
+        {
+            var umode = jConfig.ContainsKey("umode") ? (int)jConfig["umode"] : 0;
+            var uop1 = jConfig.ContainsKey("uop1") ? (string)jConfig["uop1"] : "";
+            var uop2 = jConfig.ContainsKey("uop2") ? (string)jConfig["uop2"] : "";
+            var umsg = jConfig.ContainsKey("umsg") ? (string)jConfig["umsg"] : "";
+            var utar = jConfig.ContainsKey("utar") ? (string)jConfig["utar"] : "";
+            updateConfigUmode(umode, uop1, uop2, utar, umsg);
+            UIManager.instance.refreshUIFromConfig();
+        }
+        if (jConfig.ContainsKey("url_cdn")) Config.Bundle_URL = (string)jConfig["url_cdn"];
         PlayerPrefs.Save();
-        UIManager.instance.refreshUIFromConfig();
-        isLoadedConfig = true;
+        _IsConfigLoaded = true;
     }
 
     void handleUserInfo(string strData)

@@ -1,0 +1,294 @@
+ManifestFileVersion: 0
+CRC: 140058684
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ceb764a2be73f0bac86cee2f0f94e3cb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a6c800cd79ca2c0d0641cec5dedd3546
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 287d589c9e181b869dabdc326cfac0f0
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials
+Assets:
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Turtle/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Q/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/BigWinRapid/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/10/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/WinResult/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Scatter/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ItemGold/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Dragon/skeleton2.png
+- Assets/Resources/GameView/SiXiang/Spine/BigWinRapid/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BachHo/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Scatter/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Turtle/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldItem/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BgGame/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/A/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BgGame/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Icon/J/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/BgLuckySpin/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Phoenix/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Dragon/skeleton_skeleton2.mat
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPay/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Wild/skeleton_skeleton.mat
+- Assets/Resources/GameView/SiXiang/Spine/CutSceneBonus/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Wild/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Turtle/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Phoenix/skeleton2.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/Lixi/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BgGame/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/HuyenVu/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/BigWinRapid/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Wild/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/LuckyDrawItem/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Tiger/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Tiger/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Turle/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ItemGold/vang2.png
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Phoenix/skeleton_skeleton2.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Dragon/skeleton_skeleton.mat
+- Assets/Resources/GameView/SiXiang/Spine/FourWin/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Turtle/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/BigWinGoldPick/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Tiger/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Icon/10/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldTryAgain/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ChuTuoc/eye_turtle.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/Lixi/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Tiger/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Icon/J/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPick/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPick/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/BonusChooseGamePopup/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BachHo/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/RapidLight/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BachHo/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BachHo/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/btnCollect.png
+- Assets/Resources/GameView/SiXiang/Spine/FourWin/skeleton_skeleton2.mat
+- Assets/Resources/GameView/SiXiang/Spine/RapidLight/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Wild/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ItemGold/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPay/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/RapidLight/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldItem/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ChuTuoc/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPick/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ThanhLong/eye_dragon.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BachHo/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BgGame/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Dragon/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/FourWin/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Tiger/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BigWin/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Phoenix/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ChuTuoc/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BgGame/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Turle/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/BgLuckySpin/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/BigWinGoldPick/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/HuyenVu/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Phoenix/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/HuyenVu/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/A/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Dragon/skeleton_skeleton2.mat
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ThanhLong/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Tiger/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton_skeleton.mat
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Phoenix/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/Lixi/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/Lixi/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Scatter/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Q/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Tiger/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/BgLuckySpin/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/FourWin/skeleton3.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/K/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/CutSceneBonus/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ItemGold/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Dragon/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton2.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ThanhLong/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Turle/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/BigWinGoldPick/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/CutSceneBonus/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Turle/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BgGame/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton_skeleton3.mat
+- Assets/Resources/GameView/SiXiang/Spine/BonusChooseGamePopup/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ThanhLong/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Q/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/K/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldItem/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BachHo/eye_tiger.png
+- Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton_skeleton2.mat
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ItemGold/vang.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/J/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BgGame/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Tiger/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/K/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldItem/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Scatter/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldTryAgain/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/BonusChooseGamePopup/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ThanhLong/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/LuckyDrawItem/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPay/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Tiger/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/BonusChooseGamePopup/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldItem/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Phoenix/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/10/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Wild/skeleton_skeleton2.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Phoenix/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldTryAgain/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Dragon/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/Lixi/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Phoenix/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Dragon/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/WinResult/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BigWin/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Icon/10/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton3.png
+- Assets/Resources/GameView/SiXiang/Spine/FourWin/skeleton_skeleton3.mat
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BgGame/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Dragon/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ItemGold/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Icon/J/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Icon/K/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldTryAgain/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/LuckyDrawItem/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/BonusChooseGamePopup/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ThanhLong/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Phoenix/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/HuyenVu/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/A/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/BigWinRapid/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/LuckyDrawItem/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/WinResult/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Dragon/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/A/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BgGame/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/FourWin/skeleton2.png
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/LuckyDrawItem/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldTryAgain/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/itemPick/tui_black.png
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPick/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/BigWinRapid/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/Lixi/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Turtle/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/RapidLight/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPay/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BigWin/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/RapidLight/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Tiger/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPick/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/BigWinRapid/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/RapidLight/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ChuTuoc/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/10/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ItemGold/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Tiger/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Turle/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/BgLuckySpin/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPick/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Scatter/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Dragon/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Q/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Icon/J/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/LuckyDrawItem/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Icon/A/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Turtle/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/BigWinGoldPick/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Q/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/HuyenVu/eye_phoenix.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/A/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Dragon/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/BgLuckySpin/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BgGame/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ItemGold/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldTryAgain/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BigWin/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Dragon/skeleton_skeleton.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/10/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/HuyenVu/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Dragon/skeleton2.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BachHo/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Wild/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ChuTuoc/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPay/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/LuckyGoldItem/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Icon/K/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ChuTuoc/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/CutSceneBonus/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Phoenix/skeleton_skeleton.mat
+- Assets/Resources/GameView/SiXiang/Spine/BgMiniGame/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/BgGame/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/FourWin/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BigWin/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/WinResult/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/BonusChooseGamePopup/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/CutSceneBonus/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Q/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Phoenix/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BigWin/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/CutSceneBonus/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Dragon/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Scatter/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Wild/skeleton2.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/HuyenVu/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Phoenix/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/itemPick/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/WinResult/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/FourWin/skeleton_skeleton.mat
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Dragon/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ThanhLong/skeleton_Material.mat
+- Assets/Resources/GameView/SiXiang/Spine/FourWin/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/BgRapidPay/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Tiger/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/WinResult/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/FourWin/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/BgLuckySpin/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/ChuTuoc/skeleton_Atlas.asset
+- Assets/Resources/GameView/SiXiang/Spine/LuckyDraw/BgGame/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/BigWinGoldPick/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/SiXiang/Spine/Icon/K/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Icon/Wild/skeleton.json
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Turle/skeleton.png
+- Assets/Resources/GameView/SiXiang/Spine/DragonPearl/Lixi/phongbi.png
+- Assets/Resources/GameView/SiXiang/Spine/Icon/J/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/BigWinGoldPick/skeleton.atlas.txt
+- Assets/Resources/GameView/SiXiang/Spine/Animal/Phoenix/skeleton.json
+Dependencies: []

@@ -42,7 +42,6 @@ public class WebSocketManager : MonoBehaviour
         Config.isErrorNet = false;
         stop();
         jobsResend.Clear();
-        Config.curServerIp = "app-001.ngwcasino.com";
         Debug.Log(" Config.curServerI=" + Config.curServerIp);
         Debug.Log(" Config.PORT=" + Config.PORT);
 

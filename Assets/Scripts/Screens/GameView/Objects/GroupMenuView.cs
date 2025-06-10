@@ -38,27 +38,13 @@ public class GroupMenuView : BaseView
         GroupMenuView.instance = this;
         base.Start();
         var curGameId = Globals.Config.curGameId;
-        if (curGameId == (int)Globals.GAMEID.KEANG || curGameId == (int)Globals.GAMEID.DUMMY)
-        {
-            btnSetting.gameObject.SetActive(false);
-        }
-        if (curGameId == (int)Globals.GAMEID.SLOT20FRUIT || curGameId == (int)Globals.GAMEID.SLOTNOEL || (curGameId == (int)Globals.GAMEID.SLOTTARZAN) || (curGameId == (int)Globals.GAMEID.SLOT_JUICY_GARDEN) || (curGameId == (int)Globals.GAMEID.SLOT_SIXIANG) || (curGameId == (int)Globals.GAMEID.SLOT_INCA))
+        if (curGameId == (int)Globals.GAMEID.SLOTFRUIT || curGameId == (int)Globals.GAMEID.SLOTNOEL || (curGameId == (int)Globals.GAMEID.SLOTTARZAN) || (curGameId == (int)Globals.GAMEID.SLOTJUICYGARDEN) || (curGameId == (int)Globals.GAMEID.SLOTSIXIANG) || (curGameId == (int)Globals.GAMEID.SLOTINCA))
         {
             btnChangeTable.gameObject.SetActive(false);
         }
-        if (curGameId == (int)Globals.GAMEID.RONGHO)
+        if (curGameId == (int)Globals.GAMEID.DRAGONTIGER)
         {
             btnRule.gameObject.SetActive(false);
-        }
-        if (curGameId == (int)Globals.GAMEID.TONGITS || curGameId == (int)Globals.GAMEID.TONGITS_OLD || curGameId == (int)Globals.GAMEID.TONGITS11 || curGameId == (int)Globals.GAMEID.TONGITS_JOKER)
-        {
-            btnFightTongits.transform.Find("on").GetComponent<Image>().sprite = TongitsView.IsFight ? listCheck[0] : listCheck[1];
-            btnSetting.gameObject.SetActive(false);
-            btnFightTongits.gameObject.SetActive(true);
-            btnMusic.gameObject.SetActive(true);
-            btnSound.gameObject.SetActive(true);
-            btnSound.transform.Find("on").GetComponent<Image>().sprite = Globals.Config.isSound ? listCheck[0] : listCheck[1];
-            btnMusic.transform.Find("on").GetComponent<Image>().sprite = Globals.Config.isMusic ? listCheck[0] : listCheck[1];
         }
 
         background.GetComponent<LayoutSizeControl>().updateSizeContent();
@@ -78,7 +64,7 @@ public class GroupMenuView : BaseView
         var language = "thai";
         urlRule = urlRule.Replace("%language%", language);
         // https://conf.topbangkokclub.com/rule/index.html?gameid=%gameid%&language=%language%&list=true
-        List<int> listGameOther = new List<int> { (int)Globals.GAMEID.SLOT20FRUIT, (int)Globals.GAMEID.SLOT_SIXIANG, (int)Globals.GAMEID.SLOT_INCA, (int)Globals.GAMEID.SLOTNOEL, (int)Globals.GAMEID.SLOTTARZAN, (int)Globals.GAMEID.LUCKY9, (int)Globals.GAMEID.SICBO, (int)Globals.GAMEID.SABONG, (int)Globals.GAMEID.SLOT_INCA, (int)Globals.GAMEID.GAOGEA, (int)Globals.GAMEID.SLOT_JUICY_GARDEN, (int)Globals.GAMEID.BANDAR_QQ, (int)Globals.GAMEID.LUCKY9 };
+        List<int> listGameOther = new List<int> { (int)Globals.GAMEID.SLOTFRUIT, (int)Globals.GAMEID.SLOTSIXIANG, (int)Globals.GAMEID.SLOTINCA, (int)Globals.GAMEID.SLOTNOEL, (int)Globals.GAMEID.SLOTTARZAN, (int)Globals.GAMEID.SICBO, (int)Globals.GAMEID.SLOTINCA, (int)Globals.GAMEID.SLOTJUICYGARDEN };
         if (listGameOther.Contains(curGameId))
         {
             UIManager.instance.gameView.onClickRule();
@@ -101,8 +87,7 @@ public class GroupMenuView : BaseView
     public void onClickFightConfirm()
     {
         SoundManager.instance.soundClick();
-        TongitsView.IsFight = !TongitsView.IsFight;
-        btnFightTongits.transform.Find("on").GetComponent<Image>().sprite = TongitsView.IsFight ? listCheck[0] : listCheck[1];
+        btnFightTongits.transform.Find("on").GetComponent<Image>().sprite = listCheck[1];
     }
     public void onClickSound()
     {
@@ -126,11 +111,11 @@ public class GroupMenuView : BaseView
     public void onClickBack()
     {
         SoundManager.instance.soundClick();
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.SLOTNOEL || Globals.Config.curGameId == (int)Globals.GAMEID.SLOTTARZAN || Globals.Config.curGameId == (int)Globals.GAMEID.SLOT_SIXIANG) //cac game playnow
+        if (Globals.Config.curGameId == (int)Globals.GAMEID.SLOTNOEL || Globals.Config.curGameId == (int)Globals.GAMEID.SLOTTARZAN || Globals.Config.curGameId == (int)Globals.GAMEID.SLOTSIXIANG) //cac game playnow
         {
 
             hide();
-            if (Globals.Config.curGameId == (int)Globals.GAMEID.SLOT_SIXIANG)
+            if (Globals.Config.curGameId == (int)Globals.GAMEID.SLOTSIXIANG)
             {
                 SocketSend.sendExitSlotSixiang(Globals.ACTION_SLOT_SIXIANG.exitGame);
                 //string dataLTable = "{\"evt\":\"ltable\",\"Name\":\"${Globals.User.userMain.displayName}\",\"errorCode\":0}";
@@ -141,7 +126,7 @@ public class GroupMenuView : BaseView
                 dataLTable["errorCode"] = 0;
                 JObject dataLeave = new JObject();
                 dataLeave["tableid"] = Globals.Config.tableId;
-                dataLeave["curGameID"] = (int)Globals.GAMEID.SLOT_SIXIANG;
+                dataLeave["curGameID"] = (int)Globals.GAMEID.SLOTSIXIANG;
                 dataLeave["stake"] = 0;
                 dataLeave["reason"] = 0;
                 //UIManager.instance.gameView.dataLeave=dataLeave;

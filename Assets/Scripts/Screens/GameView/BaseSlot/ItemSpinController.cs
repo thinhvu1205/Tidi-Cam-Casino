@@ -114,7 +114,7 @@ public class ItemSpinController : MonoBehaviour
             {
                 rect.localPosition = new Vector3(rect.localPosition.x, posResetY, 0);
             }
-            if (Globals.Config.curGameId == (int)Globals.GAMEID.SLOT_JUICY_GARDEN)
+            if (Globals.Config.curGameId == (int)Globals.GAMEID.SLOTJUICYGARDEN)
             {
                 hideAllTextPackage();
             }

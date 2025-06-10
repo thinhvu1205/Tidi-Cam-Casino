@@ -28,7 +28,6 @@ public class BoxbetView : MonoBehaviour
     {
         lb_chipbet.gameObject.SetActive(true);
         transform.gameObject.SetActive(true);
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.LUCKY_89) return;
 
         Vector2 pos = transform.localPosition;
         Vector2 startPos = getStartPosition(index);

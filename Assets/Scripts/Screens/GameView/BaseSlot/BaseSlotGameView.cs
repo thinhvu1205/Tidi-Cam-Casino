@@ -382,7 +382,7 @@ public class BaseSlotGameView : GameView
             if (animBgFreeSpin != null)
             {
                 animBgFreeSpin.gameObject.SetActive(true);
-                if (Config.curGameId == (int)GAMEID.SLOT_INCA)
+                if (Config.curGameId == (int)GAMEID.SLOTINCA)
                 {
                     animBgFreeSpin.transform.localScale = Vector2.one * 1.4f;
                 }
@@ -871,7 +871,7 @@ public class BaseSlotGameView : GameView
     {
         List<int> scatterColumnIds = new List<int>();
         slotViews.ForEach(arr => { if (arr.Contains(12)) scatterColumnIds.Add(slotViews.IndexOf(arr)); });
-        if (Config.curGameId == (int)GAMEID.SLOT_JUICY_GARDEN && scatterColumnIds.Count >= 3)
+        if (Config.curGameId == (int)GAMEID.SLOTJUICYGARDEN && scatterColumnIds.Count >= 3)
         {
             for (int i = 0; i < scatterColumnIds.Count; i++)
             {
@@ -1429,7 +1429,7 @@ public class BaseSlotGameView : GameView
     {
         //if (currentIndexStop < 4)
         //{
-        if (countScatter >= 2 && currentIndexStop == indexCheck3rdScatter - 1 && Config.curGameId != (int)GAMEID.SLOT_JUICY_GARDEN)
+        if (countScatter >= 2 && currentIndexStop == indexCheck3rdScatter - 1 && Config.curGameId != (int)GAMEID.SLOTJUICYGARDEN)
         {
             DOTween.Sequence()
                 .AppendInterval(2.0f)

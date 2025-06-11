@@ -28,14 +28,7 @@ public class ChatIngameView : BaseView
         for (var i = 1; i <= 10; i++)
         {
             string msg = "";
-            if (Globals.Config.curGameId == (int)Globals.GAMEID.DOMINO)
-            {
-                msg = Globals.Config.getTextConfig("chat_text_" + i);
-            }
-            else
-            {
-                msg = Globals.Config.getTextConfig(string.Format("chat_text_{0}_{1}", Globals.Config.curGameId, i));
-            }
+            msg = Globals.Config.getTextConfig(string.Format("chat_text_{0}_{1}", Globals.Config.curGameId, i));
             var item = Instantiate(itemChatText, scrText.content);
 
             item.transform.GetComponentInChildren<TextMeshProUGUI>().text = msg;

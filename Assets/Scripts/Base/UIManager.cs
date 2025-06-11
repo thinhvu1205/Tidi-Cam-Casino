@@ -476,28 +476,19 @@ public class UIManager : MonoBehaviour
     public void showGame()
     {
 
-        if (gameView != null && curGameId != (int)Globals.GAMEID.SLOT_SIXIANG)
+        if (gameView != null && curGameId != (int)Globals.GAMEID.SLOTSIXIANG)
         {
 
             Destroy(gameView.gameObject);
 
         }
-        if (gameView != null && curGameId == (int)Globals.GAMEID.SLOT_SIXIANG)
+        if (gameView != null && curGameId == (int)Globals.GAMEID.SLOTSIXIANG)
         {
             return;
         }
         gameView = null;
         switch (curGameId)
         {
-            case (int)Globals.GAMEID.DUMMY:
-                {
-                    Globals.Logging.Log("Di vao day RUMMY");
-                    gameView = Instantiate(loadPrefabGame("DummyView"), parentGame).GetComponent<DummyView>();
-                    //gameView.transform.eulerAngles = new Vector3(0, 0, -90);
-                    Globals.Logging.Log("showGame RUMMY 2   " + (gameView != null));
-                    break;
-                }
-
             case (int)Globals.GAMEID.SLOTNOEL:
                 {
                     Globals.Logging.Log("showGame SLOTNOEL");
@@ -510,49 +501,29 @@ public class UIManager : MonoBehaviour
                     gameView = Instantiate(loadPrefabGame("SlotTarzanView"), parentGame).GetComponent<SlotTarzanView>();
                     break;
                 }
-            case (int)Globals.GAMEID.SLOT_JUICY_GARDEN:
+            case (int)Globals.GAMEID.SLOTJUICYGARDEN:
                 {
                     Globals.Logging.Log("showGame SLOT_9900");
                     gameView = Instantiate(loadPrefabGame("SlotJuicyGardenView"), parentGame).GetComponent<SlotJuicyGardenView>();
                     break;
                 }
-            case (int)Globals.GAMEID.SLOT_INCA:
+            case (int)Globals.GAMEID.SLOTINCA:
                 {
                     Globals.Logging.Log("showGame SLOTINCA");
 
                     gameView = Instantiate(loadPrefabGame("SlotInCaView"), parentGame).GetComponent<SlotInCaView>();
                     break;
                 }
-            case (int)Globals.GAMEID.SLOT_SIXIANG:
+            case (int)Globals.GAMEID.SLOTSIXIANG:
                 {
                     Globals.Logging.Log("showGame SLOT_SIXIANG");
                     gameView = Instantiate(loadPrefabGame("SiXiangView"), parentGame).GetComponent<SiXiangView>();
                     break;
                 }
-            case (int)Globals.GAMEID.SLOT20FRUIT:
+            case (int)Globals.GAMEID.SLOTFRUIT:
                 {
                     Globals.Logging.Log("showGame SLOT20FRUIT");
                     gameView = Instantiate(loadPrefabGame("SlotFruitView"), parentGame).GetComponent<SlotFruitView>();
-                    break;
-                }
-            case (int)Globals.GAMEID.LUCKY_89:
-                {
-                    Globals.Logging.Log("showGame Lucky89");
-                    gameView = Instantiate(loadPrefabGame("Lucky89View"), parentGame).GetComponent<Lucky89View>();
-                    break;
-                }
-            case (int)Globals.GAMEID.KEANG:
-                {
-                    Globals.Logging.Log("showGame KEANG");
-                    gameView = Instantiate(loadPrefabGame("KeangView"), parentGame).GetComponent<KeangView>();
-                    //gameView.transform.eulerAngles = new Vector3(0, 0, -90);
-                    break;
-                }
-            case (int)Globals.GAMEID.GAOGEA:
-                {
-                    Globals.Logging.Log("showGame GAOGEA");
-                    gameView = Instantiate(loadPrefabGame("GaoGeaView"), parentGame).GetComponent<GaoGeaView>();
-                    //gameView.transform.eulerAngles = new Vector3(0, 0, -90);
                     break;
                 }
             case (int)Globals.GAMEID.SICBO:
@@ -562,29 +533,13 @@ public class UIManager : MonoBehaviour
                     //gameView.transform.eulerAngles = new Vector3(0, 0, -90);
                     break;
                 }
-            case (int)Globals.GAMEID.BANDAR_QQ:
-                {
-                    Globals.Logging.Log("showGame Bandar");
-                    gameView = Instantiate(loadPrefabGame("BandarQQView"), parentGame).GetComponent<BandarQQView>();
-                    //gameView.transform.eulerAngles = new Vector3(0, 0, -90);
-                    break;
-                }
-
-            case (int)Globals.GAMEID.RONGHO:
+            case (int)Globals.GAMEID.DRAGONTIGER:
                 {
                     Globals.Logging.Log("showGame RONGHO");
                     gameView = Instantiate(loadPrefabGame("DragonTigerView"), parentGame).GetComponent<DragonTigerView>();
                     //gameView.transform.eulerAngles = new Vector3(0, 0, -90);
                     break;
                 }
-            case (int)Globals.GAMEID.DOMINO:
-                {
-                    Globals.Logging.Log("showGame DOMINO");
-                    gameView = Instantiate(loadPrefabGame("DominoGaple"), parentGame).GetComponent<DominoGapleView>();
-                    //gameView.transform.eulerAngles = new Vector3(0, 0, -90);
-                    break;
-                }
-
             case (int)Globals.GAMEID.BACCARAT:
                 {
                     Globals.Logging.Log("showGame BACCARAT");
@@ -600,7 +555,7 @@ public class UIManager : MonoBehaviour
                     Debug.Log("Set Game View Binh:" + gameView);
                     break;
                 }
-            case (int)Globals.GAMEID.KARTU_QIU:
+            case (int)Globals.GAMEID.SHANDEALER:
                 {
                     Globals.Logging.Log("showGame KARTU_QIU");
                     gameView = Instantiate(loadPrefabGame("BorkKdengView"), parentGame).GetComponent<BorkKDengView>();
@@ -612,42 +567,6 @@ public class UIManager : MonoBehaviour
                     Globals.Logging.Log("showGame BLACKJACK");
                     gameView = Instantiate(loadPrefabGame("BlackJackView"), parentGame).GetComponent<BlackJackView>();
                     //gameView.transform.eulerAngles = new Vector3(0, 0, -90);
-                    break;
-                }
-            case (int)Globals.GAMEID.TONGITS_OLD:
-                {
-                    Globals.Logging.Log("showGame TONGITS thuong");
-                    gameView = Instantiate(loadPrefabGame("TongitsView"), parentGame).GetComponent<TongitsView>();
-                    break;
-                }
-            case (int)Globals.GAMEID.TONGITS:
-                {
-                    Globals.Logging.Log("showGame TONGITS butasan");
-                    gameView = Instantiate(loadPrefabGame("TongitsView"), parentGame).GetComponent<TongitsView>();
-                    break;
-                }
-            case (int)Globals.GAMEID.TONGITS_JOKER:
-                {
-                    Globals.Logging.Log("showGame TONGITS joker");
-                    gameView = Instantiate(loadPrefabGame("TongitsView"), parentGame).GetComponent<TongitsView>();
-                    break;
-                }
-            case (int)Globals.GAMEID.LUCKY9:
-                {
-                    Globals.Logging.Log("showGame LUCKY9");
-                    gameView = Instantiate(loadPrefabGame("Lucky9View"), parentGame).GetComponent<Lucky9View>();
-                    break;
-                }
-            case (int)Globals.GAMEID.SABONG:
-                {
-                    Globals.Logging.Log("showGame SABONG");
-                    gameView = Instantiate(loadPrefabGame("SabongView"), parentGame).GetComponent<SabongGameView>();
-                    break;
-                }
-            case (int)Globals.GAMEID.MINE_FINDING:
-                {
-                    Globals.Logging.Log("showGame MineFinding");
-                    gameView = Instantiate(loadPrefabGame("PopupMineFinding"), parentGame).GetComponent<MineFindingView>();
                     break;
                 }
             //case (int)Globals.GAMEID.ROULETTE:

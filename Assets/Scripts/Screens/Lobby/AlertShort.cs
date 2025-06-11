@@ -57,8 +57,7 @@ public class AlertShort : MonoBehaviour
         {
             switch (Globals.Config.curGameId)
             {
-                case (int)Globals.GAMEID.SLOT_SIXIANG:
-                case (int)Globals.GAMEID.LUCKY9:
+                case (int)Globals.GAMEID.SLOTSIXIANG:
                     {
                         posType = POSITION.CLOCK_8H30;
                         break;
@@ -73,42 +72,23 @@ public class AlertShort : MonoBehaviour
                         posType = POSITION.CLOCK_8H00;
                         break;
                     }
-                case (int)Globals.GAMEID.BANDAR_QQ:
-                case (int)Globals.GAMEID.RONGHO:
+                case (int)Globals.GAMEID.DRAGONTIGER:
                     {
                         posType = POSITION.CLOCK_4H30;
                         break;
                     }
-                case (int)Globals.GAMEID.KARTU_QIU:
+                case (int)Globals.GAMEID.SHANDEALER:
                 case (int)Globals.GAMEID.SLOTNOEL:
-                case (int)Globals.GAMEID.SLOT_JUICY_GARDEN:
+                case (int)Globals.GAMEID.SLOTJUICYGARDEN:
                 case (int)Globals.GAMEID.SLOTTARZAN:
-                case (int)Globals.GAMEID.SLOT20FRUIT:
+                case (int)Globals.GAMEID.SLOTFRUIT:
                     {
                         posType = POSITION.CLOCK_2H00;
                         break;
                     }
                 case (int)Globals.GAMEID.PUSOY:
-                case (int)Globals.GAMEID.LUCKY_89:
                     {
                         posType = POSITION.CLOCK_4H15;
-                        break;
-                    }
-                case (int)Globals.GAMEID.TONGITS:
-                case (int)Globals.GAMEID.TONGITS_OLD:
-                case (int)Globals.GAMEID.TONGITS_JOKER:
-                    {
-                        posType = POSITION.CLOCK_3H30;
-                        break;
-                    }
-                case (int)Globals.GAMEID.SABONG:
-                    {
-                        posType = POSITION.CLOCK_3H45;
-                        break;
-                    }
-                case (int)Globals.GAMEID.MINE_FINDING:
-                    {
-                        posType = POSITION.CLOCK_11H00;
                         break;
                     }
             }

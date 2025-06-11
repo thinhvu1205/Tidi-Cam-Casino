@@ -88,10 +88,9 @@ public class LeaderBoardView : BaseView
         foreach (JObject data in Config.listRankGame) if (listGameID.Contains((int)data["id"])) listRankGame.Add(data);
         Config.listRankGame = listRankGame;
         List<int> gameIds = new(){
-                (int)GAMEID.TONGITS,(int)GAMEID.TONGITS_OLD,(int)GAMEID.PUSOY,(int)GAMEID.TONGITS_JOKER,(int)GAMEID.LUCKY9,
-                (int)GAMEID.SLOT20FRUIT,(int)GAMEID.LUCKY_89,(int)GAMEID.SABONG,(int)GAMEID.SLOT_INCA,(int)GAMEID.BACCARAT,
-                (int)GAMEID.SICBO,(int)GAMEID.SLOTNOEL,(int)GAMEID.SLOTTARZAN,(int)GAMEID.SLOT_JUICY_GARDEN,(int)GAMEID.SLOT_SIXIANG,
-                (int)GAMEID.MINE_FINDING
+                (int)GAMEID.PUSOY,(int)GAMEID.SLOTFRUIT,(int)GAMEID.SLOTINCA,(int)GAMEID.BACCARAT,
+                (int)GAMEID.SICBO,(int)GAMEID.SLOTNOEL,(int)GAMEID.SLOTTARZAN,(int)GAMEID.SLOTJUICYGARDEN,
+                (int)GAMEID.SLOTSIXIANG,
             };
         for (int i = 0; i < Config.listRankGame.Count; i++)
         {

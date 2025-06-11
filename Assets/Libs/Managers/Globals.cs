@@ -249,42 +249,22 @@ namespace Globals
     }
     public enum GAMEID
     {
-        GAOGEA = 8100,//show
-        KEANG = 8013,
-        DUMMY = 8015,
-        SLOT_20_LINE = 1009, //doi cho 50.tam thoi;
-        SLOT_20_LINE_JP = 1010,
         TIENLEN = 9009,
-        SLOT100LINE = 1008,
         ROULETTE = 1111,
-        SLOT_INCA = 9008, // doi cho 20.tam thoi
-        TONGITS_OLD = 8091,
-        TONGITS = 8090,
-        TONGITS_JOKER = 8088,
-        XOCDIA = 8813,
-        SHOW = 8808,
-        BAUCUA = 8803,
-        LUCKY_89 = 8802,
-        SHANKOEMEE = 1001,
+        SLOTINCA = 9008,
+        OSPHE = 8808,
         PUSOY = 8044,
-        BURMESE_POKER = 8819,
         BLACKJACK = 9501,
         BACCARAT = 9500,
-        TONGITS11 = 8089,
-        LUCKY9 = 6688,
-        SLOT20FRUIT = 9007,
-        THREE_CARD_POKER = 8012,
-        SABONG = 8011,
+        SLOTFRUIT = 9007,
+        CATTE = 8012,
         SICBO = 8010,
         SLOTNOEL = 8818,
-        SLOT_JUICY_GARDEN = 9900,
+        SLOTJUICYGARDEN = 9900,
         SLOTTARZAN = 9950,
-        DOMINO = 8020,
-        BANDAR_QQ = 8021,
-        SLOT_SIXIANG = 9011,
-        RONGHO = 8009,
-        KARTU_QIU = 8805,
-        MINE_FINDING = 8804
+        SLOTSIXIANG = 9011,
+        DRAGONTIGER = 8009,
+        SHANDEALER = 8805, // borkdeng
     }
     public enum DOTWEEN_TAG
     {
@@ -445,22 +425,6 @@ namespace Globals
 
 
     }
-    public class SOUND_DUMMY
-    {
-        public const string BURNED = "Sounds/DUMMY/effect_burned";
-        public const string DUMMY = "Sounds/DUMMY/effect_dummy";
-        public const string FINISH = "Sounds/DUMMY/effect_finish";
-        public const string FULL_DUMMY = "Sounds/DUMMY/effect_fulldummy";
-        public const string KEEP_HEAD = "Sounds/DUMMY/effect_keephead";
-        public const string KNOCK_COLOR = "Sounds/DUMMY/effect_knockcolor";
-        public const string KNOCK_DARK = "Sounds/DUMMY/effect_knockdark";
-        public const string KNOCK_DARK_COLOR = "Sounds/DUMMY/effect_knockdarkcolor";
-        public const string KNOCK_OUT = "Sounds/DUMMY/effect_knockout";
-        public const string CHIABAI = "Sounds/DUMMY/effect_lc";
-        public const string MELD = "Sounds/DUMMY/effect_meld";
-        public const string SHOW = "Sounds/DUMMY/effect_show";
-
-    }
     public class SOUND_DOMINO
     {
         public const string CHIP_WIN = "Sounds/Domino/chips_winner";
@@ -477,16 +441,6 @@ namespace Globals
         public const string WIN_BANKER = "Sounds/Binh/win_banker";
         public const string COMPARE_WIN = "Sounds/Binh/compare_win";
         public const string COMPARE_LOSE = "Sounds/Binh/compare_lose";
-    }
-
-    public class SOUND_TONGITS
-    {
-        public const string TgFightMusic = "Sounds/Tongits/fight";
-        public const string TgFoldMusic = "Sounds/Tongits/fold";
-        public const string TgChallengetMusic = "Sounds/Tongits/challenge";
-        public const string TgBurnedMusic = "Sounds/Tongits/burned";
-        public const string TgTongitsMusic = "Sounds/Tongits/tongits";
-        public const string TgEatcardMusic = "Sounds/Tongits/eat_card";
     }
 
     public class User
@@ -674,8 +628,8 @@ namespace Globals
         public static JArray arrOnlistTrue = new JArray();
         public static JArray arrBannerLobby = new JArray();
 
-        public static List<int> listGamePlaynow = new List<int>() { (int)GAMEID.RONGHO, (int)GAMEID.BANDAR_QQ, (int)GAMEID.ROULETTE, (int)GAMEID.SLOT_SIXIANG, (int)GAMEID.SLOT20FRUIT, (int)GAMEID.SLOT_INCA, (int)GAMEID.SLOTNOEL, (int)GAMEID.SLOT_JUICY_GARDEN, (int)GAMEID.SLOTTARZAN, (int)GAMEID.XOCDIA, (int)GAMEID.BAUCUA, (int)GAMEID.MINE_FINDING };
-        public static List<int> listGameSlot = new List<int>() { (int)GAMEID.SLOT_SIXIANG, (int)GAMEID.SLOT_INCA, (int)GAMEID.SLOT20FRUIT, (int)GAMEID.SLOT_JUICY_GARDEN, (int)GAMEID.SLOTTARZAN, (int)GAMEID.SLOTNOEL };
+        public static List<int> listGamePlaynow = new List<int>() { (int)GAMEID.DRAGONTIGER, (int)GAMEID.ROULETTE, (int)GAMEID.SLOTSIXIANG, (int)GAMEID.SLOTFRUIT, (int)GAMEID.SLOTINCA, (int)GAMEID.SLOTNOEL, (int)GAMEID.SLOTJUICYGARDEN, (int)GAMEID.SLOTTARZAN };
+        public static List<int> listGameSlot = new List<int>() { (int)GAMEID.SLOTSIXIANG, (int)GAMEID.SLOTINCA, (int)GAMEID.SLOTFRUIT, (int)GAMEID.SLOTJUICYGARDEN, (int)GAMEID.SLOTTARZAN, (int)GAMEID.SLOTNOEL };
 
 
         public static bool isShowTableWithGameId(int gameID)
@@ -683,14 +637,12 @@ namespace Globals
             switch (gameID)
             {
                 case (int)GAMEID.SLOTNOEL:
-                case (int)GAMEID.SLOT20FRUIT:
-                case (int)GAMEID.SLOT_INCA:
-                case (int)GAMEID.SLOT_JUICY_GARDEN:
+                case (int)GAMEID.SLOTFRUIT:
+                case (int)GAMEID.SLOTINCA:
+                case (int)GAMEID.SLOTJUICYGARDEN:
                 case (int)GAMEID.SLOTTARZAN:
-                case (int)GAMEID.BANDAR_QQ:
-                case (int)GAMEID.RONGHO:
-                case (int)GAMEID.SLOT_SIXIANG:
-                case (int)GAMEID.MINE_FINDING:
+                case (int)GAMEID.DRAGONTIGER:
+                case (int)GAMEID.SLOTSIXIANG:
                     {
                         return false;
                     }
@@ -747,19 +699,11 @@ namespace Globals
             S = ((code - 1) / 13) + 1; //>=1 <=4
             N = ((code - 1) % 13) + 2; // >=2 , <=14
 
-            if (curGameId == (int)GAMEID.LUCKY_89
-                || curGameId == (int)GAMEID.KEANG
-                || curGameId == (int)GAMEID.RONGHO)
+            if (curGameId == (int)GAMEID.DRAGONTIGER)
             {
                 N = ((code - 1) % 13) + 1;
             }
 
-            if (curGameId == (int)GAMEID.TONGITS_JOKER ||
-                curGameId == (int)GAMEID.TONGITS11)
-            {
-                if (N == 14) N = 1;
-            }
-            //nameCard = N + getSuitInVN();
         }
 
         public static byte[] getByte(string str)

@@ -22,7 +22,11 @@ public class BundleDownloader : MonoBehaviour
 
     public void CheckAndDownloadAssets(string url, Action onFailCb = null, Action onCompleteCb = null)
     {
-        if (url.Equals("")) return;
+        if (url.Equals(""))
+        {
+            onFailCb?.Invoke();
+            return;
+        }
         if (!url[^1].Equals('/')) url += "/"; // if it does not end with "/" then add it
 #if UNITY_ANDROID
         string platformFolder = "/" + BundleHandler.PLATFORM.Android.ToString() + "/";

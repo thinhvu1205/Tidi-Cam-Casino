@@ -414,9 +414,8 @@ public class LoadConfig : MonoBehaviour
             Config.listGame = new();
             JArray tempListGameJA = jConfig["listGame"] as JArray;
             List<GAMEID> sortedListGI = new() {
-                 GAMEID.PUSOY,
-                GAMEID.BACCARAT, GAMEID.LUCKY_89, GAMEID.SABONG, GAMEID.SICBO, GAMEID.SLOTTARZAN, GAMEID.SLOT_INCA,
-                GAMEID.SLOT20FRUIT,  GAMEID.SLOT_JUICY_GARDEN, GAMEID.SLOT_SIXIANG
+                GAMEID.PUSOY,GAMEID.BACCARAT, GAMEID.SICBO, GAMEID.SLOTTARZAN, GAMEID.SLOTINCA,
+                GAMEID.SLOTFRUIT, GAMEID.SLOTJUICYGARDEN, GAMEID.SLOTSIXIANG
             };
             // while (sortedListGI.Count > 0)
             // {

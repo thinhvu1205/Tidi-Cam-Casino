@@ -109,7 +109,7 @@ public class SocketSend
         data["evt"] = "dc";
         data["arr"] = arr;
         WebSocketManager.getInstance().sendDataGame(data.ToString(Newtonsoft.Json.Formatting.None));
-        Debug.Log("send đánh bài"+data.ToString(Newtonsoft.Json.Formatting.None));
+        Debug.Log("send đánh bài" + data.ToString(Newtonsoft.Json.Formatting.None));
     }
     public static void boLuot()
     {
@@ -354,7 +354,7 @@ public class SocketSend
             // else
             // {
             sendSelectG2(gameId);
-            if (Globals.Config.listGamePlaynow.Contains(gameId) || gameId == (int)GAMEID.SLOT_SIXIANG || Globals.User.userMain.VIP < 1)
+            if (Globals.Config.listGamePlaynow.Contains(gameId) || gameId == (int)GAMEID.SLOTSIXIANG || Globals.User.userMain.VIP < 1)
             {
                 sendPlayNow(gameId);
                 SocketIOManager.getInstance().emitSIOCCCNew(Globals.Config.formatStr("ActionPlayNow_%d", gameId));

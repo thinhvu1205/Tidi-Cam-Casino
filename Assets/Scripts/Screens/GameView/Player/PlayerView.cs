@@ -97,21 +97,7 @@ public class PlayerView : MonoBehaviour
             var vecPos = itemVip.transform.localPosition;
             var vecPosThis = transform.localPosition;
             var size = gameObject.GetComponent<RectTransform>().sizeDelta;
-            if (Config.curGameId == (int)GAMEID.TONGITS_OLD || Config.curGameId == (int)GAMEID.TONGITS_JOKER || Config.curGameId == (int)GAMEID.TONGITS)
-            {
-                switch (idPosTongits)
-                {
-                    case 0: vecPos.x = 55; break;
-                    case 1: vecPos.x = -100; break;
-                    case 2: vecPos.x = 100; break;
-                }
-            }
-            else if (Config.curGameId == (int)GAMEID.LUCKY_89 || Config.curGameId == (int)GAMEID.GAOGEA)
-            {
-                vecPos.x = vecPosThis.x < 0 ? 100 : -100;
-                vecPos.y = -60;
-            }
-            else if (Config.curGameId == (int)GAMEID.SICBO)
+            if (Config.curGameId == (int)GAMEID.SICBO)
             {
                 vecPos.x = vecPosThis.x < 0 ? -100 : 100;
                 vecPos.y = 0;
@@ -365,22 +351,7 @@ public class PlayerView : MonoBehaviour
 
     public void setPosThanhBarThisPlayer()
     {
-        if (
-            Globals.Config.curGameId == (int)Globals.GAMEID.TONGITS_JOKER ||
-            Globals.Config.curGameId == (int)Globals.GAMEID.TONGITS ||
-            Globals.Config.curGameId == (int)Globals.GAMEID.TONGITS11 ||
-            Globals.Config.curGameId == (int)Globals.GAMEID.TONGITS_OLD
-
-        )
-        {
-            bkgThanhBar.transform.localPosition = new Vector2(-120, 5);
-            bkgThanhBar.GetComponent<Image>().enabled = false;
-            txtMoney.fontSize = 23;
-            txtName.fontSize = 26;
-            txtName.gameObject.transform.parent.transform.localPosition = new Vector2(txtName.gameObject.transform.parent.transform.localPosition.x, 15);
-            return;
-        }
-        else if (Globals.Config.curGameId == (int)Globals.GAMEID.SICBO)
+        if (Globals.Config.curGameId == (int)Globals.GAMEID.SICBO)
         {
             bkgThanhBar.transform.localPosition = new Vector2(113, -20);
         }
@@ -526,12 +497,12 @@ public class PlayerView : MonoBehaviour
         {
             height = 50;
         }
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.BANDAR_QQ || Globals.Config.curGameId == (int)Globals.GAMEID.PUSOY)
+        if (Globals.Config.curGameId == (int)Globals.GAMEID.PUSOY)
         {
             lbChipWinLose.transform.localPosition = new Vector2(0, -30);
             height = 50;
         }
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.RONGHO)
+        if (Globals.Config.curGameId == (int)Globals.GAMEID.DRAGONTIGER)
         {
             //lbChipWinLose.transform.localPosition = new Vector2(0, );
             height = 50;
@@ -545,18 +516,9 @@ public class PlayerView : MonoBehaviour
         {
             height = 60;
         }
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.KARTU_QIU)
+        if (Globals.Config.curGameId == (int)Globals.GAMEID.SHANDEALER)
         {
             height = 60;
-        }
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.DOMINO)
-        {
-            lbChipWinLose.transform.localPosition = new Vector2(0, -30);
-            height = 50;
-        }
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.LUCKY9)
-        {
-            height = 35;
         }
         lbChipWinLose.gameObject.SetActive(true);
         if (seqTextFly != null)
@@ -578,19 +540,9 @@ public class PlayerView : MonoBehaviour
         if (!isShow) return;
         float posx = isLeft == true ? -60 : 60;
         float posy = isUp == true ? 25 : -25;
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.GAOGEA)
-        {
-            posy = -82;
-            posx = isLeft == true ? -82 : 82;
-        }
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.KARTU_QIU)
+        if (Globals.Config.curGameId == (int)Globals.GAMEID.SHANDEALER)
         {
             posx = isLeft == true ? -47 : 47;
-        }
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.LUCKY9)
-        {
-            posx = isLeft == true ? -85 : 85;
-            posy = isUp == true ? 50 : -50;
         }
         dealerIcon.transform.DOLocalMove(new Vector2(posx, posy), 0);
         dealerIcon.GetComponent<CanvasGroup>().alpha = 0;

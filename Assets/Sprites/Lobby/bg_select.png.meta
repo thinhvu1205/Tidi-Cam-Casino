@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a35a9dcd59cec004da60099ad237fd50
+guid: 8ebe15ceb30cce64ba8305925c69d096
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3128186192122507992
-    second: bg_select_0
+      213: 6559232901167061493
+    second: bg_select 1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -76,8 +76,8 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 100
-    crunchedCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -118,38 +118,26 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg_select_0
+      name: bg_select 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 160
-        height: 81
+        width: 46
+        height: 179
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 78, y: 39, z: 78, w: 39}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d27eb494cc896b20800000000000000
-      internalID: 3128186192122507992
+      spriteID: 5f91e114293170b50800000000000000
+      internalID: 6559232901167061493
       vertices: []
       indices: 
       edges: []
@@ -157,7 +145,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 89729a29c37e8c343b0ad5b3dd5efc5f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -165,7 +153,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bg_select_0: 3128186192122507992
+      bg_select 1_0: 6559232901167061493
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

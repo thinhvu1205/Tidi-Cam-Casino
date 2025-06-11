@@ -62,7 +62,7 @@ public class LobbyView : BaseView
         animQuickPlay.AnimationState.SetAnimation(0, "coTag", true);
     }
 
-    List<GAMEID> listSlot = new List<GAMEID>() { GAMEID.DOMINO, GAMEID.SLOT_SIXIANG, GAMEID.SLOTTARZAN, GAMEID.SLOT20FRUIT, GAMEID.SLOT_JUICY_GARDEN, GAMEID.SLOT_INCA, GAMEID.SLOTNOEL, GAMEID.SLOT_SIXIANG };
+    List<GAMEID> listSlot = new List<GAMEID>() { GAMEID.SLOTSIXIANG, GAMEID.SLOTTARZAN, GAMEID.SLOTFRUIT, GAMEID.SLOTJUICYGARDEN, GAMEID.SLOTINCA, GAMEID.SLOTNOEL, GAMEID.SLOTSIXIANG };
 
     void OnClickTab(Button btn)
     {
@@ -433,20 +433,18 @@ public class LobbyView : BaseView
         }
 
         _AllGameIGs.Clear();
-        List<int> slotGames = new() { (int)GAMEID.DOMINO, (int)GAMEID.SLOT_SIXIANG, (int)GAMEID.SLOTTARZAN, (int)GAMEID.SLOTNOEL, (int)GAMEID.SLOT_INCA, (int)GAMEID.SLOT_JUICY_GARDEN, (int)GAMEID.SLOT20FRUIT };
+        List<int> slotGames = new() { (int)GAMEID.SLOTSIXIANG, (int)GAMEID.SLOTTARZAN, (int)GAMEID.SLOTNOEL, (int)GAMEID.SLOTINCA, (int)GAMEID.SLOTJUICYGARDEN, (int)GAMEID.SLOTFRUIT };
         Rect sizeCell = m_GamesSR.GetComponent<RectTransform>().rect;
         for (var i = 0; i < Config.listGame.Count; i++)
         {
             JObject data = (JObject)Config.listGame[i];
             int gameId = (int)data["id"];
-            SkeletonDataAsset skeAsset = BundleHandler.LoadSkeletonDataAsset("AnimIconGame/" + gameId + "/skeleton_SkeletonData");
-            if (skeAsset == null) continue;
+            Sprite iconS = BundleHandler.LoadSprite("Sprite Assets/Game icons/" + gameId);
+            if (iconS == null) continue;
             ItemGame item = null;
             switch (gameId)
             {
-                case (int)GAMEID.LUCKY9:
                 case (int)GAMEID.PUSOY:
-                case (int)GAMEID.TONGITS_OLD:
                     item = Instantiate(gameItemObject, m_GamesSR.content).GetComponent<ItemGame>();
                     item.transform.SetSiblingIndex(0);
                     break;
@@ -459,22 +457,22 @@ public class LobbyView : BaseView
             item.transform.localScale = Vector3.one;
             item.transform.position = Vector3.zero;
             item.gameObject.SetActive(true);
-            item.setInfo(gameId, skeAsset, materialDefault, () => onClickGame(item), true);
+            item.setInfo(gameId, null, materialDefault, iconS, () => onClickGame(item), true);
             if (gameId == (int)GAMEID.PUSOY && UIManager.instance.PusoyJackPot > 0) item.UpdateJackpot(UIManager.instance.PusoyJackPot);
             _AllGameIGs.Add(item);
         }
         foreach (ItemGame ig in _AllGameIGs)
         {
             if (!slotGames.Contains(ig.GameId)) continue;
-            SkeletonDataAsset bigSlotGameSDA = BundleHandler.LoadSkeletonDataAsset("AnimIconGame/" + ig.GameId + "-big" + "/skeleton_SkeletonData");
-            if (bigSlotGameSDA == null) continue;
+            Sprite iconS = BundleHandler.LoadSprite("Sprite Assets/Game icons/" + ig.GameId + "-big");
+            if (iconS == null) continue;
             ItemGame bigSlotIconIG = Instantiate(gameItemObject, m_OnlySloticonTf).GetComponent<ItemGame>();
 
             bigSlotIconIG.name = ig.GameId.ToString();
             bigSlotIconIG.transform.localScale = Vector3.one;
             bigSlotIconIG.transform.position = Vector3.zero;
             bigSlotIconIG.gameObject.SetActive(true);
-            bigSlotIconIG.setInfo(ig.GameId, bigSlotGameSDA, materialDefault, () => onClickGame(bigSlotIconIG), false);
+            bigSlotIconIG.setInfo(ig.GameId, null, materialDefault, iconS, () => onClickGame(bigSlotIconIG), false);
         }
         _ChangeTabGameProversion();
     }
@@ -514,7 +512,7 @@ public class LobbyView : BaseView
             return;
         }
         isClicked = true;
-        DOTween.Sequence().AppendInterval(Config.curGameId != (int)GAMEID.SLOT_SIXIANG ? 0.5f : 2.8f).AppendCallback(() =>
+        DOTween.Sequence().AppendInterval(Config.curGameId != (int)GAMEID.SLOTSIXIANG ? 0.5f : 2.8f).AppendCallback(() =>
         {
             isClicked = false;
             Config.isSendingSelectGame = false;
@@ -527,7 +525,7 @@ public class LobbyView : BaseView
             return;
         }
         Config.curGameId = itemGame.GameId;
-        if (Config.curGameId != (int)GAMEID.SLOT_SIXIANG)
+        if (Config.curGameId != (int)GAMEID.SLOTSIXIANG)
         {
             //game slot sixaing dùng service. k can select game. e đang thấy bị select game con này toàn bị treo trong bàn.
             Debug.Log("select game  " + itemGame.GameId);

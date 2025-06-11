@@ -142,11 +142,6 @@ public class HandleGame
         }
         switch (Globals.Config.curGameId)
         {
-            case (int)Globals.GAMEID.DUMMY:
-                {
-                    HandleDummy.processData(jData);
-                    break;
-                }
             case (int)Globals.GAMEID.SLOTNOEL:
                 {
                     HandleSlotNoelView.processData(jData);
@@ -157,34 +152,24 @@ public class HandleGame
                     HandleSlotTarzanView.processData(jData);
                     break;
                 }
-            case (int)Globals.GAMEID.SLOT_JUICY_GARDEN:
+            case (int)Globals.GAMEID.SLOTJUICYGARDEN:
                 {
                     HandleSlotJuicyGarden.processData(jData);
                     break;
                 }
-            case (int)Globals.GAMEID.SLOT_INCA:
+            case (int)Globals.GAMEID.SLOTINCA:
                 {
                     HandleSlotInCa.processData(jData);
                     break;
                 }
-            case (int)Globals.GAMEID.SLOT20FRUIT:
+            case (int)Globals.GAMEID.SLOTFRUIT:
                 {
                     HandleSlotFruit.processData(jData);
                     break;
                 }
-            case (int)Globals.GAMEID.KARTU_QIU:
+            case (int)Globals.GAMEID.SHANDEALER:
                 {
                     HandleBorKDengView.processData(jData);
-                    break;
-                }
-            case (int)Globals.GAMEID.KEANG:
-                {
-                    HandleKeangView.processData(jData);
-                    break;
-                }
-            case (int)Globals.GAMEID.GAOGEA:
-                {
-                    HandleGaoGea.processData(jData);
                     break;
                 }
             case (int)Globals.GAMEID.SICBO:
@@ -192,12 +177,7 @@ public class HandleGame
                     HandleSicboView.processData(jData);
                     break;
                 }
-            case (int)Globals.GAMEID.BANDAR_QQ:
-                {
-                    HandleBandarQQ.processData(jData);
-                    break;
-                }
-            case (int)Globals.GAMEID.RONGHO:
+            case (int)Globals.GAMEID.DRAGONTIGER:
                 {
                     HandleDragonTiger.processData(jData);
                     break;
@@ -205,11 +185,6 @@ public class HandleGame
             case (int)Globals.GAMEID.PUSOY:
                 {
                     ((BinhGameView)gameView).ProcessResponseData(jData);
-                    break;
-                }
-            case (int)Globals.GAMEID.DOMINO:
-                {
-                    HandleDomino.processData(jData);
                     break;
                 }
             case (int)Globals.GAMEID.BACCARAT:
@@ -222,42 +197,7 @@ public class HandleGame
                     HandleBlackJack.processData(jData);
                     break;
                 }
-            case (int)Globals.GAMEID.TONGITS_OLD:
-                {
-                    HandleTongits.processData(jData);
-                    break;
-                }
-            case (int)Globals.GAMEID.LUCKY9:
-                {
-                    HandleLucky9.processData(jData);
-                    break;
-                }
-            case (int)Globals.GAMEID.SABONG:
-                {
-                    ((SabongGameView)gameView).ProcessResponseData(jData);
-                    break;
-                }
-            case (int)Globals.GAMEID.LUCKY_89:
-                {
-                    ((Lucky89View)gameView).ProcessResponseData(jData);
-                    break;
-                }
-            case (int)Globals.GAMEID.TONGITS:
-                {
-                    HandleTongits.processData(jData);
-                    break;
-                }
-            case (int)Globals.GAMEID.TONGITS_JOKER:
-                {
-                    HandleTongits.processData(jData);
-                    break;
-                }
-            case (int)Globals.GAMEID.MINE_FINDING:
-                {
-                    ((MineFindingView)gameView).ProcessResponseData(jData);
-                    break;
-                }
-            case (int) Globals.GAMEID.TIENLEN:
+            case (int)Globals.GAMEID.TIENLEN:
                 {
                     HandleTienlenView.processData(jData);
                     break;

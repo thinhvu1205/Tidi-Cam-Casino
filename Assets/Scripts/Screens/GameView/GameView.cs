@@ -62,8 +62,8 @@ public class GameView : BaseView
         soundBg = SOUND_GAME.IN_GAME_COMMON;
         if (Config.curGameId == (int)GAMEID.SLOTNOEL) soundBg = SOUND_SLOT.BG_NOEL;
         else if (Config.curGameId == (int)GAMEID.SLOTTARZAN) soundBg = SOUND_SLOT.BG_TARZAN;
-        else if (Config.curGameId == (int)GAMEID.SLOT_JUICY_GARDEN) soundBg = SOUND_SLOT.BG_JUICY_GARDEN;
-        else if (Config.curGameId == (int)GAMEID.SLOT_SIXIANG) soundBg = SOUND_SLOT_BASE.BG_GAME;
+        else if (Config.curGameId == (int)GAMEID.SLOTJUICYGARDEN) soundBg = SOUND_SLOT.BG_JUICY_GARDEN;
+        else if (Config.curGameId == (int)GAMEID.SLOTSIXIANG) soundBg = SOUND_SLOT_BASE.BG_GAME;
         SoundManager.instance.playMusicInGame(soundBg);
         for (var i = 0; i < listPosView.Count; i++)
         {
@@ -764,7 +764,6 @@ public class GameView : BaseView
 
     protected virtual void updatePositionPlayerView()
     {
-        bool isTongits = Config.curGameId == (int)GAMEID.TONGITS || Config.curGameId == (int)GAMEID.TONGITS_OLD || Config.curGameId == (int)GAMEID.TONGITS_JOKER;
         for (var i = 0; i < players.Count; i++)
         {
             var idPos = getDynamicIndex(getIndexOf(players[i]));
@@ -772,40 +771,14 @@ public class GameView : BaseView
             players[i]._indexDynamic = idPos;
             players[i].updateItemVip(players[i].vip, idPos);
         }
-        if (isTongits) thisPlayer.playerView.setPosThanhBarThisPlayer();
     }
 
     protected virtual int getDynamicIndex(int index)
     {
         if (index == 0) return 0;
         var _index = index;
-        if (Config.curGameId == (int)GAMEID.GAOGEA) //9 nguoi
-        {
-            if (players.Count <= 6 && players.Count > 4)
-            {
-                if (index < 3)
-                {
-                    _index += 1;
-                }
-                else
-                {
-                    _index += 2;
-                }
 
-            }
-            else if (players.Count <= 4)
-            {
-                if (index == 1)
-                {
-                    _index += 1;
-                }
-                else
-                {
-                    _index += 3;
-                }
-            }
-        }
-        if (players.Count == 2 && Config.curGameId != (int)GAMEID.TONGITS && Config.curGameId != (int)GAMEID.TONGITS_OLD && Config.curGameId != (int)GAMEID.TONGITS_JOKER)
+        if (players.Count == 2)
         {
             _index++;
             return _index;
@@ -822,27 +795,10 @@ public class GameView : BaseView
 
         switch (Config.curGameId)
         {
-            case (int)GAMEID.DUMMY:
+            case (int)GAMEID.DRAGONTIGER:
                 {
-                    return plView.GetComponent<PlayerViewDummy>();
-                }
-            case (int)GAMEID.LUCKY_89:
-                {
-                    return plView.GetComponent<PlayerViewLucky89>();
-                }
-            case (int)GAMEID.KEANG:
-                {
-                    return plView.GetComponent<PlayerViewKeang>();
-                }
-            //case (int)GAMEID.RONGHO:
-            //    {
-            //        plView.transform.localScale = new Vector2(0.8f, 0.8f);
-            //        return plView.GetComponent<PlayerViewDragonTiger>();
-            //    }
-            case (int)GAMEID.SABONG:
-                {
-                    plView.transform.localScale = new Vector2(.75f, .75f);
-                    return plView.GetComponent<PlayerViewSabong>();
+                    plView.transform.localScale = new Vector2(0.8f, 0.8f);
+                    return plView.GetComponent<PlayerViewDragonTiger>();
                 }
         }
 

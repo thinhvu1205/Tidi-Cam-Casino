@@ -1,13 +1,13 @@
 ManifestFileVersion: 0
-CRC: 3950456105
+CRC: 2252625281
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: assets--resources--gameview--sixiang--spine
-      Dependencies: {}
-    Info_1:
       Name: assets--resources--animicongame
       Dependencies: {}
-    Info_2:
+    Info_1:
       Name: assets--resources--gameview--slotspine
+      Dependencies: {}
+    Info_2:
+      Name: assets--resources--gameview--sixiang--spine
       Dependencies: {}

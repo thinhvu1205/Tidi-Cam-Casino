@@ -167,7 +167,7 @@ public class HandleGame
                     HandleSlotFruit.processData(jData);
                     break;
                 }
-            case (int)Globals.GAMEID.SHANDEALER:
+            case (int)Globals.GAMEID.BORKDENG:
                 {
                     HandleBorKDengView.processData(jData);
                     break;

@@ -516,7 +516,7 @@ public class PlayerView : MonoBehaviour
         {
             height = 60;
         }
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.SHANDEALER)
+        if (Globals.Config.curGameId == (int)Globals.GAMEID.BORKDENG)
         {
             height = 60;
         }
@@ -540,7 +540,7 @@ public class PlayerView : MonoBehaviour
         if (!isShow) return;
         float posx = isLeft == true ? -60 : 60;
         float posy = isUp == true ? 25 : -25;
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.SHANDEALER)
+        if (Globals.Config.curGameId == (int)Globals.GAMEID.BORKDENG)
         {
             posx = isLeft == true ? -47 : 47;
         }

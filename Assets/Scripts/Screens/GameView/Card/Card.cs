@@ -299,7 +299,7 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         // // mỗi game có 1 điều encode # nhau
         if (N == Globals.Config.CODE_JOKER_RED || N == Globals.Config.CODE_JOKER_BLACK)
             return N;
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.SHANDEALER)
+        if (Globals.Config.curGameId == (int)Globals.GAMEID.BORKDENG)
             return 13 * (S - 1) + N;
         return 13 * (S - 1) + N - 1;
     }
@@ -318,7 +318,7 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         S = ((cod - 1) / 13) + 1; //>=1 <=4
         N = ((cod - 1) % 13) + 2; // >=2 , <=14
 
-        if (Globals.Config.curGameId == (int)Globals.GAMEID.SHANDEALER)
+        if (Globals.Config.curGameId == (int)Globals.GAMEID.BORKDENG)
         {
             N = ((cod - 1) % 13) + 1;
         }

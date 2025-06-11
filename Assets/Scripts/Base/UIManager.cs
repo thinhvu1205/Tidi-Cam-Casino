@@ -555,7 +555,7 @@ public class UIManager : MonoBehaviour
                     Debug.Log("Set Game View Binh:" + gameView);
                     break;
                 }
-            case (int)Globals.GAMEID.SHANDEALER:
+            case (int)Globals.GAMEID.BORKDENG:
                 {
                     Globals.Logging.Log("showGame KARTU_QIU");
                     gameView = Instantiate(loadPrefabGame("BorkKdengView"), parentGame).GetComponent<BorkKDengView>();

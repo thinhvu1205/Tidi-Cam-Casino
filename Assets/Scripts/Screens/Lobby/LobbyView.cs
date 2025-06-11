@@ -15,7 +15,7 @@ public class LobbyView : BaseView
     [SerializeField] List<Button> listTabs = new();
     [SerializeField]
     GameObject objDot, btnEx, gameItemObject, modelLobby, iconSafe, btnSafe, btnGiftCode, btnLeaderboard,
-        icNotiMail, icNotiFree, icNotiMessage, bannerTemp, btnBannerNews, m_Lottery;
+        icNotiMail, icNotiFree, icNotiMessage, bannerTemp, btnBannerNews, m_Lottery, m_PanelMore;
     [SerializeField] RectTransform tfBot, CenterNode;
     [SerializeField] TextMeshProUGUI lb_name, lb_id, lb_ag, lb_safe, lbTimeOnline, lbQuickGame;
     [SerializeField] Transform m_MiniGameIconTf, m_OnlySloticonTf;
@@ -56,8 +56,8 @@ public class LobbyView : BaseView
     }
     public void setQuickPlayGame(int gameID)
     {
-        lbQuickGame.gameObject.SetActive(true);
-        lbQuickGame.text = Config.getTextConfig(gameID.ToString()).ToUpper();
+        // lbQuickGame.gameObject.SetActive(true);
+        // lbQuickGame.text = Config.getTextConfig(gameID.ToString()).ToUpper();
         animQuickPlay.Initialize(true);
         animQuickPlay.AnimationState.SetAnimation(0, "coTag", true);
     }
@@ -544,7 +544,14 @@ public class LobbyView : BaseView
         }
     }
 
-
+    public void OnClickButtonMore()
+    {
+        m_PanelMore.SetActive(true);
+    }
+    public void OnClickCloseButtonMore()
+    {
+        m_PanelMore.SetActive(false);
+    }
     public void onClickEX()
     {
         UIManager.instance.openEx();

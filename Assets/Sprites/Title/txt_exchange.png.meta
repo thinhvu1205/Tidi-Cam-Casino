@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 786731b9cb4cce64f8a6f9c6fa13dcac
+guid: 1690182fc0369f2419a36bd60c02b7a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1685015043152139212
-    second: Bank_0
+      213: 595962609367607452
+    second: txt_exchange_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -76,8 +76,20 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 100
-    crunchedCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -106,41 +118,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bank_0
+      name: txt_exchange_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 131
-        height: 81
+        width: 155
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,50 +136,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43c2abfeebf9d98e0800000000000000
-      internalID: -1685015043152139212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bank_1
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 21
-        width: 22
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b59252e35d4915a43945c6115a9aefe2
-      internalID: -917757256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bank_2
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 8
-        width: 136
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7a5e0454b5f0bf44b24d0b8ac97a6a7
-      internalID: 2129422389
+      spriteID: c9865cee5d8454800800000000000000
+      internalID: 595962609367607452
       vertices: []
       indices: 
       edges: []
@@ -199,17 +145,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3d7173dfdf778ea4bb4522b2404542c0
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Bank_0: -1685015043152139212
-      Bank_1: -917757256
-      Bank_2: 2129422389
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

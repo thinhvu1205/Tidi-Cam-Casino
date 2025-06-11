@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 08e9c4d78a0edae4f96a9fda3c260a16
+guid: 93317404c53cf6542a07d06f7e0ec6c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4503108412141286106
-    second: Free Chip_0
+      213: -396640092908900394
+    second: txt_safe_0
   - first:
-      213: 4969614630359953051
-    second: Free Chip_1
+      213: -5238765919169641889
+    second: txt_safe_1
+  - first:
+      213: 8531223816534985912
+    second: txt_safe_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -49,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -79,8 +82,20 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 100
-    crunchedCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -109,92 +124,68 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Free Chip_0
+      name: txt_safe_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 231
-        height: 67
+        y: 0
+        width: 60
+        height: 69
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62dce35f1ceb181c0800000000000000
-      internalID: -4503108412141286106
+      spriteID: 6dfac7edfe9de7af0800000000000000
+      internalID: -396640092908900394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Free Chip_2
+      name: txt_safe_1
       rect:
         serializedVersion: 2
-        x: 235
+        x: 59
+        y: 1
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f528876172a2c47b0800000000000000
+      internalID: -5238765919169641889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: txt_safe_2
+      rect:
+        serializedVersion: 2
+        x: 134
         y: 18
-        width: 18
-        height: 16
+        width: 30
+        height: 43
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d716559ae55fc8646a768770a5671a37
-      internalID: 450118915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Free Chip_3
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 0
-        width: 148
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a960ac27f5a2f5544906a0774100fb0f
-      internalID: -530835827
+      spriteID: 8bc8beb5cdef46670800000000000000
+      internalID: 8531223816534985912
       vertices: []
       indices: 
       edges: []
@@ -210,10 +201,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Free Chip_0: -4503108412141286106
-      Free Chip_1: 4969614630359953051
-      Free Chip_2: 450118915
-      Free Chip_3: -530835827
+      txt_safe_0: -396640092908900394
+      txt_safe_1: -5238765919169641889
+      txt_safe_2: 8531223816534985912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

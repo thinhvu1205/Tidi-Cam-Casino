@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: d8b396c2044c9b243b1ba088bfad704c
+guid: 32877945a0a495249b9dc9b00f457571
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 1058934396347319318
     second: txt_sicbo_0
-  - first:
-      213: 8387557899831911072
-    second: txt_sicbo_1
-  - first:
-      213: 800237903771740962
-    second: txt_sicbo_2
-  - first:
-      213: 1777967712360396930
-    second: txt_sicbo_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -55,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -135,9 +126,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 103
-        height: 58
+        y: 0
+        width: 123
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,73 +142,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: txt_sicbo_1
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 0
-        width: 102
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a2a0808877966470800000000000000
-      internalID: 8387557899831911072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: txt_sicbo_2
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 4
-        width: 54
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22b2e1632240b1b00800000000000000
-      internalID: 800237903771740962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: txt_sicbo_3
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 1
-        width: 48
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 288fa5dd63c9ca810800000000000000
-      internalID: 1777967712360396930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -226,9 +154,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       txt_sicbo_0: 1058934396347319318
-      txt_sicbo_1: 8387557899831911072
-      txt_sicbo_2: 800237903771740962
-      txt_sicbo_3: 1777967712360396930
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

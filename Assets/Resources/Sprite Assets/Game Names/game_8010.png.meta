@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 8ea004af4426d2d449d2d22dc0277f3a
+guid: d8b396c2044c9b243b1ba088bfad704c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1661244407878929076
-    second: game_8010_0
+      213: 1058934396347319318
+    second: txt_sicbo_0
+  - first:
+      213: 8387557899831911072
+    second: txt_sicbo_1
+  - first:
+      213: 800237903771740962
+    second: txt_sicbo_2
+  - first:
+      213: 1777967712360396930
+    second: txt_sicbo_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -76,8 +85,20 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 100
-    crunchedCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -106,41 +127,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: game_8010_0
+      name: txt_sicbo_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 134
-        height: 74
+        y: 1
+        width: 103
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,8 +145,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c45b54f330312f8e0800000000000000
-      internalID: -1661244407878929076
+      spriteID: 61489b6193712be00800000000000000
+      internalID: 1058934396347319318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: txt_sicbo_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 102
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2a0808877966470800000000000000
+      internalID: 8387557899831911072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: txt_sicbo_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 4
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b2e1632240b1b00800000000000000
+      internalID: 800237903771740962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: txt_sicbo_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288fa5dd63c9ca810800000000000000
+      internalID: 1777967712360396930
       vertices: []
       indices: 
       edges: []
@@ -165,7 +225,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      game_8010_0: -1661244407878929076
+      txt_sicbo_0: 1058934396347319318
+      txt_sicbo_1: 8387557899831911072
+      txt_sicbo_2: 800237903771740962
+      txt_sicbo_3: 1777967712360396930
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

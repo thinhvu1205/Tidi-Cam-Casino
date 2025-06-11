@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 27a5534620c7537428b83e5e63bfc81f
+guid: 03a0688a06b0e2e4fa0fe61e40a623ab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3561430299939876472
-    second: Create Table_0
+      213: -43948914186687665
+    second: txt_createTable_0
   - first:
-      213: -3658352674144643315
-    second: Create Table_1
+      213: 7633752701844187166
+    second: txt_createTable_1
+  - first:
+      213: 6678858512803134822
+    second: txt_createTable_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -79,8 +82,20 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 100
-    crunchedCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -109,41 +124,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Create Table_0
+      name: txt_createTable_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 152
-        height: 74
+        width: 110
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87eaa301dfdbc6130800000000000000
-      internalID: 3561430299939876472
+      spriteID: f4b63a502bcd36ff0800000000000000
+      internalID: -43948914186687665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Create Table_1
+      name: txt_createTable_1
       rect:
         serializedVersion: 2
-        x: 156
-        y: 0
-        width: 115
-        height: 74
+        x: 107
+        y: 18
+        width: 80
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +163,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d07128a20abea3dc0800000000000000
-      internalID: -3658352674144643315
+      spriteID: e18e99013a980f960800000000000000
+      internalID: 7633752701844187166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: txt_createTable_2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 18
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d79b86e6210bc50800000000000000
+      internalID: 6678858512803134822
       vertices: []
       indices: 
       edges: []
@@ -189,8 +201,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Create Table_0: 3561430299939876472
-      Create Table_1: -3658352674144643315
+      txt_createTable_0: -43948914186687665
+      txt_createTable_1: 7633752701844187166
+      txt_createTable_2: 6678858512803134822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

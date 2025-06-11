@@ -581,6 +581,12 @@ public class UIManager : MonoBehaviour
             //        gameView = Instantiate(loadPrefabGame("SabongView"), parentGame).GetComponent<SabongGameView>();
             //        break;
             //    }
+            case (int)Globals.GAMEID.TIENLEN:
+                {
+                    Globals.Logging.Log("showGame tiến lên");
+                    gameView = Instantiate(loadPrefabGame("TienlenView"), parentGame).GetComponent<TienlenView>();
+                    break;
+                }
             default:
                 {
                     Globals.Logging.Log("-=-= chua co game nao ma vao. Lm thi tu them vao di;;;;");

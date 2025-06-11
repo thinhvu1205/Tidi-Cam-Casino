@@ -227,7 +227,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8150868953509315998
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3809,7 +3809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &9066583516963091173
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5655,6 +5655,7 @@ MonoBehaviour:
   inviteContainer: {fileID: 2140578468799514391}
   playerContainer: {fileID: 2111872997021713629}
   txtGameName: {fileID: 0}
+  m_HiddenPlayersTf: {fileID: 0}
   agTable: 0
   maxbet: 0
   delayEvents:
@@ -12195,7 +12196,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3133704028255683847
 RectTransform:
   m_ObjectHideFlags: 0

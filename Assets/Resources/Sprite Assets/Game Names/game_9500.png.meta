@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: dc5b5916d1fc24a4db69286b3bebca94
+guid: 0b437c1a6fbc36a4e8e486df020cf80c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3150625729259809658
-    second: game_9500_0
+      213: 8525369736610156731
+    second: txt_baccarat_0
+  - first:
+      213: -3628997176053663727
+    second: txt_baccarat_1
+  - first:
+      213: 7361495960536139939
+    second: txt_baccarat_2
+  - first:
+      213: -4699666866857840087
+    second: txt_baccarat_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -76,8 +85,20 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 100
-    crunchedCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -106,41 +127,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: game_9500_0
+      name: txt_baccarat_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 222
-        height: 74
+        width: 103
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,8 +145,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 684534b879ab644d0800000000000000
-      internalID: -3150625729259809658
+      spriteID: bb093892b92305670800000000000000
+      internalID: 8525369736610156731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: txt_baccarat_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 15
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118fc6eab4633adc0800000000000000
+      internalID: -3628997176053663727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: txt_baccarat_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2
+        width: 154
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8ca3fb299492660800000000000000
+      internalID: 7361495960536139939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: txt_baccarat_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922f34e62ed67ceb0800000000000000
+      internalID: -4699666866857840087
       vertices: []
       indices: 
       edges: []
@@ -165,7 +225,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      game_9500_0: -3150625729259809658
+      txt_baccarat_0: 8525369736610156731
+      txt_baccarat_1: -3628997176053663727
+      txt_baccarat_2: 7361495960536139939
+      txt_baccarat_3: -4699666866857840087
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

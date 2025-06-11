@@ -1,61 +1,61 @@
 
 skeleton.png
-size: 440,440
+size: 508,508
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 satar
   rotate: false
-  xy: 307, 77
+  xy: 2, 10
   size: 52, 52
   orig: 52, 52
   offset: 0, 0
   index: -1
 star
   rotate: false
-  xy: 203, 14
+  xy: 56, 15
   size: 47, 47
   orig: 52, 52
   offset: 3, 3
   index: -1
 text2
-  rotate: true
-  xy: 217, 131
+  rotate: false
+  xy: 2, 285
   size: 307, 115
   orig: 342, 128
   offset: 17, 7
   index: -1
 text_banker
-  rotate: true
-  xy: 334, 131
-  size: 307, 51
-  orig: 308, 51
+  rotate: false
+  xy: 217, 101
+  size: 214, 96
+  orig: 215, 96
   offset: 0, 0
   index: -1
 text_player
-  rotate: true
-  xy: 387, 145
-  size: 293, 51
-  orig: 294, 51
+  rotate: false
+  xy: 2, 402
+  size: 368, 104
+  orig: 369, 104
   offset: 0, 0
   index: -1
 text_tie
-  rotate: false
-  xy: 203, 63
-  size: 102, 66
-  orig: 103, 67
-  offset: 1, 1
+  rotate: true
+  xy: 372, 400
+  size: 106, 116
+  orig: 107, 117
+  offset: 0, 1
   index: -1
 tia
-  rotate: false
-  xy: 2, 22
+  rotate: true
+  xy: 311, 199
   size: 199, 195
   orig: 201, 197
   offset: 2, 2
   index: -1
 vang
   rotate: false
-  xy: 2, 219
+  xy: 2, 64
   size: 213, 219
   orig: 256, 253
   offset: 20, 17

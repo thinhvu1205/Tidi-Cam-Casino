@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 271ee5d40b2d3cf4a8e79c02d2ffc4f5
+guid: 14fe4bd21006aee4796a68eb646f4d05
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8102333758389539916
-    second: lobby2_0
+      213: -7378332623872826950
+    second: item_support_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -118,29 +118,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lobby2_0
+      name: item_support_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
-        height: 720
+        width: 82
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,8 +136,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4bb298fef5abe8f80800000000000000
-      internalID: -8102333758389539916
+      spriteID: ab162671295ea9990800000000000000
+      internalID: -7378332623872826950
       vertices: []
       indices: 
       edges: []
@@ -164,8 +152,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      lobby2_0: -8102333758389539916
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

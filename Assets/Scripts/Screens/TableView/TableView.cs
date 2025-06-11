@@ -80,7 +80,7 @@ public class TableView : BaseView
             SocketSend.sendSelectGame(Config.curGameId);
         }
 
-        if (Config.curGameId == (int)GAMEID.PUSOY || Config.curGameId == (int)GAMEID.CATTE || Config.curGameId == (int)GAMEID.SHANDEALER)
+        if (Config.curGameId == (int)GAMEID.PUSOY || Config.curGameId == (int)GAMEID.CATTE || Config.curGameId == (int)GAMEID.BORKDENG)
         {
             nodeJackpot.Stop();
             nodeJackpot.gameObject.SetActive(true);
@@ -125,7 +125,7 @@ public class TableView : BaseView
     }
     public void onClickRuleJP()
     {
-        if (Config.curGameId == (int)GAMEID.SHANDEALER)
+        if (Config.curGameId == (int)GAMEID.BORKDENG)
         {
             UIManager.instance.openRuleJPBork();
         }

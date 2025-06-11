@@ -444,13 +444,14 @@ public class LobbyView : BaseView
             ItemGame item = null;
             switch (gameId)
             {
-                case (int)GAMEID.PUSOY:
+                case (int)GAMEID.TIENLEN:
+                case (int)GAMEID.BORKDENG:
+                case (int)GAMEID.SLOTSIXIANG:
                     item = Instantiate(gameItemObject, m_GamesSR.content).GetComponent<ItemGame>();
                     item.transform.SetSiblingIndex(0);
                     break;
                 default:
                     item = Instantiate(gameItemObject, m_MiniGameIconTf).GetComponent<ItemGame>();
-
                     break;
             }
             item.name = gameId.ToString();

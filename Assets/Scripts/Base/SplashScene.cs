@@ -11,19 +11,19 @@ public class SplashScene : MonoBehaviour
     private void Awake()
     {
         SceneManager.LoadScene("MainScene");
-        // E:/code/khac/u/pr/Tidi-Cam-Casino/Assets/AssetBundles;
+        // D:/Unity projects/Tidi-Phil-Win777/Assets/AssetBundles;
         // https://storage.googleapis.com/kh9/AssetBundles/
+
         // string storedUrl = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, "");
         // m_BundleBD.CheckAndDownloadAssets(storedUrl,
         //     () =>
         //     {
-        //         Debug.Log(storedUrl + "xem đường dẫn bundle");
         //         m_BundleBD.SetProgressText("Retrying ...");
         //         StartCoroutine(retry());
         //     },
         //     () =>
         //     {
-
+        //         SceneManager.LoadScene("MainScene");
         //     });
 
         // IEnumerator retry()
@@ -39,6 +39,5 @@ public class SplashScene : MonoBehaviour
         //             SceneManager.LoadScene("MainScene");
         //         });
         // }
-
     }
 }

@@ -264,7 +264,7 @@ namespace Globals
         SLOTTARZAN = 9950,
         SLOTSIXIANG = 9011,
         DRAGONTIGER = 8009,
-        SHANDEALER = 8805, // borkdeng
+        BORKDENG = 8805, // borkdeng
     }
     public enum DOTWEEN_TAG
     {
@@ -512,7 +512,7 @@ namespace Globals
         public int mailUnRead = 0;
         public int messageUnRead = 0;
 
-        public List<JObject> listMailAdmin = new List<JObject>();
+        public List<JObject> listMailAdmin = new();
 
     }
     public class Config
@@ -551,11 +551,11 @@ namespace Globals
 
         public static int agRename = 0;
         public static int agContactAd = 500;
-        public static JArray listRuleJackPot = new JArray();
-        public static JArray listVipBonusJackPot = new JArray();
-        public static JObject dataRegister = new JObject();
-        public static List<JObject> list_Alert = new List<JObject>();
-        public static List<JObject> list_AlertShort = new List<JObject>();
+        public static JArray listRuleJackPot = new();
+        public static JArray listVipBonusJackPot = new();
+        public static JObject dataRegister = new();
+        public static List<JObject> list_Alert = new();
+        public static List<JObject> list_AlertShort = new();
 
 
         public static JObject dataVipFarm;
@@ -582,7 +582,7 @@ namespace Globals
         public static string url_privacy_policy = "";
         public static string avatar_fb = "";
         public static string name_fb = "";
-        public static JArray listTextConfig = new JArray();//arr
+        public static JArray listTextConfig = new();//arr
         public static int disID = -1;
         public static string fbprivateappid = "";
         public static string fanpageID = "";
@@ -594,8 +594,8 @@ namespace Globals
         public static string u_SIO = "";
 
         [Tooltip("id - gameid, ip - ip sv, ip_dm - ip domain sv, agSvipMin - ag min, v_tb")]
-        public static JArray listGame = new JArray();//array
-        public static JArray listRankGame = new JArray();//array
+        public static JArray listGame = new();//array
+        public static JArray listRankGame = new();//array
         public static string u_chat_fb = "";
         public static string infoChip = "";
         public static string infoDT = "";
@@ -603,8 +603,8 @@ namespace Globals
         public static string url_rule = "";
         public static string url_help = "";
         public static string url_rule_refGuide = "";
-        public static JArray delayNoti = new JArray();//array
-        public static JArray mail20 = new JArray();
+        public static JArray delayNoti = new();//array
+        public static JArray mail20 = new();
 
         public static bool data0 = false;
         public static bool isSendingSelectGame = false;
@@ -625,11 +625,11 @@ namespace Globals
         public static bool isPlayNowFromLobby = false;
         public static bool enableLottery = false;
 
-        public static JArray arrOnlistTrue = new JArray();
-        public static JArray arrBannerLobby = new JArray();
+        public static JArray arrOnlistTrue = new();
+        public static JArray arrBannerLobby = new();
 
-        public static List<int> listGamePlaynow = new List<int>() { (int)GAMEID.DRAGONTIGER, (int)GAMEID.ROULETTE, (int)GAMEID.SLOTSIXIANG, (int)GAMEID.SLOTFRUIT, (int)GAMEID.SLOTINCA, (int)GAMEID.SLOTNOEL, (int)GAMEID.SLOTJUICYGARDEN, (int)GAMEID.SLOTTARZAN };
-        public static List<int> listGameSlot = new List<int>() { (int)GAMEID.SLOTSIXIANG, (int)GAMEID.SLOTINCA, (int)GAMEID.SLOTFRUIT, (int)GAMEID.SLOTJUICYGARDEN, (int)GAMEID.SLOTTARZAN, (int)GAMEID.SLOTNOEL };
+        public static List<int> listGamePlaynow = new() { (int)GAMEID.DRAGONTIGER, (int)GAMEID.ROULETTE, (int)GAMEID.SLOTSIXIANG, (int)GAMEID.SLOTFRUIT, (int)GAMEID.SLOTINCA, (int)GAMEID.SLOTNOEL, (int)GAMEID.SLOTJUICYGARDEN, (int)GAMEID.SLOTTARZAN };
+        public static List<int> listGameSlot = new() { (int)GAMEID.SLOTSIXIANG, (int)GAMEID.SLOTINCA, (int)GAMEID.SLOTFRUIT, (int)GAMEID.SLOTJUICYGARDEN, (int)GAMEID.SLOTTARZAN, (int)GAMEID.SLOTNOEL };
 
 
         public static bool isShowTableWithGameId(int gameID)
@@ -727,7 +727,7 @@ namespace Globals
 
         public static bool checkContainBoundingBox(GameObject gameObject, PointerEventData eventData)
         {
-            List<RaycastResult> results = new List<RaycastResult>();
+            List<RaycastResult> results = new();
             EventSystem.current.RaycastAll(eventData, results);
             foreach (var c in results)
             {
@@ -950,7 +950,7 @@ namespace Globals
 
             DOTween.To(() => startNumber, x => startNumber = x, toNumber, timeRun).SetEase(Ease.InSine).OnUpdate(() => { if (isLowerCase) lbText.text = FormatNumber(startNumber).ToLower(); else lbText.text = FormatNumber(startNumber); });
             Vector2 normalScale = lbText.transform.localScale;
-            Vector2 biggerScale = new Vector2(normalScale.x + 0.2f, normalScale.y + 0.2f);
+            Vector2 biggerScale = new(normalScale.x + 0.2f, normalScale.y + 0.2f);
             DOTween.Kill(lbText.transform);
             DOTween.Sequence()
             .Append(lbText.transform.DOScale(biggerScale, timeRun * 0.45f))
@@ -964,7 +964,7 @@ namespace Globals
             {
             });
             Vector2 normalScale = lbText.transform.localScale;
-            Vector2 biggerScale = new Vector2(normalScale.x + 0.2f, normalScale.y + 0.2f);
+            Vector2 biggerScale = new(normalScale.x + 0.2f, normalScale.y + 0.2f);
             DOTween.Kill(lbText.transform);
             DOTween.Sequence()
             .Append(lbText.transform.DOScale(biggerScale, timeRun * 0.45f))
@@ -1046,7 +1046,7 @@ namespace Globals
 
         public static Image createSprite(Sprite _spriteFrame = null, Transform parent = null)
         {
-            GameObject imgObject = new GameObject("Image");
+            GameObject imgObject = new("Image");
 
             RectTransform trans = imgObject.AddComponent<RectTransform>();
             if (parent != null)
@@ -1071,7 +1071,7 @@ namespace Globals
         //Vector3 linePoint1 A, Vector3 lineVec1 A1, Vector3 linePoint2 B, Vector3 lineVec2B1
         public static Vector2 LineLineIntersection(Vector2 A, Vector2 A1, Vector2 B, Vector2 B1)
         {
-            Vector2 intersectionPoint = new Vector2(0, 0);
+            Vector2 intersectionPoint = new(0, 0);
             Vector3 lineVec3 = B - A;
             Vector3 crossVec1and2 = Vector3.Cross(A1, B1);
             Vector3 crossVec3and2 = Vector3.Cross(lineVec3, B1);
@@ -1188,7 +1188,7 @@ namespace Globals
 
         public static IEnumerator sendLog(string str, bool isDel)
         {
-            WWWForm form = new WWWForm();
+            WWWForm form = new();
             form.AddField("id", User.userMain.Userid);
             form.AddField("name", User.userMain.Username);
             if (!isDel)
@@ -1251,7 +1251,7 @@ namespace Globals
 
         static string GetNameImageFromURL(string url)
         {
-            Uri myUri = new Uri(url);
+            Uri myUri = new(url);
             string nameIMG = myUri.AbsolutePath.Replace('/', '_');
             return nameIMG;
         }
@@ -1271,7 +1271,7 @@ namespace Globals
                 else
                 {
 
-                    DataLoadImage dataLoadImage = new DataLoadImage();
+                    DataLoadImage dataLoadImage = new();
                     dataLoadImage.nameSave = nameIMG;
                     dataLoadImage.www = UnityWebRequestTexture.GetTexture(url);
                     Debug.Log("start Load Image");
@@ -1283,7 +1283,7 @@ namespace Globals
             }
             else
             {
-                DataLoadImage dataLoadImage = new DataLoadImage();
+                DataLoadImage dataLoadImage = new();
                 dataLoadImage.nameSave = "";
                 dataLoadImage.www = UnityWebRequestTexture.GetTexture(url);
                 dataLoadImage.www.SendWebRequest();
@@ -1837,8 +1837,8 @@ namespace Globals
         public static int inviteNum = 0;
 
         public static int numberP = 0;
-        public static List<int> timeWaiting = new List<int>();
-        public static List<int> chipBonus = new List<int>();
+        public static List<int> timeWaiting = new();
+        public static List<int> chipBonus = new();
         public static JObject DailyPromotionSpecial = null;
         public static JObject OnlinePolicy = null;
 
@@ -1912,7 +1912,7 @@ namespace Globals
 
     public class COMMON_DATA
     {
-        public static JArray ListChatWorld = new JArray();
+        public static JArray ListChatWorld = new();
     }
 
     public class NativeCall

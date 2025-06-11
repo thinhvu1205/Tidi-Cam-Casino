@@ -30,7 +30,8 @@ public class ItemGame : MonoBehaviour
             GradientAlphaKey[] alphaGAK = new GradientAlphaKey[2];
             alphaGAK[0] = new(1, 0);
             alphaGAK[1] = new(1, 1);
-            if ((!isShowAllGames && Config.listGameSlot.Contains(GameId)) || GameId == (int)GAMEID.PUSOY)
+            if ((!isShowAllGames && Config.listGameSlot.Contains(GameId))
+                || GameId == (int)GAMEID.TIENLEN || GameId == (int)GAMEID.SLOTSIXIANG)
             {
                 shownSG = m_LargeSG;
                 borderG2 = m_LargeBorderG2;
@@ -106,7 +107,8 @@ public class ItemGame : MonoBehaviour
         }
         else
         {
-            if ((!isShowAllGames && Config.listGameSlot.Contains(GameId)) || GameId == (int)GAMEID.PUSOY)
+            if ((!isShowAllGames && Config.listGameSlot.Contains(GameId))
+                || GameId == (int)GAMEID.TIENLEN || GameId == (int)GAMEID.SLOTSIXIANG || GameId == (int)GAMEID.BORKDENG)
             {
                 _SetSprite(m_LargeIconImg, iconS);
                 Destroy(m_SmallBorderG2.transform.parent.gameObject);

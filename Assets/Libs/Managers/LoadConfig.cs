@@ -27,7 +27,6 @@ public class LoadConfig : MonoBehaviour
     private bool _IsConfigLoaded = false;
     void Awake()
     {
-        instance = this;
         Config.publisher = "ruby_tongits_war777_com_pro";
         if (instance == null) instance = this;
         else
@@ -411,26 +410,27 @@ public class LoadConfig : MonoBehaviour
 
         if (jConfig.ContainsKey("listGame"))
         {
-            Config.listGame = new();
-            JArray tempListGameJA = jConfig["listGame"] as JArray;
-            List<GAMEID> sortedListGI = new() {
-                GAMEID.PUSOY,GAMEID.BACCARAT, GAMEID.SICBO, GAMEID.SLOTTARZAN, GAMEID.SLOTINCA,
-                GAMEID.SLOTFRUIT, GAMEID.SLOTJUICYGARDEN, GAMEID.SLOTSIXIANG
+            List<int> sortedListId = new() {
+                (int)GAMEID.SLOTSIXIANG, (int)GAMEID.BORKDENG, (int)GAMEID.TIENLEN, (int)GAMEID.SLOTFRUIT, (int)GAMEID.PUSOY,
+                (int)GAMEID.SLOTINCA, (int)GAMEID.OSPHE, (int)GAMEID.BACCARAT, (int)GAMEID.SICBO, (int)GAMEID.ROULETTE,
+                (int)GAMEID.SLOTTARZAN, (int)GAMEID.SLOTJUICYGARDEN,
             };
-            // while (sortedListGI.Count > 0)
-            // {
-            //     foreach (JToken item in tempListGameJA)
-            //     {
-            //         if ((int)item["id"] == (int)sortedListGI[0])
-            //         {
-            //             Config.listGame.Add(item);
-            //             tempListGameJA.Remove(item);
-            //             sortedListGI.RemoveAt(0);
-            //             break;
-            //         }
-            //     }
-            // }
-            Config.listGame.AddRange(tempListGameJA);
+            Config.listGame = new();
+            JArray tempListGameJA = jConfig["listGame"] as JArray, sortedListGameJA = new();
+            foreach (int id in sortedListId)
+            {
+                foreach (JToken item in tempListGameJA)
+                {
+                    if ((int)item["id"] == id)
+                    {
+                        sortedListGameJA.Add(item);
+                        tempListGameJA.Remove(item);
+                        break;
+                    }
+                }
+            }
+            sortedListGameJA.AddRange(tempListGameJA);
+            Config.listGame.AddRange(sortedListGameJA);
             Config.curServerIp = (string)Config.listGame[0]["ip_dm"];
             PlayerPrefs.SetString("curServerIp", Config.curServerIp);
         }

@@ -1,195 +1,181 @@
 
 skeleton.png
-size: 1494,1494
+size: 907,907
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 Lose
-  rotate: false
-  xy: 1011, 1078
-  size: 220, 84
-  orig: 220, 84
-  offset: 0, 0
+  rotate: true
+  xy: 822, 448
+  size: 188, 83
+  orig: 189, 84
+  offset: 0, 1
   index: -1
 Lose2
   rotate: true
-  xy: 497, 1060
-  size: 292, 85
-  orig: 292, 85
-  offset: 0, 0
+  xy: 783, 303
+  size: 143, 121
+  orig: 146, 122
+  offset: 2, 1
   index: -1
 anim_lost_leaf_01
-  rotate: true
-  xy: 2, 852
-  size: 500, 163
+  rotate: false
+  xy: 482, 482
+  size: 301, 123
   orig: 500, 163
-  offset: 0, 0
+  offset: 4, 35
   index: -1
 anim_lost_leaf_02
-  rotate: true
-  xy: 167, 852
-  size: 500, 163
+  rotate: false
+  xy: 482, 277
+  size: 296, 127
   orig: 500, 163
-  offset: 0, 0
+  offset: 3, 30
   index: -1
 anim_lost_leaf_03
-  rotate: true
-  xy: 332, 852
-  size: 500, 163
+  rotate: false
+  xy: 195, 245
+  size: 275, 109
   orig: 500, 163
-  offset: 0, 0
+  offset: 22, 31
   index: -1
 anim_lost_leaf_04
   rotate: true
-  xy: 497, 555
-  size: 500, 163
+  xy: 115, 8
+  size: 235, 103
   orig: 500, 163
-  offset: 0, 0
+  offset: 65, 35
   index: -1
 anim_lost_leaf_05
   rotate: true
-  xy: 2, 350
-  size: 500, 163
+  xy: 220, 18
+  size: 225, 103
   orig: 500, 163
-  offset: 0, 0
+  offset: 65, 36
   index: -1
 anim_lost_leaf_06
   rotate: true
-  xy: 167, 350
-  size: 500, 163
+  xy: 325, 25
+  size: 218, 105
   orig: 500, 163
-  offset: 0, 0
+  offset: 64, 36
   index: -1
 anim_lost_leaf_07
-  rotate: true
-  xy: 332, 350
-  size: 500, 163
+  rotate: false
+  xy: 514, 788
+  size: 317, 117
   orig: 500, 163
-  offset: 0, 0
+  offset: 63, 25
   index: -1
 anim_lost_leaf_08
   rotate: false
-  xy: 497, 390
-  size: 500, 163
+  xy: 514, 670
+  size: 310, 116
   orig: 500, 163
-  offset: 0, 0
+  offset: 139, 23
   index: -1
 anim_lost_leaf_09
-  rotate: false
-  xy: 662, 892
-  size: 500, 163
+  rotate: true
+  xy: 2, 7
+  size: 268, 111
   orig: 500, 163
-  offset: 0, 0
+  offset: 210, 20
   index: -1
 anim_lost_leaf_10
-  rotate: false
-  xy: 910, 1329
-  size: 500, 163
+  rotate: true
+  xy: 780, 9
+  size: 292, 104
   orig: 500, 163
-  offset: 0, 0
+  offset: 187, 16
   index: -1
 anim_lost_leaf_11
   rotate: false
-  xy: 910, 1164
-  size: 500, 163
+  xy: 482, 406
+  size: 299, 74
   orig: 500, 163
-  offset: 0, 0
+  offset: 189, 17
   index: -1
 anim_lost_leaf_12
   rotate: false
-  xy: 662, 727
-  size: 500, 163
+  xy: 514, 607
+  size: 306, 61
   orig: 500, 163
-  offset: 0, 0
+  offset: 190, 19
   index: -1
 anim_lost_leaf_13
   rotate: false
-  xy: 662, 562
-  size: 500, 163
+  xy: 432, 6
+  size: 189, 40
   orig: 500, 163
-  offset: 0, 0
+  offset: 203, 21
   index: -1
 anim_lost_leaf_14
   rotate: true
-  xy: 999, 60
-  size: 500, 163
+  xy: 488, 80
+  size: 195, 39
   orig: 500, 163
-  offset: 0, 0
+  offset: 216, 20
   index: -1
 anim_lost_leaf_15
-  rotate: false
-  xy: 497, 225
-  size: 500, 163
+  rotate: true
+  xy: 432, 48
+  size: 195, 54
   orig: 500, 163
-  offset: 0, 0
+  offset: 240, 15
   index: -1
 anim_lost_leaf_16
   rotate: false
-  xy: 491, 60
-  size: 500, 163
+  xy: 2, 295
+  size: 191, 59
   orig: 500, 163
-  offset: 0, 0
+  offset: 249, 13
   index: -1
 anim_lost_leaf_17
   rotate: true
-  xy: 1164, 576
-  size: 500, 163
+  xy: 833, 726
+  size: 179, 72
   orig: 500, 163
-  offset: 0, 0
+  offset: 276, 8
   index: -1
 anim_lost_leaf_18
   rotate: true
-  xy: 1164, 74
-  size: 500, 163
+  xy: 529, 108
+  size: 167, 81
   orig: 500, 163
-  offset: 0, 0
+  offset: 294, 5
   index: -1
 anim_lost_leaf_19
   rotate: true
-  xy: 1329, 662
-  size: 500, 163
+  xy: 623, 7
+  size: 159, 102
   orig: 500, 163
-  offset: 0, 0
+  offset: 321, 5
   index: -1
 anim_lost_leaf_20
-  rotate: true
-  xy: 1329, 160
-  size: 500, 163
+  rotate: false
+  xy: 623, 168
+  size: 151, 107
   orig: 500, 163
-  offset: 0, 0
+  offset: 334, 6
   index: -1
 day
-  rotate: true
-  xy: 639, 1057
-  size: 435, 269
-  orig: 435, 269
-  offset: 0, 0
+  rotate: false
+  xy: 2, 356
+  size: 478, 305
+  orig: 488, 308
+  offset: 5, 2
   index: -1
 glow
-  rotate: false
-  xy: 910, 1072
-  size: 99, 90
+  rotate: true
+  xy: 826, 638
+  size: 86, 78
   orig: 99, 90
-  offset: 0, 0
-  index: -1
-nap
-  rotate: false
-  xy: 2, 213
-  size: 487, 135
-  orig: 487, 135
-  offset: 0, 0
+  offset: 7, 5
   index: -1
 rib
   rotate: false
-  xy: 2, 77
-  size: 424, 134
-  orig: 424, 134
-  offset: 0, 0
-  index: -1
-rib2
-  rotate: false
-  xy: 2, 1354
-  size: 635, 138
-  orig: 635, 138
-  offset: 0, 0
+  xy: 2, 663
+  size: 510, 242
+  orig: 511, 250
+  offset: 1, 8
   index: -1

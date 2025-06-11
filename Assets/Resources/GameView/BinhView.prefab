@@ -3220,7 +3220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7683210110766178764
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5060,7 +5060,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7291673846003580577
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5884,7 +5884,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &740210101281841324
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7723,11 +7723,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  skeletonDataAsset: {fileID: 11400000, guid: 3ce1794c54821674f8a75aff92801074, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: 28f7b922ac02de94b8a19ae8b4c6a980, type: 2}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
-  startingAnimation: samecolour
+  startingAnimation: 
   startingLoop: 0
   timeScale: 1
   freeze: 0
@@ -9405,7 +9405,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6824670480755025979
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10139,7 +10139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4464024962871809128
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10356,7 +10356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6416050300102050176
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10589,7 +10589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3235479539027596925
 RectTransform:
   m_ObjectHideFlags: 0

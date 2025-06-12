@@ -137,6 +137,7 @@ public class TableView : BaseView
     void updateInfo()
     {
         txtAg.text = Config.FormatNumber(User.userMain.AG);
+        Debug.Log(Config.LoadGameNameByGameId(Config.curGameId).ToString()+"xem ở chỗ này là null hay ko");
         m_TitleImg.sprite = Config.LoadGameNameByGameId(Config.curGameId);
         m_TitleImg.SetNativeSize();
     }

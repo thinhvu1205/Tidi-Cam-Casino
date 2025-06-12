@@ -16,7 +16,7 @@ public class LobbyView : BaseView
     [SerializeField]
     GameObject objDot, btnEx, gameItemObject, modelLobby, iconSafe, btnSafe, btnGiftCode, btnLeaderboard,
         icNotiMail, icNotiFree, icNotiMessage, bannerTemp, btnBannerNews, m_Lottery, m_PanelMore;
-    [SerializeField] RectTransform tfBot, CenterNode;
+    [SerializeField] RectTransform tfBot, CenterNode, m_TitleShopRT;
     [SerializeField] TextMeshProUGUI lb_name, lb_id, lb_ag, lb_safe, lbTimeOnline, lbQuickGame;
     [SerializeField] Transform m_MiniGameIconTf, m_OnlySloticonTf;
     [SerializeField] Button m_NextBtn, m_PrevBtn;
@@ -653,6 +653,7 @@ public class LobbyView : BaseView
     public void refreshUIFromConfig(bool isStart = false)
     {
         btnEx.SetActive(Config.is_dt);
+        m_TitleShopRT.anchoredPosition = new(Config.is_dt ? -100 : 0, m_TitleShopRT.anchoredPosition.y);
         var issket = Config.ket;
         if (User.userMain != null && User.userMain.VIP == 0)
         {

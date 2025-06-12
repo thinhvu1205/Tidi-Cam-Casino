@@ -10,21 +10,19 @@ public class SplashScene : MonoBehaviour
 
     private void Awake()
     {
-
-        //E:/code/khac/u/pr/Tidi-Cam-Casino/Assets/AssetBundles;
-        //https://storage.googleapis.com/kh9/AssetBundles/
-        string storedUrl = "E:/code/khac/u/pr/Tidi-Cam-Casino/Assets/AssetBundles";
-        //PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, "");
+        // D:/Unity projects/Tidi-Phil-Win777/Assets/AssetBundles;
+        // https://storage.googleapis.com/kh9/AssetBundles/
+        string storedUrl = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, "");
+        storedUrl = "D:/Unity projects/Tidi-Cam-Casino/Assets/AssetBundles";
         m_BundleBD.CheckAndDownloadAssets(storedUrl,
             () =>
             {
-                Debug.Log(storedUrl + "xem đường dẫn bundle");
                 m_BundleBD.SetProgressText("Retrying ...");
                 StartCoroutine(retry());
             },
             () =>
             {
-        SceneManager.LoadScene("MainScene");
+                SceneManager.LoadScene("MainScene");
             });
 
         IEnumerator retry()

@@ -210,7 +210,6 @@ public class WebSocketManager : MonoBehaviour
         ServiceTransportPacket serviceTransport = new ServiceTransportPacket();
         serviceTransport.service = "com.athena.services.api.ServiceContract";
         serviceTransport.servicedata = Config.getByte(strData);// utf8.toByteArray(data);
-        Debug.Log(User.userMain.Userid + "xem ở chỗ này cái id của người là gì");
         serviceTransport.pid = User.userMain.Userid;
         serviceTransport.seq = 1;
         serviceTransport.idtype = 1;

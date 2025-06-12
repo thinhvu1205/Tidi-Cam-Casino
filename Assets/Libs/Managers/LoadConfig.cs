@@ -27,7 +27,7 @@ public class LoadConfig : MonoBehaviour
     private bool _IsConfigLoaded = false;
     void Awake()
     {
-        Config.publisher = "ruby_tongits_war777_com_pro";
+        Config.publisher = "kh999_tienlen_1.0";
         if (instance == null) instance = this;
         else
         {
@@ -207,7 +207,7 @@ public class LoadConfig : MonoBehaviour
         JObject wWForm = new JObject();
         wWForm["version"] = Config.versionGame + "";
         wWForm["operatorID"] = Config.OPERATOR + "";
-        wWForm["bundleID"] = "ruby.tongits.war777.com.pro";
+        wWForm["bundleID"] = "kh999.tienlen.ai.com";
         wWForm["publisher"] = Config.publisher;
         wWForm["os"] = osName;
         wWForm["mcc"] = "[0,0]";
@@ -555,6 +555,7 @@ public class LoadConfig : MonoBehaviour
         Config.is_dt = jConfig.ContainsKey("is_dt") ? (bool)jConfig["is_dt"] : false;
         Config.ketT = jConfig.ContainsKey("ketT") ? (bool)jConfig["ketT"] : false;
         Config.ket = jConfig.ContainsKey("ket") ? (bool)jConfig["ket"] : false;
+        Config.ket = false; // bản này không dùng chức năng két
         Config.ismaqt = jConfig.ContainsKey("ismaqt") ? (bool)jConfig["ismaqt"] : false;
         Config.is_bl_salert = jConfig.ContainsKey("is_bl_salert") ? (bool)jConfig["is_bl_salert"] : false;
         Config.is_bl_fb = jConfig.ContainsKey("is_bl_fb") ? (bool)jConfig["is_bl_fb"] : false;

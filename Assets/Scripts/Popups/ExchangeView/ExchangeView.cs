@@ -205,7 +205,7 @@ public class ExchangeView : BaseView
         }
         if (scrTabs.content.childCount > indSelect)
         {
-            Globals.Logging.Log("item   " + item0.ToString());
+            Globals.Logging.Log("check xem ở item này  " + item0.ToString());
             onClickTab(scrTabs.content.GetChild(indSelect).gameObject, item0);
             curDataTabNap = item0;
         }
@@ -294,6 +294,7 @@ public class ExchangeView : BaseView
             JArray tabNamesJA = (JArray)dataItem["child"];
             typeTabHistory = (string)tabNamesJA[indexTabNap]["TypeName"];
         }
+        Debug.Log("xem là chỗ này thì cái dataItem này như nào" + dataItem.ToString());
         curDataTabNap = dataItem;
         if (listDataHis.Count > 0)
         {

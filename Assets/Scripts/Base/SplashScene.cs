@@ -13,7 +13,7 @@ public class SplashScene : MonoBehaviour
         // D:/Unity projects/Tidi-Phil-Win777/Assets/AssetBundles;
         // https://storage.googleapis.com/kh9/AssetBundles/
         string storedUrl = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, "");
-        storedUrl = "D:/Unity projects/Tidi-Cam-Casino/Assets/AssetBundles";
+        storedUrl = "E:/code/khac/u/pr/Tidi-Cam-Casino/Assets/AssetBundles";
         m_BundleBD.CheckAndDownloadAssets(storedUrl,
             () =>
             {

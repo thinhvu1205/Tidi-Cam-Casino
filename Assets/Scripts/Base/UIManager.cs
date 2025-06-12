@@ -1017,6 +1017,11 @@ public class UIManager : MonoBehaviour
         var inputPassView = Instantiate(loadPrefabPopup("PopupFeedBack"), parentPopups).GetComponent<PopupFeedBack>();
         inputPassView.transform.localScale = Vector3.one;
     }
+    public void openSupport()
+    {
+        var support = Instantiate(loadPrefabPopup("PopupSupport"), parentPopups).GetComponent<PopupSupport>();
+        support.transform.localScale = Vector3.one;
+    }
 
     bool isOnSafe = true;
     public void openSafeView()

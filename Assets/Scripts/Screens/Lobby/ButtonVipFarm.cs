@@ -48,12 +48,12 @@ public class ButtonVipFarm : MonoBehaviour
     }
     private void OnEnable()
     {
-        SocketSend.getFarmInfo();
+        if (UIManager.instance != null) SocketSend.getFarmInfo();
     }
     private void Start()
     {
         if (User.userMain != null) gameObject.SetActive(User.userMain.VIP > 1);
-        UIManager.instance.SetDataVipFarmList();
+        if (UIManager.instance != null) UIManager.instance.SetDataVipFarmList();
         if (gameObject.activeSelf) StartCoroutine(ContinuouslyGetVipFarm());
     }
     private IEnumerator ContinuouslyGetVipFarm()
@@ -66,6 +66,6 @@ public class ButtonVipFarm : MonoBehaviour
     }
     private void Awake()
     {
-        UIManager.instance.UpdateVipFarmsList(this, true);
+        if (UIManager.instance != null) UIManager.instance.UpdateVipFarmsList(this, true);
     }
 }

@@ -157,6 +157,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -464,7 +476,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      txt_TopWinner 1_0: 6225435032451714450
+      txt_TopWinner 1_1: -1406526204250044179
+      txt_TopWinner 1_10: 7159615905500859088
+      txt_TopWinner 1_11: -4989064368521117973
+      txt_TopWinner 1_12: 2761176573436099115
+      txt_TopWinner 1_13: 7379365862326958111
+      txt_TopWinner 1_2: 6331771912530734191
+      txt_TopWinner 1_3: -3817287121171394755
+      txt_TopWinner 1_4: 107714824373859843
+      txt_TopWinner 1_5: -7263064055427639507
+      txt_TopWinner 1_6: -3072514949592231941
+      txt_TopWinner 1_7: 6226332296824325177
+      txt_TopWinner 1_8: 5915345670576660283
+      txt_TopWinner 1_9: 6917598534202822061
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

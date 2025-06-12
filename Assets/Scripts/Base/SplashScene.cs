@@ -10,48 +10,33 @@ public class SplashScene : MonoBehaviour
 
     private void Awake()
     {
-        SceneManager.LoadScene("MainScene");
-        // E:/code/khac/u/pr/Tidi-Cam-Casino/Assets/AssetBundles;
+        // D:/Unity projects/Tidi-Phil-Win777/Assets/AssetBundles;
         // https://storage.googleapis.com/kh9/AssetBundles/
-        // string storedUrl = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, "");
-        // m_BundleBD.CheckAndDownloadAssets(storedUrl,
-        //     () =>
-        //     {
-        //         Debug.Log(storedUrl + "xem đường dẫn bundle");
-        //         m_BundleBD.SetProgressText("Retrying ...");
-        //         StartCoroutine(retry());
-        //     },
-        //     () =>
-        //     {
+        string storedUrl = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, "");
+        storedUrl = "D:/Unity projects/Tidi-Cam-Casino/Assets/AssetBundles";
+        m_BundleBD.CheckAndDownloadAssets(storedUrl,
+            () =>
+            {
+                m_BundleBD.SetProgressText("Retrying ...");
+                StartCoroutine(retry());
+            },
+            () =>
+            {
+                SceneManager.LoadScene("MainScene");
+            });
 
-        //     });
-
-        // IEnumerator retry()
-        // {
-        //     while (Config.Bundle_URL.Equals("")) yield return new WaitForSeconds(3f);
-        //     m_BundleBD.CheckAndDownloadAssets(Config.Bundle_URL,
-        //         () =>
-        //         {
-        //             m_BundleBD.SetProgressText("Fail to get assets!");
-        //         },
-        //         () =>
-        //         {
-        //             SceneManager.LoadScene("MainScene");
-        //         });
-        // }
-
-        // IEnumerator retry()
-        // {
-        //     while (Config.Bundle_URL.Equals("")) yield return new WaitForSeconds(3f);
-        //     m_BundleBD.CheckAndDownloadAssets(Config.Bundle_URL,
-        //         () =>
-        //         {
-        //             m_BundleBD.SetProgressText("Fail to get assets!");
-        //         },
-        //         () =>
-        //         {
-        //             SceneManager.LoadScene("MainScene");
-        //         });
-        // }
+        IEnumerator retry()
+        {
+            while (Config.Bundle_URL.Equals("")) yield return new WaitForSeconds(3f);
+            m_BundleBD.CheckAndDownloadAssets(Config.Bundle_URL,
+                () =>
+                {
+                    m_BundleBD.SetProgressText("Fail to get assets!");
+                },
+                () =>
+                {
+                    SceneManager.LoadScene("MainScene");
+                });
+        }
     }
 }

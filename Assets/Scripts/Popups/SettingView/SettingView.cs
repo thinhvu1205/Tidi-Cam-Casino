@@ -75,7 +75,8 @@ public class SettingView : BaseView
         if (!Config.fanpageID.Equals("") && Config.is_bl_fb)
         {
             SoundManager.instance.soundClick();
-            Application.OpenURL("https://" + Config.u_chat_fb);
+            // Application.OpenURL("https://" + Config.u_chat_fb);
+            UIManager.instance.openSupport();
         }
         else
         {

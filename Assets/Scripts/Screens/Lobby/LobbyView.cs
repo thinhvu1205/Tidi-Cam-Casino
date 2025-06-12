@@ -58,8 +58,8 @@ public class LobbyView : BaseView
     {
         // lbQuickGame.gameObject.SetActive(true);
         // lbQuickGame.text = Config.getTextConfig(gameID.ToString()).ToUpper();
-        animQuickPlay.Initialize(true);
-        animQuickPlay.AnimationState.SetAnimation(0, "coTag", true);
+        // animQuickPlay.Initialize(true);
+        // animQuickPlay.AnimationState.SetAnimation(0, "coTag", true);
     }
 
     List<GAMEID> listSlot = new List<GAMEID>() { GAMEID.SLOTSIXIANG, GAMEID.SLOTTARZAN, GAMEID.SLOTFRUIT, GAMEID.SLOTJUICYGARDEN, GAMEID.SLOTINCA, GAMEID.SLOTNOEL, GAMEID.SLOTSIXIANG };
@@ -678,7 +678,7 @@ public class LobbyView : BaseView
     {
         SoundManager.instance.soundClick();
         if (!Config.fanpageID.Equals("") && Config.is_bl_fb)
-            Application.OpenURL("https://" + Config.u_chat_fb);
+            UIManager.instance.openSupport();
         else UIManager.instance.openFeedback();
     }
     //bool isHideBot = false;

@@ -273,20 +273,24 @@ public class SocketSend
 
         WebSocketManager.getInstance().sendService(data.ToString(Newtonsoft.Json.Formatting.None));
     }
-    public static void sendCreateTable(int bet)
+    public static void sendCreateTable(int bet, int T = 0)
     {
         JObject data = new JObject();
         data["idevt"] = 1;
         data["M"] = bet;
+        data["T"] = T;
+        Debug.Log(data.ToString(Newtonsoft.Json.Formatting.None) + "xem sendCreateTableWithPass");
         WebSocketManager.getInstance().sendService(data.ToString(Newtonsoft.Json.Formatting.None), false);
     }
-    public static void sendCreateTableWithPass(int bet, string name, string Pass)
+    public static void sendCreateTableWithPass(int bet, string name, string Pass, int T = 0)
     {
         JObject data = new JObject();
         data["idevt"] = 1;
         data["M"] = bet;
         data["N"] = name;
         data["P"] = Pass;
+        data["T"] = T;
+        Debug.Log(data.ToString(Newtonsoft.Json.Formatting.None) + "xem sendCreateTableWithPass");
         WebSocketManager.getInstance().sendService(data.ToString(Newtonsoft.Json.Formatting.None), false);
     }
     public static void getHistorySafe()
@@ -399,11 +403,12 @@ public class SocketSend
         WebSocketManager.getInstance().sendService(data.ToString(Newtonsoft.Json.Formatting.None));
     }
 
-    public static void sendPlayNow(int gameID)
+    public static void sendPlayNow(int gameID, int T = 0)
     {
         JObject data = new JObject();
         data["evt"] = "searchT";
         data["gameid"] = gameID;
+        data["T"] = T;
         Globals.Logging.Log("sendPlayNow:" + data.ToString(Newtonsoft.Json.Formatting.None));
         WebSocketManager.getInstance().sendService(data.ToString(Newtonsoft.Json.Formatting.None));
     }
@@ -414,6 +419,12 @@ public class SocketSend
         data["evt"] = "roomTable";
         WebSocketManager.getInstance().sendService(data.ToString(Newtonsoft.Json.Formatting.None));
     }
+    public static void sendSpinRoulette()
+    {
+        JObject data = new JObject();
+        data["evt"] = "spin";
+        WebSocketManager.getInstance().sendDataGame(data.ToString(Newtonsoft.Json.Formatting.None));
+    }
     public static void sendRoomVip()
     {
         JObject data = new JObject();
@@ -421,7 +432,15 @@ public class SocketSend
         WebSocketManager.getInstance().sendService(data.ToString(Newtonsoft.Json.Formatting.None));
     }
 
-
+    public static void sendBetRoulette(string strData)
+    {
+        JObject data = new()
+        {
+            ["evt"] = "make_bet",
+            ["data"] = $"{strData}"
+        };
+        WebSocketManager.getInstance().sendDataGame(data.ToString(Newtonsoft.Json.Formatting.None));
+    }
     public static void sendCheckPass(int tableID)
     {
         JObject data = new JObject();
@@ -430,12 +449,13 @@ public class SocketSend
         WebSocketManager.getInstance().sendService(data.ToString(Newtonsoft.Json.Formatting.None));
     }
 
-    public static void sendChangeTable(int mark, int tableid)
+    public static void sendChangeTable(int mark, int tableid, int T = 0)
     {
         JObject data = new JObject();
         data["idevt"] = 2;
         data["M"] = mark;
         data["idtable"] = tableid;
+        data["T"] = T;
         WebSocketManager.getInstance().sendService(data.ToString(Newtonsoft.Json.Formatting.None));
     }
     public static void getArrGold(List<int> arr)

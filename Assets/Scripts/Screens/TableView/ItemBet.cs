@@ -16,6 +16,7 @@ public class ItemBet : MonoBehaviour
     [SerializeField]
     List<Sprite> lsBkg;
     JObject dataItem;
+    [SerializeField] private GameObject icon;
     [SerializeField]
     protected Material Mat_yellow, Mat_green, Mat_gray;
 
@@ -27,7 +28,20 @@ public class ItemBet : MonoBehaviour
 
         //Globals.Logging.Log("-=- mark  " + (int)_dataItem["mark"]);
         txtBet.text = Globals.Config.FormatMoney((int)_dataItem["mark"], true);
-        txtUser.text = Globals.Config.FormatNumber((int)_dataItem["currplay"]);
+        Debug.Log(TableView.instance.isSolo + " xem trạng thái của isSolo");
+        if (Globals.Config.IsSolo)
+        {
+            icon.SetActive(false);
+            txtUser.text = "<b>SOLO</b>";
+            txtUser.rectTransform.anchoredPosition = new Vector2(0f, -55f);
+        }
+        else
+        {
+            txtUser.rectTransform.anchoredPosition = new Vector2(15f, -55f);
+            icon.SetActive(true);
+            txtUser.text = Globals.Config.FormatNumber((int)_dataItem["currplay"]);
+        }
+
         bkg.sprite = lsBkg[ndex % 2];
         Color colorLine = new Color();
         if (_dataItem.ContainsKey("minAgCon"))
@@ -72,7 +86,8 @@ public class ItemBet : MonoBehaviour
                 UIManager.instance.showPopupWhenNotEnoughChip();
                 return;
             }
-            SocketSend.sendChangeTable((int)dataItem["mark"], 0);
+            SocketSend.sendChangeTable((int)dataItem["mark"], 0, Globals.Config.IsSolo ? 1 : 0);
+
         }
         else
         {

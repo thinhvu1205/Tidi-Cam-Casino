@@ -342,11 +342,26 @@ public class TienlenView : GameView
         {
             if (ListCardPlayer[i].Count == 0 || isFinish || agTable > 1000)
             {
-                m_NumberCardLast[i - 1].text = "";
+                if (Globals.Config.IsSolo)
+                {
+                    m_NumberCardLast[i].text = "";
+                }
+                else
+                {
+                    m_NumberCardLast[i - 1].text = "";
+                }
             }
             else
             {
-                m_NumberCardLast[i - 1].text = ListCardPlayer[i].Count.ToString();
+                if (Globals.Config.IsSolo)
+                {
+                    m_NumberCardLast[i].text = ListCardPlayer[i].Count.ToString();
+                }
+                else
+                {
+                    m_NumberCardLast[i - 1].text = ListCardPlayer[i].Count.ToString();
+                }
+
             }
         }
     }
@@ -442,6 +457,16 @@ public class TienlenView : GameView
     // Helper method cho vị trí bài
     private void SetCardPositionByPlayerIndex(Card card, int playerIndex)
     {
+        if (Globals.Config.IsSolo)
+        {
+            switch (playerIndex)
+            {
+                case 1:
+                    card.transform.localPosition = new Vector3(40f, 250f, 0);
+                    break;
+            }
+            return;
+        }
         switch (playerIndex)
         {
             case 1:
@@ -477,7 +502,7 @@ public class TienlenView : GameView
         Vector3 basePos = playerIndex switch
         {
             0 => new Vector3(0f, -60f, 0),
-            1 => new Vector3(358f, 0f, 0),
+            1 => Globals.Config.IsSolo ? new Vector3(20f, 120f, 0) : new Vector3(358f, 0f, 0),
             2 => new Vector3(20f, 120f, 0),
             3 => new Vector3(-358f, 0f, 0),
             _ => Vector3.zero
@@ -728,17 +753,16 @@ public class TienlenView : GameView
                 }
                 else
                 {
-
                     switch (playerIndex)
                     {
-                        case 1: finalPos = new Vector3(498f, 80f, 0); break;   // Phải
+
+                        case 1: finalPos = Globals.Config.IsSolo ? new Vector3(40f, 250f, 0) : new Vector3(498f, 80f, 0); break;   // Phải
                         case 2: finalPos = new Vector3(40f, 250f, 0); break;   // Trên
                         case 3: finalPos = new Vector3(-498f, 80f, 0); break;  // Trái
                         default: finalPos = Vector3.zero; break;
                     }
                     finalScale = Vector3.one * 0.45f;
                 }
-
                 // Capture để tránh lỗi closure
                 Card capturedCard = card;
                 Vector3 capturedPos = finalPos;
@@ -759,10 +783,9 @@ public class TienlenView : GameView
                 });
             }
         }
-
+        dealSequence.AppendInterval(0.5f);
         dealSequence.OnComplete(() =>
         {
-
             SortCard();
             setNumberCardLast();
             Player playerFirst = getPlayer(turnNameCurrent);
@@ -776,8 +799,6 @@ public class TienlenView : GameView
             }
 
         });
-
-
         dealSequence.Play();
     }
 
@@ -1720,6 +1741,14 @@ public class TienlenView : GameView
 
     protected override void Awake()
     {
+        if (Globals.Config.IsSolo)
+        {
+            listPosView = new List<Vector2>
+{
+    new Vector2(-498f, -220f),
+    new Vector2(140f, 263f)
+};
+        }
         base.Awake();
         isPlayBool = false;
         instance = this;

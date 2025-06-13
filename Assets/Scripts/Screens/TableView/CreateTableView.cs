@@ -44,12 +44,12 @@ public class CreateTableView : BaseView
     {
         if (edbPassword.text == "")
         {
-            SocketSend.sendCreateTable(currentRoomValue);
+            SocketSend.sendCreateTable(currentRoomValue, Globals.Config.IsSolo ? 1 : 0);
         }
         else
         {
             //SocketSend.sendCreateTable(currentRoomValue);
-            SocketSend.sendCreateTableWithPass(currentRoomValue, "", edbPassword.text);
+            SocketSend.sendCreateTableWithPass(currentRoomValue, "", edbPassword.text, Globals.Config.IsSolo ? 1 : 0);
         }
         onClickClose();
     }

@@ -425,6 +425,14 @@ namespace Globals
 
 
     }
+    public class SOUND_ROULETTE
+    {
+        // public const string snd_click = "Sounds/Roulette/snd_click";
+        public const string resultWin = "Sounds/Roulette/resultWin";
+        public const string chipAdd = "Sounds/Roulette/chipAdd";
+        public const string coinAdd = "Sounds/Roulette/coinAdd";
+        public const string showResult = "Sounds/Roulette/PopUpOpen";
+    }
     public class SOUND_DOMINO
     {
         public const string CHIP_WIN = "Sounds/Domino/chips_winner";
@@ -517,6 +525,7 @@ namespace Globals
     }
     public class Config
     {
+        public static bool IsSolo = false;
         public const int CODE_JOKER_BLACK = 60;
         public const int CODE_JOKER_RED = 61;
         public static bool isSvTest = false;
@@ -643,6 +652,7 @@ namespace Globals
                 case (int)GAMEID.SLOTTARZAN:
                 case (int)GAMEID.DRAGONTIGER:
                 case (int)GAMEID.SLOTSIXIANG:
+                case (int)GAMEID.ROULETTE:
                     {
                         return false;
                     }

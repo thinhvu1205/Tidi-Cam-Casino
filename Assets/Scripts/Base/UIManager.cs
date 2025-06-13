@@ -587,6 +587,12 @@ public class UIManager : MonoBehaviour
                     gameView = Instantiate(loadPrefabGame("TienlenView"), parentGame).GetComponent<TienlenView>();
                     break;
                 }
+            case (int)Globals.GAMEID.ROULETTE:
+                {
+                    Globals.Logging.Log("showGame RouLette");
+                    gameView = Instantiate(loadPrefabGame("RouLetteView"), parentGame).GetComponent<RouLetteView>();
+                    break;
+                }
             default:
                 {
                     Globals.Logging.Log("-=-= chua co game nao ma vao. Lm thi tu them vao di;;;;");
@@ -1059,6 +1065,12 @@ public class UIManager : MonoBehaviour
         {
             TableView.instance.transform.SetParent(transform);
             TableView.instance.show();
+            if (Config.curGameId == 9009)
+            {
+                Debug.Log("show ra tableView");
+                Globals.Config.IsSolo = false;
+                TableView.instance.refreshType();
+            }
         }
         TableView.instance.transform.SetSiblingIndex(2);
         TableView.instance.transform.localScale = Vector3.one;

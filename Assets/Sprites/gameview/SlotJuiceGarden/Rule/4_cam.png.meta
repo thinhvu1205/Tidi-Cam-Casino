@@ -1,0 +1,5686 @@
+fileFormatVersion: 2
+guid: 7f6ede42a13ca954fae64d00474eff31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7999658015245414456
+    second: 4_cam_0
+  - first:
+      213: -6594041081764095082
+    second: 4_cam_1
+  - first:
+      213: -3682332966216229297
+    second: 4_cam_2
+  - first:
+      213: 518128337107653712
+    second: 4_cam_3
+  - first:
+      213: 5004271630298031998
+    second: 4_cam_4
+  - first:
+      213: 1524326777862403930
+    second: 4_cam_5
+  - first:
+      213: -8481989656867350333
+    second: 4_cam_6
+  - first:
+      213: -6086977715225497936
+    second: 4_cam_7
+  - first:
+      213: -8748755426494122992
+    second: 4_cam_8
+  - first:
+      213: -5663986029014324861
+    second: 4_cam_9
+  - first:
+      213: -6027694317600978448
+    second: 4_cam_10
+  - first:
+      213: 4413098059398146720
+    second: 4_cam_11
+  - first:
+      213: -361872670585464935
+    second: 4_cam_12
+  - first:
+      213: 253523491657899698
+    second: 4_cam_13
+  - first:
+      213: 395831736342093071
+    second: 4_cam_14
+  - first:
+      213: -410686618545937905
+    second: 4_cam_15
+  - first:
+      213: -88925816973528076
+    second: 4_cam_16
+  - first:
+      213: -2056260059419723438
+    second: 4_cam_17
+  - first:
+      213: -7432543210810743705
+    second: 4_cam_18
+  - first:
+      213: -8846151196850793666
+    second: 4_cam_19
+  - first:
+      213: -6669716405803455400
+    second: 4_cam_20
+  - first:
+      213: -8593246965471565006
+    second: 4_cam_21
+  - first:
+      213: 7351808139472080243
+    second: 4_cam_22
+  - first:
+      213: -6161833341487802002
+    second: 4_cam_23
+  - first:
+      213: -3942720389979675758
+    second: 4_cam_24
+  - first:
+      213: 5090137143728157674
+    second: 4_cam_25
+  - first:
+      213: -2594977227630076492
+    second: 4_cam_26
+  - first:
+      213: 6550572761065262520
+    second: 4_cam_27
+  - first:
+      213: 225316013603900989
+    second: 4_cam_28
+  - first:
+      213: -4503124047929527822
+    second: 4_cam_29
+  - first:
+      213: 3103383477747418059
+    second: 4_cam_30
+  - first:
+      213: 2282855227864585691
+    second: 4_cam_31
+  - first:
+      213: 423850158425913702
+    second: 4_cam_32
+  - first:
+      213: 2353482314332809632
+    second: 4_cam_33
+  - first:
+      213: 73214265705641659
+    second: 4_cam_34
+  - first:
+      213: 8653746751554757017
+    second: 4_cam_35
+  - first:
+      213: 4495852668594187013
+    second: 4_cam_36
+  - first:
+      213: -3622011752423180025
+    second: 4_cam_37
+  - first:
+      213: 2020924475406617326
+    second: 4_cam_38
+  - first:
+      213: -2468918857587148192
+    second: 4_cam_39
+  - first:
+      213: -192527973178112914
+    second: 4_cam_40
+  - first:
+      213: 112620433309298975
+    second: 4_cam_41
+  - first:
+      213: 1786983192508224921
+    second: 4_cam_42
+  - first:
+      213: -6278686693249880263
+    second: 4_cam_43
+  - first:
+      213: 4004400694940565427
+    second: 4_cam_44
+  - first:
+      213: 7042250470944842593
+    second: 4_cam_45
+  - first:
+      213: -8946968299559915042
+    second: 4_cam_46
+  - first:
+      213: -2301104564299414127
+    second: 4_cam_47
+  - first:
+      213: 3902236178042819667
+    second: 4_cam_48
+  - first:
+      213: -5035913761193388832
+    second: 4_cam_49
+  - first:
+      213: 376154385964994192
+    second: 4_cam_50
+  - first:
+      213: 7296432722679320447
+    second: 4_cam_51
+  - first:
+      213: 4167501363192897423
+    second: 4_cam_52
+  - first:
+      213: 1865190451770382865
+    second: 4_cam_53
+  - first:
+      213: -5781545296406786736
+    second: 4_cam_54
+  - first:
+      213: -276119468997814221
+    second: 4_cam_55
+  - first:
+      213: -2562051528096357106
+    second: 4_cam_56
+  - first:
+      213: -5603947980435986947
+    second: 4_cam_57
+  - first:
+      213: 911704357528192904
+    second: 4_cam_58
+  - first:
+      213: 6871398831493863568
+    second: 4_cam_59
+  - first:
+      213: 2846596869392865414
+    second: 4_cam_60
+  - first:
+      213: 1639197455740358189
+    second: 4_cam_61
+  - first:
+      213: -6085173221791534850
+    second: 4_cam_62
+  - first:
+      213: -352806446463204599
+    second: 4_cam_63
+  - first:
+      213: 4460925376656460100
+    second: 4_cam_64
+  - first:
+      213: -8946051797435651264
+    second: 4_cam_65
+  - first:
+      213: -7666910948819002377
+    second: 4_cam_66
+  - first:
+      213: -5260339260370099652
+    second: 4_cam_67
+  - first:
+      213: -1539815028306066845
+    second: 4_cam_68
+  - first:
+      213: 4046951554159758077
+    second: 4_cam_69
+  - first:
+      213: 6986597985097111933
+    second: 4_cam_70
+  - first:
+      213: 2768210409978867346
+    second: 4_cam_71
+  - first:
+      213: -1088760899599967107
+    second: 4_cam_72
+  - first:
+      213: 7185217627360536967
+    second: 4_cam_73
+  - first:
+      213: 7829847022256473819
+    second: 4_cam_74
+  - first:
+      213: 8228405084632416532
+    second: 4_cam_75
+  - first:
+      213: -7270568177515868553
+    second: 4_cam_76
+  - first:
+      213: -6760454222811779709
+    second: 4_cam_77
+  - first:
+      213: -3989307740799348085
+    second: 4_cam_78
+  - first:
+      213: -6523778067977725931
+    second: 4_cam_79
+  - first:
+      213: 7089304937922171132
+    second: 4_cam_80
+  - first:
+      213: -193206073569684855
+    second: 4_cam_81
+  - first:
+      213: 5872363586631755016
+    second: 4_cam_82
+  - first:
+      213: -4178756342284517763
+    second: 4_cam_83
+  - first:
+      213: -3051239263460842798
+    second: 4_cam_84
+  - first:
+      213: 7762789047197956259
+    second: 4_cam_85
+  - first:
+      213: 4974909443150190361
+    second: 4_cam_86
+  - first:
+      213: -8097002376674874370
+    second: 4_cam_87
+  - first:
+      213: 2993689547224621087
+    second: 4_cam_88
+  - first:
+      213: -8673517554080406229
+    second: 4_cam_89
+  - first:
+      213: 1659229028469286848
+    second: 4_cam_90
+  - first:
+      213: -3917290426452452559
+    second: 4_cam_91
+  - first:
+      213: -2757478141834523494
+    second: 4_cam_92
+  - first:
+      213: -1314650715855070509
+    second: 4_cam_93
+  - first:
+      213: 7200866506708512708
+    second: 4_cam_94
+  - first:
+      213: -6338507927444453354
+    second: 4_cam_95
+  - first:
+      213: -2241404397741773494
+    second: 4_cam_96
+  - first:
+      213: 472527015980245480
+    second: 4_cam_97
+  - first:
+      213: 6475773393230938044
+    second: 4_cam_98
+  - first:
+      213: 796989980972363714
+    second: 4_cam_99
+  - first:
+      213: 3253238780763236786
+    second: 4_cam_100
+  - first:
+      213: 6980916638936480526
+    second: 4_cam_101
+  - first:
+      213: 8536304383643419166
+    second: 4_cam_102
+  - first:
+      213: 1652738680624008433
+    second: 4_cam_103
+  - first:
+      213: 7195849656273379794
+    second: 4_cam_104
+  - first:
+      213: -8201745625799620281
+    second: 4_cam_105
+  - first:
+      213: 6914797435495069612
+    second: 4_cam_106
+  - first:
+      213: -4037852216036201695
+    second: 4_cam_107
+  - first:
+      213: 8934963959081123698
+    second: 4_cam_108
+  - first:
+      213: -5774088552498380828
+    second: 4_cam_109
+  - first:
+      213: -515766717406416011
+    second: 4_cam_110
+  - first:
+      213: 5121428526566987145
+    second: 4_cam_111
+  - first:
+      213: -2684118516310898338
+    second: 4_cam_112
+  - first:
+      213: 6144768963112574246
+    second: 4_cam_113
+  - first:
+      213: -6751280249727930174
+    second: 4_cam_114
+  - first:
+      213: -3926094771633341665
+    second: 4_cam_115
+  - first:
+      213: -7446927359036931167
+    second: 4_cam_116
+  - first:
+      213: 2345554994428087598
+    second: 4_cam_117
+  - first:
+      213: -1427758913799446361
+    second: 4_cam_118
+  - first:
+      213: 1297491763448721710
+    second: 4_cam_119
+  - first:
+      213: -825923722343003202
+    second: 4_cam_120
+  - first:
+      213: -7458893042139649417
+    second: 4_cam_121
+  - first:
+      213: -2744121522953973798
+    second: 4_cam_122
+  - first:
+      213: 7163490876542074894
+    second: 4_cam_123
+  - first:
+      213: -5033322666918993895
+    second: 4_cam_124
+  - first:
+      213: 7336995568681491470
+    second: 4_cam_125
+  - first:
+      213: -8184177033844720844
+    second: 4_cam_126
+  - first:
+      213: 8631885673705064252
+    second: 4_cam_127
+  - first:
+      213: -3877702223310321439
+    second: 4_cam_128
+  - first:
+      213: -8658330471598013829
+    second: 4_cam_129
+  - first:
+      213: -4941918274217568744
+    second: 4_cam_130
+  - first:
+      213: 8450266045924620714
+    second: 4_cam_131
+  - first:
+      213: 9189524199765968061
+    second: 4_cam_132
+  - first:
+      213: 7739199061615676762
+    second: 4_cam_133
+  - first:
+      213: -4706156432104412556
+    second: 4_cam_134
+  - first:
+      213: -6689254262533887856
+    second: 4_cam_135
+  - first:
+      213: 8075389601283388675
+    second: 4_cam_136
+  - first:
+      213: -72605978763098130
+    second: 4_cam_137
+  - first:
+      213: -7532904267027883340
+    second: 4_cam_138
+  - first:
+      213: -8725481030537380092
+    second: 4_cam_139
+  - first:
+      213: 7226884704010237542
+    second: 4_cam_140
+  - first:
+      213: 5172696978164194549
+    second: 4_cam_141
+  - first:
+      213: -7312598754391994356
+    second: 4_cam_142
+  - first:
+      213: -2872841156279758877
+    second: 4_cam_143
+  - first:
+      213: -4687055794008251482
+    second: 4_cam_144
+  - first:
+      213: -9184445011001359316
+    second: 4_cam_145
+  - first:
+      213: -7273870687729053784
+    second: 4_cam_146
+  - first:
+      213: 7713979540693285977
+    second: 4_cam_147
+  - first:
+      213: 2483418784407520733
+    second: 4_cam_148
+  - first:
+      213: -6612286587389344143
+    second: 4_cam_149
+  - first:
+      213: -1648183793995998572
+    second: 4_cam_150
+  - first:
+      213: 338508897858649902
+    second: 4_cam_151
+  - first:
+      213: -4653420562026870223
+    second: 4_cam_152
+  - first:
+      213: 8345845966523920513
+    second: 4_cam_153
+  - first:
+      213: 4210122301453153061
+    second: 4_cam_154
+  - first:
+      213: 5236883860654626640
+    second: 4_cam_155
+  - first:
+      213: -5852646626136221385
+    second: 4_cam_156
+  - first:
+      213: 2565236773557909559
+    second: 4_cam_157
+  - first:
+      213: 1225883099891110884
+    second: 4_cam_158
+  - first:
+      213: -2285265406755263021
+    second: 4_cam_159
+  - first:
+      213: 612839079442875485
+    second: 4_cam_160
+  - first:
+      213: 4770058052798925656
+    second: 4_cam_161
+  - first:
+      213: -7021132997639875135
+    second: 4_cam_162
+  - first:
+      213: -921732400791368804
+    second: 4_cam_163
+  - first:
+      213: 1479429846791381701
+    second: 4_cam_164
+  - first:
+      213: 2661125222889778194
+    second: 4_cam_165
+  - first:
+      213: 3027005331526059464
+    second: 4_cam_166
+  - first:
+      213: 5491313833760686431
+    second: 4_cam_167
+  - first:
+      213: 3819592913792260154
+    second: 4_cam_168
+  - first:
+      213: 8785394393831981539
+    second: 4_cam_169
+  - first:
+      213: -751786418894217472
+    second: 4_cam_170
+  - first:
+      213: -9002102511466794368
+    second: 4_cam_171
+  - first:
+      213: 182489399853155919
+    second: 4_cam_172
+  - first:
+      213: 5344597047557971608
+    second: 4_cam_173
+  - first:
+      213: 6343498173175251924
+    second: 4_cam_174
+  - first:
+      213: -4029216504165733497
+    second: 4_cam_175
+  - first:
+      213: -2011125531570235021
+    second: 4_cam_176
+  - first:
+      213: -2309623149059395460
+    second: 4_cam_177
+  - first:
+      213: 4993683056460459208
+    second: 4_cam_178
+  - first:
+      213: 2208650621255272960
+    second: 4_cam_179
+  - first:
+      213: 2134346549994500928
+    second: 4_cam_180
+  - first:
+      213: 3097674800566561291
+    second: 4_cam_181
+  - first:
+      213: -2281333667275428181
+    second: 4_cam_182
+  - first:
+      213: 5647829998529156129
+    second: 4_cam_183
+  - first:
+      213: -2078776660856850580
+    second: 4_cam_184
+  - first:
+      213: -5141361757907648732
+    second: 4_cam_185
+  - first:
+      213: -463637866692040981
+    second: 4_cam_186
+  - first:
+      213: -7008640970664814196
+    second: 4_cam_187
+  - first:
+      213: 923741226850912062
+    second: 4_cam_188
+  - first:
+      213: 7374094098442945412
+    second: 4_cam_189
+  - first:
+      213: 6043854635141848059
+    second: 4_cam_190
+  - first:
+      213: 3997901173854426422
+    second: 4_cam_191
+  - first:
+      213: 359495599583929723
+    second: 4_cam_192
+  - first:
+      213: 116226555603138331
+    second: 4_cam_193
+  - first:
+      213: -1525209754163250967
+    second: 4_cam_194
+  - first:
+      213: -4376089103724708206
+    second: 4_cam_195
+  - first:
+      213: 894885299665839384
+    second: 4_cam_196
+  - first:
+      213: 2381323968772333334
+    second: 4_cam_197
+  - first:
+      213: 2144537195568800496
+    second: 4_cam_198
+  - first:
+      213: 3595862272052618410
+    second: 4_cam_199
+  - first:
+      213: 6965328265838424887
+    second: 4_cam_200
+  - first:
+      213: -6191514058532350595
+    second: 4_cam_201
+  - first:
+      213: 4141156703499238641
+    second: 4_cam_202
+  - first:
+      213: -4701875186347530645
+    second: 4_cam_203
+  - first:
+      213: -1002447192052479991
+    second: 4_cam_204
+  - first:
+      213: 4684486030120825361
+    second: 4_cam_205
+  - first:
+      213: -8853632870610556774
+    second: 4_cam_206
+  - first:
+      213: 4816167705089925742
+    second: 4_cam_207
+  - first:
+      213: 8899083126287762844
+    second: 4_cam_208
+  - first:
+      213: -1262071290235836310
+    second: 4_cam_209
+  - first:
+      213: 8363142029583052501
+    second: 4_cam_210
+  - first:
+      213: -2579010742468934936
+    second: 4_cam_211
+  - first:
+      213: 7403744298972464939
+    second: 4_cam_212
+  - first:
+      213: 3147215801018767245
+    second: 4_cam_213
+  - first:
+      213: -7604497603370819948
+    second: 4_cam_214
+  - first:
+      213: 1895936975255630682
+    second: 4_cam_215
+  - first:
+      213: 3517575402443592275
+    second: 4_cam_216
+  - first:
+      213: -8023811138235484688
+    second: 4_cam_217
+  - first:
+      213: -1003501447771099895
+    second: 4_cam_218
+  - first:
+      213: 4865843240719869938
+    second: 4_cam_219
+  - first:
+      213: 1990792074125834115
+    second: 4_cam_220
+  - first:
+      213: 3504494017804813961
+    second: 4_cam_221
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 4_cam_0
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 218
+        width: 127
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8303f43b49e740f60800000000000000
+      internalID: 7999658015245414456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b5e17a2924d74a0800000000000000
+      internalID: -6594041081764095082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e98f35da9b5ecc0800000000000000
+      internalID: -3682332966216229297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 181
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0549d593af2c03700800000000000000
+      internalID: 518128337107653712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 199
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77aa73b88eb27540800000000000000
+      internalID: 5004271630298031998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 174
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57ba14d02f772510800000000000000
+      internalID: 1524326777862403930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 181
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c852e9b85be94a80800000000000000
+      internalID: -8481989656867350333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 174
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bee348a406b68ba0800000000000000
+      internalID: -6086977715225497936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 181
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014fb01ea4d269680800000000000000
+      internalID: -8748755426494122992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 181
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38963d737ba7561b0800000000000000
+      internalID: -5663986029014324861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 181
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9c0c844f3595ca0800000000000000
+      internalID: -6027694317600978448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 181
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa646dad497e3d30800000000000000
+      internalID: 4413098059398146720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 181
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997d4df29be5afaf0800000000000000
+      internalID: -361872670585464935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 181
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be5c7eb542b48300800000000000000
+      internalID: 253523491657899698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 181
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d1f73fdd64e7500800000000000000
+      internalID: 395831736342093071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_15
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 181
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02209342b2fc4af0800000000000000
+      internalID: -410686618545937905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_16
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 174
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f37eebc07214cef0800000000000000
+      internalID: -88925816973528076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_17
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 181
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259b678de52b673e0800000000000000
+      internalID: -2056260059419723438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_18
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 181
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76462ed345d4ad890800000000000000
+      internalID: -7432543210810743705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 181
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33df4afa582c3580800000000000000
+      internalID: -8846151196850793666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_20
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 174
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c6d7f34486073a0800000000000000
+      internalID: -6669716405803455400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_21
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 181
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b2dd3f967aeb880800000000000000
+      internalID: -8593246965471565006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_22
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 181
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d0f022d8ed60660800000000000000
+      internalID: 7351808139472080243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 181
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6916730935cc7aa0800000000000000
+      internalID: -6161833341487802002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_24
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 181
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293629ad1b4a849c0800000000000000
+      internalID: -3942720389979675758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_25
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 181
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae330f573ccc3a640800000000000000
+      internalID: 5090137143728157674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_26
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 181
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd91e2d5f9ccfbd0800000000000000
+      internalID: -2594977227630076492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_27
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 181
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd05a2483f48ea50800000000000000
+      internalID: 6550572761065262520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_28
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 181
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e411978bb702300800000000000000
+      internalID: 225316013603900989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_29
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 181
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f134a77980b181c0800000000000000
+      internalID: -4503124047929527822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_30
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 174
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc383f0a4de611b20800000000000000
+      internalID: 3103383477747418059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_31
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 181
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd513821cb45eaf10800000000000000
+      internalID: 2282855227864585691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_32
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 181
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66938f23971d1e500800000000000000
+      internalID: 423850158425913702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_33
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 181
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9a8f212bf39a020800000000000000
+      internalID: 2353482314332809632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_34
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 181
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb630eb9cfb140100800000000000000
+      internalID: 73214265705641659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_35
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 181
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991ac9e22d8481870800000000000000
+      internalID: 8653746751554757017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_36
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 181
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b6c0a9e2a746e30800000000000000
+      internalID: 4495852668594187013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_37
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 181
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709b68c50870cbdc0800000000000000
+      internalID: -3622011752423180025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_38
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 181
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea01826a14cb0c10800000000000000
+      internalID: 2020924475406617326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_39
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 181
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a31424163acbdd0800000000000000
+      internalID: -2468918857587148192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_40
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 174
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64846514d0045df0800000000000000
+      internalID: -192527973178112914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_41
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 181
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11f9d9ffab109100800000000000000
+      internalID: 112620433309298975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_42
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 181
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995db09eeb3acc810800000000000000
+      internalID: 1786983192508224921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_43
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 181
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f6ed8e7bf9dd8a0800000000000000
+      internalID: -6278686693249880263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_44
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 181
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf7240473d729730800000000000000
+      internalID: 4004400694940565427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163aefbed791bb160800000000000000
+      internalID: 7042250470944842593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_46
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 139
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1fc001cbbf5d380800000000000000
+      internalID: -8946968299559915042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 146
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19547ed2795d010e0800000000000000
+      internalID: -2301104564299414127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_48
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 146
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3549be50127872630800000000000000
+      internalID: 3902236178042819667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_49
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 146
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e411989d17dc1ab0800000000000000
+      internalID: -5035913761193388832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_50
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 139
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e062ccb6e583500800000000000000
+      internalID: 376154385964994192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_51
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 146
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f46d237e2224560800000000000000
+      internalID: 7296432722679320447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_52
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 146
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f9112d860f5d930800000000000000
+      internalID: 4167501363192897423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_53
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 146
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a593c65dc72e910800000000000000
+      internalID: 1865190451770382865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_54
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 140
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05dc7d25f23d3cfa0800000000000000
+      internalID: -5781545296406786736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_55
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 146
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338d0de4ec60b2cf0800000000000000
+      internalID: -276119468997814221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_56
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 146
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05e193a5b3c17cd0800000000000000
+      internalID: -2562051528096357106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_57
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df56856b007ca32b0800000000000000
+      internalID: -5603947980435986947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_58
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887c4a2684607ac00800000000000000
+      internalID: 911704357528192904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_59
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 146
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098d93db4dc1c5f50800000000000000
+      internalID: 6871398831493863568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_60
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 146
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68896e255c4218720800000000000000
+      internalID: 2846596869392865414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_61
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 139
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ec022b6699fb610800000000000000
+      internalID: 1639197455740358189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_62
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 146
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef07566023f1d8ba0800000000000000
+      internalID: -6085173221791534850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_63
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 146
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903c71cf7649a1bf0800000000000000
+      internalID: -352806446463204599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_64
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 146
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449422dbef368ed30800000000000000
+      internalID: 4460925376656460100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_65
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 146
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b6a97d94d39d380800000000000000
+      internalID: -8946051797435651264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_66
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 146
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb1713fc19a99590800000000000000
+      internalID: -7666910948819002377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_67
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 146
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32699b20558ff6b0800000000000000
+      internalID: -5260339260370099652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_68
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 146
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362420ad36a71aae0800000000000000
+      internalID: -1539815028306066845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_69
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 139
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa48e03ff8a92830800000000000000
+      internalID: 4046951554159758077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_70
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 146
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d795c22d9d165f060800000000000000
+      internalID: 6986597985097111933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_71
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 146
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e245683b8aa6620800000000000000
+      internalID: 2768210409978867346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_72
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 146
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c5206fab1f3e0f0800000000000000
+      internalID: -1088760899599967107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_73
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 138
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78923b8fc5507b360800000000000000
+      internalID: 7185217627360536967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_74
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 146
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd64f37e16439ac60800000000000000
+      internalID: 7829847022256473819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_75
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 146
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411888914da213270800000000000000
+      internalID: 8228405084632416532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e48ef73c0c91b90800000000000000
+      internalID: -7270568177515868553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_77
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 111
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38da309e3ba0e22a0800000000000000
+      internalID: -6760454222811779709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_78
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 111
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8250f9feb123a8c0800000000000000
+      internalID: -3989307740799348085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_79
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 111
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51814b06962e675a0800000000000000
+      internalID: -6523778067977725931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_80
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 111
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf01641c745426260800000000000000
+      internalID: 7089304937922171132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_81
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 111
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9825e688918915df0800000000000000
+      internalID: -193206073569684855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_82
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 104
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805ef15a193de7150800000000000000
+      internalID: 5872363586631755016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_83
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e78372f331206c0800000000000000
+      internalID: -4178756342284517763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_84
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d221b85e02d7a5d0800000000000000
+      internalID: -3051239263460842798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_85
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 111
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8f6886287fabb60800000000000000
+      internalID: 7762789047197956259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_86
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 111
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91714b4c7cd6a0540800000000000000
+      internalID: 4974909443150190361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_87
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 111
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbecc8fc3ba1af80800000000000000
+      internalID: -8097002376674874370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_88
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 111
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10af1e28c8bb8920800000000000000
+      internalID: 2993689547224621087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_89
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 111
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b252ce32db971a780800000000000000
+      internalID: -8673517554080406229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_90
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 111
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7adeaa204c60710800000000000000
+      internalID: 1659229028469286848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_91
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 104
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b5341ac1df2a9c0800000000000000
+      internalID: -3917290426452452559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_92
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c8c006d387bb9d0800000000000000
+      internalID: -2757478141834523494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_93
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 111
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dadeb5a32c61cde0800000000000000
+      internalID: -1314650715855070509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_94
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 123
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf6e5f9fed9ee360800000000000000
+      internalID: 7200866506708512708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_95
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 111
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6180da27f981908a0800000000000000
+      internalID: -6338507927444453354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_96
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 111
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d6a92639ee4e0e0800000000000000
+      internalID: -2241404397741773494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_97
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 98
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1274641d0ce8600800000000000000
+      internalID: 472527015980245480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_98
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 111
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfb47d47919ed950800000000000000
+      internalID: 6475773393230938044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_99
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 110
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf27614a2a7f0b00800000000000000
+      internalID: 796989980972363714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_100
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 111
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9eae84f63d52d20800000000000000
+      internalID: 3253238780763236786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_101
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 111
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b3c6652b231e060800000000000000
+      internalID: 6980916638936480526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_102
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 111
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e120da11c9b077670800000000000000
+      internalID: 8536304383643419166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_103
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 111
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc442dc215bfe610800000000000000
+      internalID: 1652738680624008433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_104
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 111
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1aa4b132bccd360800000000000000
+      internalID: 7195849656273379794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_105
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 111
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749891cdecb8d2e80800000000000000
+      internalID: -8201745625799620281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_106
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 111
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca73774a1ab46ff50800000000000000
+      internalID: 6914797435495069612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_107
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 111
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b63af8dcaa6f7c0800000000000000
+      internalID: -4037852216036201695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_108
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 105
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fb2fd916e5ffb70800000000000000
+      internalID: 8934963959081123698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_109
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 106
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef3faecd015edfa0800000000000000
+      internalID: -5774088552498380828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_110
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 111
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573750637e0a7d8f0800000000000000
+      internalID: -515766717406416011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_111
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 111
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985d3944c18f21740800000000000000
+      internalID: 5121428526566987145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_112
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 104
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e598d343e6810cad0800000000000000
+      internalID: -2684118516310898338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_113
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 111
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d9b29c0da964550800000000000000
+      internalID: 6144768963112574246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_114
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 111
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c03bd7f162ae42a0800000000000000
+      internalID: -6751280249727930174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_115
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 104
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bb6464b95b389c0800000000000000
+      internalID: -3926094771633341665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_116
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 111
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a34770c50337a890800000000000000
+      internalID: -7446927359036931167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_117
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 107
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d870417d51d8020800000000000000
+      internalID: 2345554994428087598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_118
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 111
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0261e15d49f2ce0800000000000000
+      internalID: -1427758913799446361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_119
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e213b5b62ed910210800000000000000
+      internalID: 1297491763448721710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_120
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 103
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb4d2e10cab984f0800000000000000
+      internalID: -825923722343003202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_121
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 103
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a22ad0c40bc7890800000000000000
+      internalID: -7458893042139649417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_122
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf03db830ceae9d0800000000000000
+      internalID: -2744121522953973798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00ca089ff4d96360800000000000000
+      internalID: 7163490876542074894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_124
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 76
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9102f5eb3bb062ab0800000000000000
+      internalID: -5033322666918993895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_125
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 69
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c10edb89e32d560800000000000000
+      internalID: 7336995568681491470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_126
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 86
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b76ce6956fb6e80800000000000000
+      internalID: -8184177033844720844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_127
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 76
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3749fa594e9ac770800000000000000
+      internalID: 8631885673705064252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_128
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 76
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e888d27f52af2ac0800000000000000
+      internalID: -3877702223310321439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_129
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 76
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72c5745f4e67d780800000000000000
+      internalID: -8658330471598013829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_130
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 76
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81610445387ca6bb0800000000000000
+      internalID: -4941918274217568744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_131
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 63
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9b1e48230654570800000000000000
+      internalID: 8450266045924620714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_132
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 76
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db408ed429fb78f70800000000000000
+      internalID: 9189524199765968061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_133
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 75
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d83a1ea88276b60800000000000000
+      internalID: 7739199061615676762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_134
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 76
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a2ff6c8af50beb0800000000000000
+      internalID: -4706156432104412556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_135
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 76
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098666d70befa23a0800000000000000
+      internalID: -6689254262533887856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_136
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 76
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305316f9e0c811070800000000000000
+      internalID: 8075389601283388675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_137
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 76
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7814b3f3d0efef0800000000000000
+      internalID: -72605978763098130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_138
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 76
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba57ccea7fb57790800000000000000
+      internalID: -7532904267027883340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_139
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 76
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ff8687b3dd8e680800000000000000
+      internalID: -8725481030537380092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_140
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 76
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666fb3f395d0b4460800000000000000
+      internalID: 7226884704010237542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_141
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 76
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc963ade7c19c740800000000000000
+      internalID: 5172696978164194549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_142
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 69
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00508b3d2e648a90800000000000000
+      internalID: -7312598754391994356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_143
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 76
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef82d7703e9128d0800000000000000
+      internalID: -2872841156279758877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_144
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 63
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3a3b3a69b34feb0800000000000000
+      internalID: -4687055794008251482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_145
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 76
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24c72c7ceb4a8080800000000000000
+      internalID: -9184445011001359316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_146
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 69
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af88cbe5250e0b90800000000000000
+      internalID: -7273870687729053784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_147
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 76
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c77a7958f8d0b60800000000000000
+      internalID: 7713979540693285977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_148
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 69
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd584290a30e67220800000000000000
+      internalID: 2483418784407520733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_149
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 76
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1760495d1607c34a0800000000000000
+      internalID: -6612286587389344143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_150
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 76
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a105262997029e0800000000000000
+      internalID: -1648183793995998572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_151
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 77
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f7c229c00a2b400800000000000000
+      internalID: 338508897858649902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_152
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 68
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ac3e957aabb6fb0800000000000000
+      internalID: -4653420562026870223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180f8c830b662d370800000000000000
+      internalID: 8345845966523920513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_154
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 41
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523b01f4deb5d6a30800000000000000
+      internalID: 4210122301453153061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_155
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 34
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0579b4400262da840800000000000000
+      internalID: 5236883860654626640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_156
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 41
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7391345f6e837cea0800000000000000
+      internalID: -5852646626136221385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_157
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 41
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73830bc114d899320800000000000000
+      internalID: 2565236773557909559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_158
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 28
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e31a213f26330110800000000000000
+      internalID: 1225883099891110884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_159
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 41
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd2ddc683b1940e0800000000000000
+      internalID: -2285265406755263021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_160
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 41
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d548ba255ed318800800000000000000
+      internalID: 612839079442875485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_161
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 41
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b4213b686a23240800000000000000
+      internalID: 4770058052798925656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_162
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 41
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5d6eafcbcef8e90800000000000000
+      internalID: -7021132997639875135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_163
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 41
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bccd8d3495533f0800000000000000
+      internalID: -921732400791368804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_164
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 34
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c26c187b9df78410800000000000000
+      internalID: 1479429846791381701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_165
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 41
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c6d2d7a473ee420800000000000000
+      internalID: 2661125222889778194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_166
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 41
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c503deaf45120a20800000000000000
+      internalID: 3027005331526059464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_167
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 41
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f518e7b66d0153c40800000000000000
+      internalID: 5491313833760686431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_168
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 59
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38df2d948be10530800000000000000
+      internalID: 3819592913792260154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_169
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 41
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1401877adfbe970800000000000000
+      internalID: 8785394393831981539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_170
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 41
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fd8d23c3e1195f0800000000000000
+      internalID: -751786418894217472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_171
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 41
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082be54067b121380800000000000000
+      internalID: -9002102511466794368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_172
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 41
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46858d6425588200800000000000000
+      internalID: 182489399853155919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_173
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 41
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e5b47a2b2db2a40800000000000000
+      internalID: 5344597047557971608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_174
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 41
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3437daaf1a80850800000000000000
+      internalID: 6343498173175251924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_175
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 41
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b6f0aefe85518c0800000000000000
+      internalID: -4029216504165733497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_176
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 41
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37999040cfb0714e0800000000000000
+      internalID: -2011125531570235021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_177
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 53
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70bb4b9bf192ffd0800000000000000
+      internalID: -2309623149059395460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_178
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 41
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc663d38402d4540800000000000000
+      internalID: 4993683056460459208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_179
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 34
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00acdd0c904b6ae10800000000000000
+      internalID: 2208650621255272960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_180
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 41
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043b00401e8be9d10800000000000000
+      internalID: 2134346549994500928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_181
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 41
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ae275a1d62dfa20800000000000000
+      internalID: 3097674800566561291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_182
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 41
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baea8ebdd131750e0800000000000000
+      internalID: -2281333667275428181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_183
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 41
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124102ec57f116e40800000000000000
+      internalID: 5647829998529156129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_184
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 41
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67314a04a3b623e0800000000000000
+      internalID: -2078776660856850580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_185
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 34
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ff226a8b636a8b0800000000000000
+      internalID: -5141361757907648732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_186
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 41
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6a66311d3d099f0800000000000000
+      internalID: -463637866692040981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_187
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 53
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c895649ab2e4cbe90800000000000000
+      internalID: -7008640970664814196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_188
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 41
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3705da60c9c1dc00800000000000000
+      internalID: 923741226850912062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_189
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 41
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4830ffd438b065660800000000000000
+      internalID: 7374094098442945412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_190
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 41
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb5ab9d4c510e350800000000000000
+      internalID: 6043854635141848059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_191
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 41
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635d5b29fe56b7730800000000000000
+      internalID: 3997901173854426422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_192
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 41
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b752487d75f2df400800000000000000
+      internalID: 359495599583929723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_193
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 41
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b173130cf6bec9100800000000000000
+      internalID: 116226555603138331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_194
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 41
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8732b3fcd55dae0800000000000000
+      internalID: -1525209754163250967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_195
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 41
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ef70b45220543c0800000000000000
+      internalID: -4376089103724708206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_196
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 41
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8152d4150754b6c00800000000000000
+      internalID: 894885299665839384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_197
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 41
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f5cc568892c0120800000000000000
+      internalID: 2381323968772333334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_198
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 41
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2ad75973de2cd10800000000000000
+      internalID: 2144537195568800496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_199
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 34
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4ecea4fa117e130800000000000000
+      internalID: 3595862272052618410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_200
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 41
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73379456721d9a060800000000000000
+      internalID: 6965328265838424887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_201
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75975f84c2531aa0800000000000000
+      internalID: -6191514058532350595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_202
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 6
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcbc4fb418587930800000000000000
+      internalID: 4141156703499238641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_203
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 6
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66288bfd659fbeb0800000000000000
+      internalID: -4701875186347530645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_204
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908cf9b07979612f0800000000000000
+      internalID: -1002447192052479991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_205
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 6
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112b1a49933a20140800000000000000
+      internalID: 4684486030120825361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_206
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 6
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98298f00d3912580800000000000000
+      internalID: -8853632870610556774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_207
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62e798b20776d240800000000000000
+      internalID: 4816167705089925742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_208
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 6
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c950e0934f4ef7b70800000000000000
+      internalID: 8899083126287762844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_209
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 24
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68264829d83c7ee0800000000000000
+      internalID: -1262071290235836310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_210
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5deef67bd59df0470800000000000000
+      internalID: 8363142029583052501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_211
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 6
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e20937d463853cd0800000000000000
+      internalID: -2579010742468934936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_212
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 6
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27c31496326fb660800000000000000
+      internalID: 7403744298972464939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_213
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 6
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87583ba8182dab20800000000000000
+      internalID: 3147215801018767245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_214
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 6
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ed5c758b5677690800000000000000
+      internalID: -7604497603370819948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_215
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 6
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53f3a642a8bf4a10800000000000000
+      internalID: 1895936975255630682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_216
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 6
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3525d4d0130f0d030800000000000000
+      internalID: 3517575402443592275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_217
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5b6a02842b5a090800000000000000
+      internalID: -8023811138235484688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_218
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d630200c8d212f0800000000000000
+      internalID: -1003501447771099895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_219
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7e7d7a5a2f68340800000000000000
+      internalID: 4865843240719869938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_220
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387feeff7d6b0ab10800000000000000
+      internalID: 1990792074125834115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4_cam_221
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 7
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986ccb8ddb672a030800000000000000
+      internalID: 3504494017804813961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      4_cam_0: 7999658015245414456
+      4_cam_1: -6594041081764095082
+      4_cam_10: -6027694317600978448
+      4_cam_100: 3253238780763236786
+      4_cam_101: 6980916638936480526
+      4_cam_102: 8536304383643419166
+      4_cam_103: 1652738680624008433
+      4_cam_104: 7195849656273379794
+      4_cam_105: -8201745625799620281
+      4_cam_106: 6914797435495069612
+      4_cam_107: -4037852216036201695
+      4_cam_108: 8934963959081123698
+      4_cam_109: -5774088552498380828
+      4_cam_11: 4413098059398146720
+      4_cam_110: -515766717406416011
+      4_cam_111: 5121428526566987145
+      4_cam_112: -2684118516310898338
+      4_cam_113: 6144768963112574246
+      4_cam_114: -6751280249727930174
+      4_cam_115: -3926094771633341665
+      4_cam_116: -7446927359036931167
+      4_cam_117: 2345554994428087598
+      4_cam_118: -1427758913799446361
+      4_cam_119: 1297491763448721710
+      4_cam_12: -361872670585464935
+      4_cam_120: -825923722343003202
+      4_cam_121: -7458893042139649417
+      4_cam_122: -2744121522953973798
+      4_cam_123: 7163490876542074894
+      4_cam_124: -5033322666918993895
+      4_cam_125: 7336995568681491470
+      4_cam_126: -8184177033844720844
+      4_cam_127: 8631885673705064252
+      4_cam_128: -3877702223310321439
+      4_cam_129: -8658330471598013829
+      4_cam_13: 253523491657899698
+      4_cam_130: -4941918274217568744
+      4_cam_131: 8450266045924620714
+      4_cam_132: 9189524199765968061
+      4_cam_133: 7739199061615676762
+      4_cam_134: -4706156432104412556
+      4_cam_135: -6689254262533887856
+      4_cam_136: 8075389601283388675
+      4_cam_137: -72605978763098130
+      4_cam_138: -7532904267027883340
+      4_cam_139: -8725481030537380092
+      4_cam_14: 395831736342093071
+      4_cam_140: 7226884704010237542
+      4_cam_141: 5172696978164194549
+      4_cam_142: -7312598754391994356
+      4_cam_143: -2872841156279758877
+      4_cam_144: -4687055794008251482
+      4_cam_145: -9184445011001359316
+      4_cam_146: -7273870687729053784
+      4_cam_147: 7713979540693285977
+      4_cam_148: 2483418784407520733
+      4_cam_149: -6612286587389344143
+      4_cam_15: -410686618545937905
+      4_cam_150: -1648183793995998572
+      4_cam_151: 338508897858649902
+      4_cam_152: -4653420562026870223
+      4_cam_153: 8345845966523920513
+      4_cam_154: 4210122301453153061
+      4_cam_155: 5236883860654626640
+      4_cam_156: -5852646626136221385
+      4_cam_157: 2565236773557909559
+      4_cam_158: 1225883099891110884
+      4_cam_159: -2285265406755263021
+      4_cam_16: -88925816973528076
+      4_cam_160: 612839079442875485
+      4_cam_161: 4770058052798925656
+      4_cam_162: -7021132997639875135
+      4_cam_163: -921732400791368804
+      4_cam_164: 1479429846791381701
+      4_cam_165: 2661125222889778194
+      4_cam_166: 3027005331526059464
+      4_cam_167: 5491313833760686431
+      4_cam_168: 3819592913792260154
+      4_cam_169: 8785394393831981539
+      4_cam_17: -2056260059419723438
+      4_cam_170: -751786418894217472
+      4_cam_171: -9002102511466794368
+      4_cam_172: 182489399853155919
+      4_cam_173: 5344597047557971608
+      4_cam_174: 6343498173175251924
+      4_cam_175: -4029216504165733497
+      4_cam_176: -2011125531570235021
+      4_cam_177: -2309623149059395460
+      4_cam_178: 4993683056460459208
+      4_cam_179: 2208650621255272960
+      4_cam_18: -7432543210810743705
+      4_cam_180: 2134346549994500928
+      4_cam_181: 3097674800566561291
+      4_cam_182: -2281333667275428181
+      4_cam_183: 5647829998529156129
+      4_cam_184: -2078776660856850580
+      4_cam_185: -5141361757907648732
+      4_cam_186: -463637866692040981
+      4_cam_187: -7008640970664814196
+      4_cam_188: 923741226850912062
+      4_cam_189: 7374094098442945412
+      4_cam_19: -8846151196850793666
+      4_cam_190: 6043854635141848059
+      4_cam_191: 3997901173854426422
+      4_cam_192: 359495599583929723
+      4_cam_193: 116226555603138331
+      4_cam_194: -1525209754163250967
+      4_cam_195: -4376089103724708206
+      4_cam_196: 894885299665839384
+      4_cam_197: 2381323968772333334
+      4_cam_198: 2144537195568800496
+      4_cam_199: 3595862272052618410
+      4_cam_2: -3682332966216229297
+      4_cam_20: -6669716405803455400
+      4_cam_200: 6965328265838424887
+      4_cam_201: -6191514058532350595
+      4_cam_202: 4141156703499238641
+      4_cam_203: -4701875186347530645
+      4_cam_204: -1002447192052479991
+      4_cam_205: 4684486030120825361
+      4_cam_206: -8853632870610556774
+      4_cam_207: 4816167705089925742
+      4_cam_208: 8899083126287762844
+      4_cam_209: -1262071290235836310
+      4_cam_21: -8593246965471565006
+      4_cam_210: 8363142029583052501
+      4_cam_211: -2579010742468934936
+      4_cam_212: 7403744298972464939
+      4_cam_213: 3147215801018767245
+      4_cam_214: -7604497603370819948
+      4_cam_215: 1895936975255630682
+      4_cam_216: 3517575402443592275
+      4_cam_217: -8023811138235484688
+      4_cam_218: -1003501447771099895
+      4_cam_219: 4865843240719869938
+      4_cam_22: 7351808139472080243
+      4_cam_220: 1990792074125834115
+      4_cam_221: 3504494017804813961
+      4_cam_23: -6161833341487802002
+      4_cam_24: -3942720389979675758
+      4_cam_25: 5090137143728157674
+      4_cam_26: -2594977227630076492
+      4_cam_27: 6550572761065262520
+      4_cam_28: 225316013603900989
+      4_cam_29: -4503124047929527822
+      4_cam_3: 518128337107653712
+      4_cam_30: 3103383477747418059
+      4_cam_31: 2282855227864585691
+      4_cam_32: 423850158425913702
+      4_cam_33: 2353482314332809632
+      4_cam_34: 73214265705641659
+      4_cam_35: 8653746751554757017
+      4_cam_36: 4495852668594187013
+      4_cam_37: -3622011752423180025
+      4_cam_38: 2020924475406617326
+      4_cam_39: -2468918857587148192
+      4_cam_4: 5004271630298031998
+      4_cam_40: -192527973178112914
+      4_cam_41: 112620433309298975
+      4_cam_42: 1786983192508224921
+      4_cam_43: -6278686693249880263
+      4_cam_44: 4004400694940565427
+      4_cam_45: 7042250470944842593
+      4_cam_46: -8946968299559915042
+      4_cam_47: -2301104564299414127
+      4_cam_48: 3902236178042819667
+      4_cam_49: -5035913761193388832
+      4_cam_5: 1524326777862403930
+      4_cam_50: 376154385964994192
+      4_cam_51: 7296432722679320447
+      4_cam_52: 4167501363192897423
+      4_cam_53: 1865190451770382865
+      4_cam_54: -5781545296406786736
+      4_cam_55: -276119468997814221
+      4_cam_56: -2562051528096357106
+      4_cam_57: -5603947980435986947
+      4_cam_58: 911704357528192904
+      4_cam_59: 6871398831493863568
+      4_cam_6: -8481989656867350333
+      4_cam_60: 2846596869392865414
+      4_cam_61: 1639197455740358189
+      4_cam_62: -6085173221791534850
+      4_cam_63: -352806446463204599
+      4_cam_64: 4460925376656460100
+      4_cam_65: -8946051797435651264
+      4_cam_66: -7666910948819002377
+      4_cam_67: -5260339260370099652
+      4_cam_68: -1539815028306066845
+      4_cam_69: 4046951554159758077
+      4_cam_7: -6086977715225497936
+      4_cam_70: 6986597985097111933
+      4_cam_71: 2768210409978867346
+      4_cam_72: -1088760899599967107
+      4_cam_73: 7185217627360536967
+      4_cam_74: 7829847022256473819
+      4_cam_75: 8228405084632416532
+      4_cam_76: -7270568177515868553
+      4_cam_77: -6760454222811779709
+      4_cam_78: -3989307740799348085
+      4_cam_79: -6523778067977725931
+      4_cam_8: -8748755426494122992
+      4_cam_80: 7089304937922171132
+      4_cam_81: -193206073569684855
+      4_cam_82: 5872363586631755016
+      4_cam_83: -4178756342284517763
+      4_cam_84: -3051239263460842798
+      4_cam_85: 7762789047197956259
+      4_cam_86: 4974909443150190361
+      4_cam_87: -8097002376674874370
+      4_cam_88: 2993689547224621087
+      4_cam_89: -8673517554080406229
+      4_cam_9: -5663986029014324861
+      4_cam_90: 1659229028469286848
+      4_cam_91: -3917290426452452559
+      4_cam_92: -2757478141834523494
+      4_cam_93: -1314650715855070509
+      4_cam_94: 7200866506708512708
+      4_cam_95: -6338507927444453354
+      4_cam_96: -2241404397741773494
+      4_cam_97: 472527015980245480
+      4_cam_98: 6475773393230938044
+      4_cam_99: 796989980972363714
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

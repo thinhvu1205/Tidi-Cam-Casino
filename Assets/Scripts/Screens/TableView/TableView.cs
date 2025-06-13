@@ -7,9 +7,11 @@ using UnityEngine.UI;
 using TMPro;
 using DG.Tweening;
 using Globals;
+using Unity.VisualScripting;
 
 public class TableView : BaseView
 {
+
     public static TableView instance;
     [SerializeField] List<TextMeshProUGUI> txtJackpot;
     [SerializeField] GameObject itemTabBetPrefab, itemBetPrefab, itemTablePrefab;
@@ -19,6 +21,9 @@ public class TableView : BaseView
     [SerializeField] ScrollRect scrTabBet, scrTable, scrBet;
     [SerializeField] TMP_InputField edbPass;
     [SerializeField] Animation nodeJackpot;
+    [SerializeField] GameObject m_HeaderOld;
+    [SerializeField] GameObject m_TabHeader;
+    [SerializeField] List<TextMeshProUGUI> m_ListText;
     public List<int> listRoomBet = new List<int>();
     public JArray listDataRoomBet = new JArray();
     public JObject currentJackpot;
@@ -27,6 +32,8 @@ public class TableView : BaseView
     private JArray room_vip_list = new JArray();
     private int currentTabBet = 0, currentTab = 0; //0:Tab Bet,1:Tab Table
     private bool isHideBtnScroll = false;
+    public bool isSolo = false;
+
 
     protected override void Awake()
     {
@@ -38,7 +45,8 @@ public class TableView : BaseView
         var rectContent = scrBet.content.GetComponent<GridLayoutGroup>();
         rectContent.spacing = new Vector2(rectContent.spacing.x, (scrBet.GetComponent<RectTransform>().rect.height - rectContent.cellSize.y * 2) / 3.0f);
         scrBet.DOHorizontalNormalizedPos(0, 0.2f).SetEase(Ease.OutSine);
-
+        Globals.Config.IsSolo = isSolo = false;
+        reloadLtv();
     }
 
     public override void OnDestroy()
@@ -136,9 +144,42 @@ public class TableView : BaseView
     }
     void updateInfo()
     {
+
         txtAg.text = Config.FormatNumber(User.userMain.AG);
-        m_TitleImg.sprite = Config.LoadGameNameByGameId(Config.curGameId);
-        m_TitleImg.SetNativeSize();
+        Debug.Log(Config.LoadGameNameByGameId(Config.curGameId).ToString() + "xem ở chỗ này là null hay ko");
+        if (Config.curGameId == 9009)
+        {
+            m_HeaderOld.SetActive(false);
+            m_TabHeader.SetActive(true);
+            m_TabHeader.transform.GetChild(1).gameObject.SetActive(true);
+        }
+        else
+        {
+            m_HeaderOld.SetActive(true);
+            m_TabHeader.SetActive(false);
+            m_TitleImg.sprite = Config.LoadGameNameByGameId(Config.curGameId);
+            m_TitleImg.SetNativeSize();
+        }
+
+    }
+    public void ChangeTypePlay()
+    {
+        if (m_TabHeader.transform.GetChild(1).gameObject.activeSelf)
+        {
+            Globals.Config.IsSolo = isSolo = true;
+            m_ListText[1].color = new Color32(0xA5, 0xB1, 0xFD, 0xFF);
+            m_ListText[0].color = Color.white;
+            m_TabHeader.transform.GetChild(1).gameObject.SetActive(false);
+
+        }
+        else
+        {
+            Globals.Config.IsSolo = isSolo = false;
+            m_ListText[1].color = Color.white;
+            m_ListText[0].color = new Color32(0xA5, 0xB1, 0xFD, 0xFF);
+            m_TabHeader.transform.GetChild(1).gameObject.SetActive(true);
+        }
+        reloadLtv();
     }
     public void updateAg()
     {
@@ -156,7 +197,7 @@ public class TableView : BaseView
     public void handleLtv(JArray jArray)
     {
         listRoomBet.Clear();
-
+        Debug.Log("có chạy vào handleLTV");
 
         for (var i = 0; i < jArray.Count; i++)
         {
@@ -339,6 +380,15 @@ public class TableView : BaseView
         SoundManager.instance.soundClick();
         SocketSend.sendRoomTable();
     }
+    public IEnumerator refreshType()
+    {
+        yield return new WaitForSeconds(0.5f); // Delay 1 giây
+        Globals.Config.IsSolo = isSolo = false;
+        reloadLtv();
+        m_ListText[1].color = Color.white;
+        m_ListText[0].color = new Color32(0xA5, 0xB1, 0xFD, 0xFF);
+        m_TabHeader.transform.GetChild(1).gameObject.SetActive(true);
+    }
 
     public void onClickSelectBet()
     {
@@ -367,8 +417,10 @@ public class TableView : BaseView
 
     public void onClickQuickStart()
     {
+        Debug.Log(isSolo + "xem chế độ solo");
         SoundManager.instance.soundClick();
-        SocketSend.sendPlayNow(Config.curGameId);
+        SocketSend.sendPlayNow(Config.curGameId, isSolo ? 1 : 0);
+
     }
     public void onClickCreateTablle()
     {

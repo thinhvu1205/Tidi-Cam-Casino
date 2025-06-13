@@ -202,6 +202,11 @@ public class HandleGame
                     HandleTienlenView.processData(jData);
                     break;
                 }
+            case (int)Globals.GAMEID.ROULETTE:
+                {
+                    ((RouLetteView)gameView).ProcessResponseData(jData);
+                    break;
+                }
         }
     }
     public static void nextEvt()

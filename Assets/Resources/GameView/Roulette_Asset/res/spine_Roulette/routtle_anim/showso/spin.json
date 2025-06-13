@@ -1,0 +1,102 @@
+{
+"skeleton": {
+	"hash": "9KNa/bbM2vUTjC2/WiGnrGtQS8s",
+	"spine": "3.8.99",
+	"x": -302.94,
+	"y": -141.96,
+	"width": 605.88,
+	"height": 268.84,
+	"images": "./images/",
+	"audio": "G:/game/anim edit/spin/routtle_anim/showso"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "TONG", "parent": "root" },
+	{ "name": "FREE SPIN", "parent": "TONG", "x": -98.99 },
+	{ "name": "glow", "parent": "TONG", "y": -7.54, "scaleX": 0.9, "scaleY": 0.4 }
+],
+"slots": [
+	{ "name": "GLOW2", "bone": "glow", "attachment": "GLOW2" },
+	{ "name": "frame", "bone": "TONG", "attachment": "frame2" },
+	{ "name": "frame_LIGHT", "bone": "TONG" },
+	{ "name": "w", "bone": "FREE SPIN", "attachment": "FREE SPIN2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"GLOW2": {
+				"GLOW2": { "scaleX": 1.1, "scaleY": 1.2, "rotation": 90, "width": 611, "height": 561 }
+			},
+			"frame": {
+				"frame": { "width": 447, "height": 142 },
+				"frame2": { "width": 447, "height": 142 }
+			},
+			"frame_LIGHT": {
+				"frame_LIGHT": { "width": 508, "height": 208 },
+				"frame_LIGHT2": { "rotation": 0.28, "width": 508, "height": 208 }
+			},
+			"w": {
+				"FREE SPIN2": { "x": 0.59, "y": -1.93, "width": 182, "height": 42 },
+				"w": { "x": 0.59, "y": -1.93, "width": 188, "height": 64 }
+			}
+		}
+	}
+],
+"animations": {
+	"lose": {
+		"slots": {
+			"GLOW2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"w": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "FREE SPIN2" }
+				]
+			}
+		},
+		"bones": {
+			"FREE SPIN": {
+				"translate": [
+					{ "y": 31.54, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667 }
+				]
+			}
+		}
+	},
+	"win": {
+		"slots": {
+			"GLOW2": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff9c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffffff" }
+				]
+			},
+			"frame": {
+				"attachment": [
+					{ "name": "frame" }
+				]
+			},
+			"frame_LIGHT": {
+				"attachment": [
+					{ "name": "frame_LIGHT" },
+					{ "time": 0.3333, "name": "frame_LIGHT2" },
+					{ "time": 0.6667, "name": "frame_LIGHT" }
+				]
+			},
+			"w": {
+				"attachment": [
+					{ "name": "w" }
+				]
+			}
+		}
+	}
+}
+}

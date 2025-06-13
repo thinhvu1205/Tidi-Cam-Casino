@@ -417,6 +417,14 @@ public class LoadConfig : MonoBehaviour
             };
             Config.listGame = new();
             JArray tempListGameJA = jConfig["listGame"] as JArray, sortedListGameJA = new();
+            for (int i = 0; i < tempListGameJA.Count; i++)
+            {
+                if ((int)tempListGameJA[i]["id"] == (int)GAMEID.OSPHE || (int)tempListGameJA[i]["id"] == (int)GAMEID.BORKDENG)
+                {
+                   tempListGameJA.RemoveAt(i);
+                    i--;
+                }
+            }
             foreach (int id in sortedListId)
             {
                 foreach (JToken item in tempListGameJA)
@@ -527,6 +535,7 @@ public class LoadConfig : MonoBehaviour
             UIManager.instance.refreshUIFromConfig();
         }
         if (jConfig.ContainsKey("url_cdn")) Config.Bundle_URL = (string)jConfig["url_cdn"];
+        Debug.Log((string)jConfig["url_cdn"] + "check xem là cái url_cdn");
         PlayerPrefs.Save();
         _IsConfigLoaded = true;
     }

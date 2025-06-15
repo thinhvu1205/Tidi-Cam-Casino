@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 6606547602115832304}
   - component: {fileID: 4218631986125158488}
   - component: {fileID: 719061142381869994}
+  - component: {fileID: 500931001364851003}
   m_Layer: 5
   m_Name: animchay
   m_TagString: Untagged
@@ -283,6 +284,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &500931001364851003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384234768717534540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 719061142381869994}
+  BundleLabel: assets--resources--gameview--tienlen--animations
+  AssetName: Assets/Resources/GameView/Tienlen/animations/chaybai/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1486079908857861437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,6 +1160,7 @@ GameObject:
   - component: {fileID: 9195088459421790785}
   - component: {fileID: 2044669244217281092}
   - component: {fileID: 1415557500298168580}
+  - component: {fileID: 4593336975574449130}
   m_Layer: 5
   m_Name: anim_special_card
   m_TagString: Untagged
@@ -1217,6 +1241,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &4593336975574449130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2821962928998159926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 1415557500298168580}
+  BundleLabel: assets--resources--gameview--tienlen--animations
+  AssetName: Assets/Resources/GameView/Tienlen/animations/special-card/special-card_SkeletonData.asset
+  AnimName: 3 consecutive pairs
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3127132629597940234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,6 +1406,7 @@ GameObject:
   - component: {fileID: 4656263405203185858}
   - component: {fileID: 621389647527451691}
   - component: {fileID: 2675579391135853137}
+  - component: {fileID: 8905510740037359725}
   m_Layer: 5
   m_Name: animchay2
   m_TagString: Untagged
@@ -1440,6 +1487,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &8905510740037359725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3179659258433395142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 2675579391135853137}
+  BundleLabel: assets--resources--gameview--tienlen--animations
+  AssetName: Assets/Resources/GameView/Tienlen/animations/chaybai/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3209753115774144769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,6 +2339,7 @@ GameObject:
   - component: {fileID: 9220104280827898033}
   - component: {fileID: 7485022612508059840}
   - component: {fileID: 9149138392489947178}
+  - component: {fileID: 3384109855758411251}
   m_Layer: 5
   m_Name: anim_winner
   m_TagString: Untagged
@@ -2350,6 +2420,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &3384109855758411251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193967324924971694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 9149138392489947178}
+  BundleLabel: assets--resources--gameview--tienlen--animations
+  AssetName: Assets/Resources/GameView/Tienlen/animations/winner/winner_SkeletonData.asset
+  AnimName: four triples
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4314375133140465329
 GameObject:
   m_ObjectHideFlags: 0
@@ -2403,6 +2495,7 @@ GameObject:
   - component: {fileID: 6325212948554793889}
   - component: {fileID: 6481480267630443410}
   - component: {fileID: 6962718513522253415}
+  - component: {fileID: 8582192949538497181}
   m_Layer: 5
   m_Name: animchay3
   m_TagString: Untagged
@@ -2483,6 +2576,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &8582192949538497181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4403815378003015308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 6962718513522253415}
+  BundleLabel: assets--resources--gameview--tienlen--animations
+  AssetName: Assets/Resources/GameView/Tienlen/animations/chaybai/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4463944721958942668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3732,6 +3847,7 @@ GameObject:
   - component: {fileID: 3718970286796811127}
   - component: {fileID: 7890739684339606930}
   - component: {fileID: 5517282915162833762}
+  - component: {fileID: 5272388344316301258}
   m_Layer: 5
   m_Name: anim_finish
   m_TagString: Untagged
@@ -3812,6 +3928,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5272388344316301258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6486791253668449023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 5517282915162833762}
+  BundleLabel: assets--resources--gameview--tienlen--animations
+  AssetName: Assets/Resources/GameView/Tienlen/animations/finish/finish_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6570448767326819530
 GameObject:
   m_ObjectHideFlags: 0
@@ -4943,6 +5081,7 @@ GameObject:
   - component: {fileID: 3616908271982154606}
   - component: {fileID: 7282561180778318415}
   - component: {fileID: 1688101448505956018}
+  - component: {fileID: 759633618668488661}
   m_Layer: 5
   m_Name: animchay1
   m_TagString: Untagged
@@ -5023,3 +5162,25 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &759633618668488661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9053096870567751095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 1688101448505956018}
+  BundleLabel: assets--resources--gameview--tienlen--animations
+  AssetName: Assets/Resources/GameView/Tienlen/animations/chaybai/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []

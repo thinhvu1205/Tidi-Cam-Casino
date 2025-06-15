@@ -18,15 +18,17 @@ public class BundleHandler
         }
     }
     private static string[] _PREFAB_TAILS = { ".prefab" }, _TEXT_TAILS = { ".txt" }, _IMAGE_TAILS = { ".png", ".jpg", ".jpeg" },
-        _AUDIO_TAILS = { ".mp3" }, _VIDEO_TAILS = { ".mp4" }, _MATERIAL_TAILS = { ".mat" }, _SKELETON_TAILS = { ".asset" };
+        _AUDIO_TAILS = { ".mp3", ".ogg" }, _VIDEO_TAILS = { ".mp4" }, _MATERIAL_TAILS = { ".mat" }, _SKELETON_TAILS = { ".asset" };
     private static BundleHandler _INSTANCE;
     public const string BASE_PATH = "Assets/AssetBundles/", CATEGORY = "category.txt", SPLIT = "_hash_", RESOURCES = "Assets/Resources/";
+    public Dictionary<BundleLoader, bool> RefreshUIOnStartD = new();
     private Dictionary<string, BundleVersion> _AssetsMapD = new();
     private Dictionary<Object, BundleLoader> _LoadersBLs = new();
+
+
     public Dictionary<string, BundleVersion> GetDictionaryAssets() { return _AssetsMapD; }
     public void AddLoader(Object loader) => _LoadersBLs.Add(loader, loader.GetComponent<BundleLoader>());
     public void RemoveLoader(Object loader) => _LoadersBLs.Remove(loader);
-
     public void ClearAssetsDictionary() => _AssetsMapD.Clear();
     public void AddToLocalMap(BundleVersion aBV)
     {
@@ -81,8 +83,13 @@ public class BundleHandler
         {
             BundleLoader[] itemBLs = output.GetComponentsInChildren<BundleLoader>(true);
             foreach (BundleLoader itemBL in itemBLs)
+            {
                 if (itemBL.Type == BundleLoader.TYPE_ASSET.SKELETON_GRAPHIC)
+                {
                     itemBL.RefreshUI();
+                    MAIN.RefreshUIOnStartD[itemBL] = false;
+                }
+            }
         }
         return output;
     }

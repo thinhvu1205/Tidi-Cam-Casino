@@ -6760,6 +6760,7 @@ GameObject:
   - component: {fileID: 564019860006855045}
   - component: {fileID: 1773104519189295454}
   - component: {fileID: 7982650015514341616}
+  - component: {fileID: 6778336295932948005}
   m_Layer: 0
   m_Name: Anim_Result
   m_TagString: Untagged
@@ -6841,6 +6842,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &6778336295932948005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891923431508957518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 7982650015514341616}
+  BundleLabel: assets--resources--gameview--roulette_asset--res--spine_roulette
+  AssetName: Assets/Resources/GameView/Roulette_Asset/res/spine_Roulette/routtle_anim/spine/skeleton_SkeletonData.asset
+  AnimName: black
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1900056269086657116
 GameObject:
   m_ObjectHideFlags: 0
@@ -20700,6 +20723,7 @@ GameObject:
   - component: {fileID: 8838852713795025152}
   - component: {fileID: 4338898281427463377}
   - component: {fileID: 2943316348212828541}
+  - component: {fileID: 262435901029380849}
   m_Layer: 0
   m_Name: AnimWinLose
   m_TagString: Untagged
@@ -20782,6 +20806,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &262435901029380849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5291407454923796753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 2943316348212828541}
+  BundleLabel: assets--resources--gameview--roulette_asset--res--spine_roulette
+  AssetName: Assets/Resources/GameView/Roulette_Asset/res/spine_Roulette/routtle_anim/showso/spin_SkeletonData.asset
+  AnimName: lose
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5400393845454528759
 GameObject:
   m_ObjectHideFlags: 0
@@ -30710,6 +30756,7 @@ GameObject:
   - component: {fileID: 840043152041630444}
   - component: {fileID: 8251492777761499891}
   - component: {fileID: 7710129070855163871}
+  - component: {fileID: 504580031806016187}
   m_Layer: 0
   m_Name: AnimSpin
   m_TagString: Untagged
@@ -30832,6 +30879,28 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 8251492777761499891}
   m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &504580031806016187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012319340812654445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 8251492777761499891}
+  BundleLabel: assets--resources--gameview--roulette_asset--res--spine_roulette
+  AssetName: Assets/Resources/GameView/Roulette_Asset/res/spine_Roulette/btn_spin_anim/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &8046130248966790864

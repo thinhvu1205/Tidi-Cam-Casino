@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3505236582371485609}
   - component: {fileID: 3123567559665638863}
   - component: {fileID: 8151646433576947487}
+  - component: {fileID: 5792807938071455018}
   m_Layer: 0
   m_Name: New SkeletonGraphic
   m_TagString: Untagged
@@ -91,6 +92,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &5792807938071455018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2676792129111683755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 8151646433576947487}
+  BundleLabel: assets--resources--gameview--roulette_asset--res--spine_roulette
+  AssetName: Assets/Resources/GameView/Roulette_Asset/res/spine_Roulette/routtle_anim/vongsang/skeleton_SkeletonData.asset
+  AnimName: khung1
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5536202186237032065
 GameObject:
   m_ObjectHideFlags: 0

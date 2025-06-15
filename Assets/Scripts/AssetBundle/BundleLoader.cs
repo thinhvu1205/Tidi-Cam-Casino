@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Linq;
 using Spine;
 using Spine.Unity;
 using UnityEditor;
@@ -41,17 +42,22 @@ public class BundleLoader : MonoBehaviour
     }
     public void RemoveOnEnableCbListeners() => m_OnEnableUE.RemoveAllListeners();
     public void AddOnEnableCb(UnityAction eventUE) => m_OnEnableUE.AddListener(eventUE);
+
     private void OnDisable()
     {
         BundleHandler.MAIN.RemoveLoader(this);
     }
-    void Start()
+    private void Start()
     {
-        RefreshUI();
+        if (BundleHandler.MAIN.RefreshUIOnStartD.ContainsKey(this))
+        {
+            if (BundleHandler.MAIN.RefreshUIOnStartD[this]) RefreshUI();
+            BundleHandler.MAIN.RefreshUIOnStartD.Remove(this);
+        }
+        else RefreshUI();
     }
     private void OnEnable()
     {
-
         m_OnEnableUE?.Invoke();
     }
     private void Awake()
@@ -165,6 +171,7 @@ public class LoaderEditor : Editor
                         int id = 0;
                         ExposedList<Spine.Animation> thisAs = thisSD.Animations;
                         foreach (Spine.Animation anim in thisAs) _AnimNames[id++] = anim.Name;
+                        thisBL.AnimName = thisBL.ThisSG.startingAnimation;
                     }
                     thisBL.AnimName = _AnimNames[EditorGUILayout.Popup("Animation", Mathf.Max(0, Array.IndexOf(_AnimNames, thisBL.AnimName)), _AnimNames)];
                     break;

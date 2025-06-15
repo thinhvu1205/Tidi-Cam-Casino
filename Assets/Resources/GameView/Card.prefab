@@ -657,6 +657,7 @@ GameObject:
   - component: {fileID: 1096190697739205859}
   - component: {fileID: 5602476777058917408}
   - component: {fileID: 3634137877468421551}
+  - component: {fileID: 3690439040629783817}
   m_Layer: 0
   m_Name: animTwinkle
   m_TagString: Untagged
@@ -737,6 +738,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &3690439040629783817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254145457497468890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 3634137877468421551}
+  BundleLabel: assets--resources--gameview--tienlen--animations
+  AssetName: Assets/Resources/GameView/Tienlen/animations/laplanh/skeleton_SkeletonData.asset
+  AnimName: animation
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4820622338614508320
 GameObject:
   m_ObjectHideFlags: 0

@@ -994,6 +994,7 @@ GameObject:
   - component: {fileID: 1350238438100853100}
   - component: {fileID: 7161358749694133529}
   - component: {fileID: 8714882048510823198}
+  - component: {fileID: 6900444385527532713}
   m_Layer: 5
   m_Name: Anim_win
   m_TagString: Untagged
@@ -1074,6 +1075,28 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
+--- !u!114 &6900444385527532713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6986288197574668012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22c521faec38a47b8234a4a8483126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  ThisImg: {fileID: 0}
+  ThisSG: {fileID: 8714882048510823198}
+  BundleLabel: assets--resources--gameview--tienlen--animations
+  AssetName: Assets/Resources/GameView/Tienlen/animations/win/win_SkeletonData.asset
+  AnimName: win
+  SetNativeSize: 0
+  m_OnEnableUE:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6994239993700815597
 GameObject:
   m_ObjectHideFlags: 0
